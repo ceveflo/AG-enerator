@@ -1,3 +1,4 @@
 ﻿function findUpdate(){
     
+    return true;
 }
