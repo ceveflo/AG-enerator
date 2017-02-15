@@ -5,7 +5,8 @@ var statusScripts = true;
 
 $.evalFile(updater);
 
-var statusScripts = findUpdate();
+var up = new Update();
+var statusScripts = up.result;
 
 if(statusScripts){
     $.evalFile(Main);
