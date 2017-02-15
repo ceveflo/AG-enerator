@@ -5,9 +5,9 @@
     var url = "";
     var requesthtml = "";  
     var socket = new Socket;
-    var domain = "raw.githubusercontent.com" // the domain for the file we want  
-    var jsonFile = "/ceveflo/AG-enerator/master/AGFiles%20Only/preferences.json"; // the rest of the url for the file we want  
-    var port = ":80"; // the port for the file we want 
+    var domain = "179.51.4.165" // the domain for the file we want  
+    var jsonFile = "/AG-enerator/AGFiles%20Only/preferences.json"; // the rest of the url for the file we want  
+    var port = ":3821"; // the port for the file we want 
     var html = ""; 
     
     this.result = true;
@@ -66,3 +66,5 @@
     };    
 }
 
+var x = new Update();
+x.readUpdateFile();

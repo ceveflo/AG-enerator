@@ -1,12 +1,6 @@
 ﻿#target photoshop  
 // Make Photoshop the frontmost application
 /*========================================= IMPORTS =========================================*/
-var coreFolder = fileFolder + "/AGFiles Only/CoreFiles/";
-var psd_files = fileFolder + "/AGFiles Only/psd_files/";
-var temp_files = fileFolder + "/AGFiles Only/temp/";
-
-var toJson = File(coreFolder + "json.jsx");
-$.evalFile (toJson);
 var setSizes = File(coreFolder + "setSize.jsx");
 var versus = File(coreFolder + "versus.jsx");
 var image = File(coreFolder + "image.jsx");
