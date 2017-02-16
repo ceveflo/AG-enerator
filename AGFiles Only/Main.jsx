@@ -115,6 +115,7 @@ function selectProjectFolder(){
 	}else{    
 		//$.writeln(projectsFolder);
 		AGpreferences.projectFolder = projectsFolder.toString();
+         AGlog.createEvent('Select [dialog]: Se selecciono el folder: '+ AGpreferences.projectFolder+ ' Para guardar proyectos.');
 		generatePref_file(AGpreferences);
 		return projectsFolder;
 	}

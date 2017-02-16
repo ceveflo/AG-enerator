@@ -11,7 +11,7 @@ $.evalFile (toJson);
 $.evalFile (writelog);
 
 var AGlog = new writeLog (fileFolder+ "/AGFiles Only", "Generator");
-AGlog.createEvent('\n\n');
+AGlog.createEvent('\n');
 AGlog.createEvent('[Open]: Abriendo Generador');
 AGlog.createEvent('[Update]: Buscando actualizaciones');
 var statusScripts = true;
