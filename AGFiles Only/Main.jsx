@@ -20,9 +20,11 @@ var selectcall = 1;
 
 var AGFolder = new Folder(fileFolder +"/AGFiles Only/");
 try{
+    AGlog.createEvent('Read [Preferences]: Tratando de leer las preferencias');
 	var content = OpenFolder(AGFolder);
 	AGpreferences = readJson(content);
 }catch(e){
+    AGlog.createEvent('Read [Preferences]: Error leyendo las preferencias');
 	AGpreferences = {}
 	AGpreferences.projectFolder = false;
 }
@@ -54,6 +56,7 @@ sTID = function(s) { return app.stringIDToTypeID(s); };
 
 
 function OpenFolder(folder) {
+    AGlog.createEvent('Read [Folder]: Buscando en: ' + folder);
 	var fileList = folder.getFiles();    
      var content = "";
      var founded = false;
@@ -67,8 +70,10 @@ function OpenFolder(folder) {
 		}
 	}
     if(founded){
+        AGlog.createEvent('Read [json]: Archivo encontrado' + folder);
         return content;  
     }else{
+        AGlog.createEvent('Read [json][Alert]: Parece que esta carpeta no tiene un archivo de configuracion. ' + folder);
         alert('Parece que esta carpeta no tiene un archivo de configuracion.')
         return false;
     }
@@ -85,7 +90,8 @@ function IsFileOneOfThese( inFileName, inArrayOfFileExtensions ) {
 	var extension = inFileName.toString().substr( lastDot + 1, strLength - lastDot );
 	extension = extension.toLowerCase();
 	for (var i = 0; i < inArrayOfFileExtensions.length; i++ ) {
-		if ( extension == inArrayOfFileExtensions[i] ) {
+         AGlog.createEvent('Read [json]: Buscando archivos: .' + inArrayOfFileExtensions[i]);
+		if ( extension == inArrayOfFileExtensions[i] ) {             
 			return true;
 		}
 	}
@@ -94,14 +100,16 @@ function IsFileOneOfThese( inFileName, inArrayOfFileExtensions ) {
 
 function selectProjectFolder(){
     //$.writeln('Verificando el Folder de Proyectos');   
-    
+    AGlog.createEvent('Select [dialog]: Abierto dialogo de seleccion de carpeta de proyecto');
     var projectsFolder = Folder("~/").selectDlg("Selecciona donde guardar los proyectos: (Intento " + selectcall + "/3)");
 	if(projectsFolder == null || projectsFolder == undefined){
-		if(selectcall < 3){
-			selectcall += 1;
+        AGlog.createEvent('Select [dialog]: No se selecciono (intento ' + selectcall + '/3)');
+		if(selectcall < 3){              
+			selectcall += 1;              
 			selectProjectFolder();
 		}else{
 			scriptStatus = false;
+             AGlog.createEvent('Select [dialog][Alert]: Se necesita seleccionar una carpeta de Proyectos para continuar. Por favor reinicie el proceso. Cerrando Generador\n\n');
 			alert("Se necesita seleccionar una carpeta de Proyectos para continuar. Por favor reinicie el proceso");
 		}
 	}else{    
@@ -924,5 +932,7 @@ function readJson(file){
     return json;
 }
 
-if(scriptStatus)
+if(scriptStatus){
+    AGlog.createEvent('Window [Start Screen]: Abriendo ventana');
 	callWindow('StarScreen',undefined);
+} 
