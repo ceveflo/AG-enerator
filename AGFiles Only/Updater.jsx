@@ -66,5 +66,5 @@
     };    
 }
 
-var x = new Update();
-x.readUpdateFile();
+//var x = new Update();
+//x.readUpdateFile();
