@@ -11,18 +11,16 @@
     
     var template = getTemplate();       
    
-    var _projectFolder = projects + "/[AG-Project]" + projectObject.ProjectName + "/";
+    var _projectFolder = projectFolder+ "/";
     
     verifyExistingImage();
     
-    openPSDTemplate(true,false,template);
-    
-    $.writeln(_projectFolder);
+    openPSDTemplate(true,false,template);    
     
     try{
         savePSD(true,false,(_projectFolder+projectObject.ProjectName+" ("+template+")"));
     }catch(_){
-        $.writeln('No se pudo generar el nuevo PSD');
+        //$.writeln('No se pudo generar el nuevo PSD');
     }
     
     selectLayer(true,false,'WorkingArea');
@@ -82,7 +80,7 @@
         selectLayer(true,false,"ImagePlacer");
             openSmartObject();
             selectLayer(true,false,"imagePlaceholder");        
-            placeObject(true,false, _projectFolder+"/images/"+projectObject.files[0]);
+            placeObject(true,false, _projectFolder+"images/"+projectObject.files[0]);
             renameLayer();
             FitLayerToCanvas(true,true);
             makeHue();
