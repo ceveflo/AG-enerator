@@ -663,7 +663,7 @@ function ProjectScreen(){
         if(projectObject.type == "image"){
             var defaultRulerUnits = app.preferences.rulerUnits;  
             app.preferences.rulerUnits = Units.PIXELS;
-              $.writeln('width:'+sourceDoc.width,'height:'+sourceDoc.height);
+              //$.writeln('width:'+sourceDoc.width,'height:'+sourceDoc.height);
               projectObject.imageSize = [parseInt(sourceDoc.width),parseInt(sourceDoc.height)];
               
               if(parseInt(sourceDoc.width) >= parseInt(sourceDoc.height)){
@@ -765,13 +765,13 @@ function ProjectScreen(){
             return [red,green,blue,1];
         }catch(_){
             var color_decimal = $.colorPicker();
-            //$.writeln(color_decimal);
+            ////$.writeln(color_decimal);
             var color_hexadecimal = color_decimal.toString(16);
-            //$.writeln(color_hexadecimal);
+            ////$.writeln(color_hexadecimal);
             var color_rgb = hexToRGB(parseInt(color_hexadecimal, 16));
-            //$.writeln(color_rgb);
+            ////$.writeln(color_rgb);
             var result_color = [color_rgb[0] / 255, color_rgb[1] / 255, color_rgb[2] / 255, 1];
-            //$.writeln(result_color); 
+            ////$.writeln(result_color); 
             return result_color;        
             return color_rgb;
         }
@@ -809,7 +809,7 @@ function ProjectScreen(){
         w.stubs.selection = 1;
          //verify TextBoxes
          if(textPnl[0][1].tagCustom.text != "" && textPnl[0][1].visible != false){
-             $.writeln('custom tag',textPnl[0][1].tagCustom);
+             //$.writeln('custom tag',textPnl[0][1].tagCustom);
              projectObject.text.tag.enable = true;
              projectObject.text.tag.text = textPnl[0][1].tagCustom.text;
          }else{
@@ -817,7 +817,7 @@ function ProjectScreen(){
                  projectObject.text.tag.enable = false;
              }else{                 
                  var indexTag = textPnl[0][0].Dropdown.selection.index;
-                $.writeln('indexed tag', textPnl[0][0].Dropdown.selection,indexTag);
+                //$.writeln('indexed tag', textPnl[0][0].Dropdown.selection,indexTag);
 
                  projectObject.text.tag.index = indexTag;
                  projectObject.text.tag.enable = true;
@@ -852,7 +852,7 @@ function ProjectScreen(){
                 try{
                     window[i].close();
                 }catch(_){
-                    //$.writeln ('Esta ventana ya fue cerrada');
+                    ////$.writeln ('Esta ventana ya fue cerrada');
                 }
             }
             executeProject();
@@ -977,7 +977,7 @@ function executeProject(){
             break;
         case "image":
             $.evalFile (image);
-            $.writeln("executed: ",projectObject.type);    
+            //$.writeln("executed: ",projectObject.type);    
             NormalImage();            
             break;
         case "meme":

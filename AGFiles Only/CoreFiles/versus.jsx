@@ -15,7 +15,7 @@
     try{
         savePSD(true,false,(_projectFolder+projectObject.ProjectName+" ("+template+")"));
     }catch(_){
-        $.writeln('No se pudo generar el nuevo PSD');
+        //$.writeln('No se pudo generar el nuevo PSD');
     }    
     
     selectLayer(true,false,'WorkingArea');
@@ -54,7 +54,7 @@
                 selectLayer(true,false,"oimage");
                 alignToZone(true,false,'CenterH');;
             }catch(e){
-                $.writeln("No se pudo centrar: ",e)                
+                //$.writeln("No se pudo centrar: ",e)                
              }
             
             saveObject();
@@ -131,7 +131,7 @@
             openSmartObject();
             selectAllLayers();
             hideLayers();
-            //$.writeln(projectObject.reactions.list,projectObject.reactions.list[i])
+            ////$.writeln(projectObject.reactions.list,projectObject.reactions.list[i])
             selectLayer(true,false,projectObject.reactions.list[i].toString());
             showLayer();
             

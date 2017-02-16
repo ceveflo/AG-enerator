@@ -21,7 +21,7 @@ var selectcall = 1;
 var AGFolder = new Folder(fileFolder +"/AGFiles Only/");
 try{
 	var content = OpenFolder(AGFolder);
-	AGpreferences = readJson(content);	
+	AGpreferences = readJson(content);
 }catch(e){
 	AGpreferences = {}
 	AGpreferences.projectFolder = false;
@@ -93,6 +93,8 @@ function IsFileOneOfThese( inFileName, inArrayOfFileExtensions ) {
 }
 
 function selectProjectFolder(){
+    //$.writeln('Verificando el Folder de Proyectos');   
+    
     var projectsFolder = Folder("~/").selectDlg("Selecciona donde guardar los proyectos: (Intento " + selectcall + "/3)");
 	if(projectsFolder == null || projectsFolder == undefined){
 		if(selectcall < 3){
@@ -103,7 +105,7 @@ function selectProjectFolder(){
 			alert("Se necesita seleccionar una carpeta de Proyectos para continuar. Por favor reinicie el proceso");
 		}
 	}else{    
-		$.writeln(projectsFolder);
+		//$.writeln(projectsFolder);
 		AGpreferences.projectFolder = projectsFolder.toString();
 		generatePref_file(AGpreferences);
 		return projectsFolder;
@@ -226,7 +228,7 @@ function generateProject_file(pname, obj){
 }
 
 function generatePref_file(obj){
-   $.writeln(AGFolder);
+   //$.writeln(AGFolder);
    var saveFile = File(AGFolder + "/preferences.json");
     if(saveFile.exists);
         saveFile.remove();
@@ -258,7 +260,7 @@ function selectLayer(enabled, withDialog,layerName ) {
     ref1.putName(cTID('Lyr '), layerName);
     desc1.putReference(cTID('null'), ref1);
     desc1.putBoolean(cTID('MkVs'), false);
-    $.writeln(layerName);
+    //$.writeln(layerName);
     executeAction(cTID('slct'), desc1, dialogMode);
 };
 
@@ -284,7 +286,7 @@ function SetSelectionArea(enabled, withDialog,LayerName) {
     desc1.putReference(cTID('null'), ref1);
     var ref2 = new ActionReference();
     ref2.putEnumerated(cTID('Chnl'), cTID('Chnl'), cTID('Trsp'));
-    $.writeln('setSelection',LayerName);
+    //$.writeln('setSelection',LayerName);
     ref2.putName(cTID('Lyr '), LayerName);
     desc1.putReference(cTID('T   '), ref2);
     executeAction(cTID('setd'), desc1, dialogMode);
@@ -405,7 +407,7 @@ function closeDocument(enabled, withDialog) {
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
     var desc1 = new ActionDescriptor();
-    $.writeln('size :',size);
+    //$.writeln('size :',size);
     desc1.putUnitDouble(cTID('Wdth'), cTID('#Pxl'), size.width);
     desc1.putUnitDouble(cTID('Hght'), cTID('#Pxl'), size.height);
     desc1.putEnumerated(cTID('Hrzn'), cTID('HrzL'), cTID('Cntr'));
@@ -535,7 +537,7 @@ function savetempPNG(enabled, withDialog, name) {
     try{
         executeAction(cTID('save'), desc1, dialogMode);
      }catch(e){
-         $.writeln("Error:",e);
+         //$.writeln("Error:",e);
      }
 };
 
@@ -918,7 +920,7 @@ function readJson(file){
     }else{
         json = projectObject;
      }
-    //$.writeln ('readJson: ',json);
+    ////$.writeln ('readJson: ',json);
     return json;
 }
 

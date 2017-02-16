@@ -17,12 +17,12 @@
     
     openPSDTemplate(true,false,template);
     
-    $.writeln(_projectFolder);
+    //$.writeln(_projectFolder);
     
     try{
         savePSD(true,false,(_projectFolder+projectObject.ProjectName+" ("+template+")"));
     }catch(_){
-        $.writeln('No se pudo generar el nuevo PSD');
+        //$.writeln('No se pudo generar el nuevo PSD');
     }
 
     selectLayer(true,false,'WorkingArea');
@@ -80,7 +80,7 @@
                     selectLayer(true,false,"oimage");
                     alignToZone(true,false,'CenterH');;
                 }catch(e){
-                    $.writeln("No se pudo centrar: ", e)                
+                    //$.writeln("No se pudo centrar: ", e)                
                  }
                 
             saveObject();
