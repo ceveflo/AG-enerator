@@ -113,9 +113,20 @@ function selectProjectFolder(){
 			alert("Se necesita seleccionar una carpeta de Proyectos para continuar. Por favor reinicie el proceso");
 		}
 	}else{    
-		//$.writeln(projectsFolder);
-		AGpreferences.projectFolder = projectsFolder.toString();
+		//$.writeln(projectsFolder);        
+         AGpreferences.fileFolder = fileFolder.toString();
+         AGpreferences.projectFolder = projectsFolder.toString();
+
+        updateFolder = new Folder(AGpreferences.projectFolder + '/[Updates]');
+        if ( ! updateFolder.exists ) {
+            updateFolder.create();            
+         }
+
+        AGpreferences.updateFolder = updateFolder.toString();
+
+         AGpreferences.logFile = AGlog.file.toString();         
          AGlog.createEvent('Select [dialog]: Se selecciono el folder: '+ AGpreferences.projectFolder+ ' Para guardar proyectos.');
+         AGlog.createEvent('Create [Folder]: Se creo un folder para updates.');
 		generatePref_file(AGpreferences);
 		return projectsFolder;
 	}
@@ -1169,6 +1180,26 @@ function createThumb(file, fileName){
     desc1.putObject(cTID('T   '), cTID('Ofst'), desc2);
     executeAction(cTID('move'), desc1, dialogMode);
   };
+
+function endOfProcess(folder){
+    app.refresh();
+    copyLogTofolder(folder);
+    alert('La Creación ha terminado con éxito!');    
+    var _projectFolder = new Folder(folder);    
+    _projectFolder.execute();    
+}
+
+function copyLogTofolder(folder){
+    var cfile  = File(folder+ "/Eventlog.txt");
+    var log = AGlog.file;
+        log.open("e", "TEXT", "????");
+        logR = log.read();
+        log.close();
+    cfile.encoding = "UTF8";
+    cfile.open("e", "TEXT", "????");
+    cfile.write(logR);
+    cfile.close();
+}
 
 function readJson(file){
     var json;

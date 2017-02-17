@@ -26,11 +26,11 @@ function StarScreen(p){
     w.headerText.justify = "center";
     
     
-    w.main = w.mainScreen.add ('group {preferredSize: [450, 300], orientation: "column", alignment: "top", alignChildren: ["fill","fill"]}');
-    w.buttons = w.main.add ('panel {text: "Seleccionar tarea", preferredSize: [-1, 250]}');
+    w.main = w.mainScreen.add ('group {preferredSize: [450, 120], orientation: "column", alignment: "top", alignChildren: ["fill","fill"]}');
+    w.buttons = w.main.add ('panel {text: "Seleccionar tarea", preferredSize: [-1, 110]}');
     w.buttons.columns = [];
-    w.buttons.columns[0] = w.buttons.add ('group {preferredSize: [450, 100], orientation: "row", alignment: "top", alignChildren: ["fill","fill"]}');
-    w.buttons.columns[1] = w.buttons.add ('group {preferredSize: [450, 100], orientation: "row", alignment: "top", alignChildren: ["fill","fill"]}');
+    w.buttons.columns[0] = w.buttons.add ('group {preferredSize: [450, 80], orientation: "row", alignment: "top", alignChildren: ["fill","fill"]}');
+    //w.buttons.columns[1] = w.buttons.add ('group {preferredSize: [450, 100], orientation: "row", alignment: "top", alignChildren: ["fill","fill"]}');
     
     var post_image = {a: File (coreFolder+"images/core_image.png"),b: File (coreFolder+"images/core_image.png"),c: File (coreFolder+"images/core_image.png"),d: File (coreFolder+"images/core_image.png")};
     var post_hdr = {a:File (coreFolder+"images/core_hdr.png"),b:File (coreFolder+"images/core_hdr.png"),c:File (coreFolder+"images/core_hdr.png"),d:File (coreFolder+"images/core_hdr.png")}
@@ -53,12 +53,36 @@ function StarScreen(p){
     w.buttons.Meme.btnAction = 'newProject';
     
     
-    w.tooltip = w.main.add ('panel {preferredSize: [-1, 40], alignChildren: ["fill","fill"], borderless: true}');
+    w.tooltip = w.main.add ('panel {preferredSize: [-1, 20], alignChildren: ["fill","fill"], borderless: true}');
     w.tooltip.margin = 0;
     w.tooltip.spacing = 0; 
     w.description = w.tooltip.add("statictext", undefined, "\n");
     
-    
+    var pnlOpen = w.mainScreen.add('panel {text: "Abrir Projecto",orientation: "column"}');
+    with(pnlOpen){
+        pnlOpen.mainScreen = add ('group {preferredSize: [450, 60], orientation: "column", alignChildren: ["fill","fill"]}');
+        pnlOpen.panel = pnlOpen.mainScreen.add ('panel {text: "Proyecto", preferredSize: [-1, 40], orientation: "row",alignChildren:["fill","center"]}');
+        pnlOpen.mainScreen.labelBox = pnlOpen.panel.add('statictext', undefined, 'Nombre');
+        pnlOpen.mainScreen.textBox = pnlOpen.panel.add('edittext', undefined, "",{readonly: true});
+        pnlOpen.mainScreen.textBox.size = [280,20];
+        pnlOpen.mainScreen.textBox.enabled = false;
+        pnlOpen.mainScreen.btnBox = pnlOpen.panel.add('button', undefined, '...'); 
+        pnlOpen.mainScreen.btnBox.onClick = (function(){return function(){
+            projectFolder = Folder(projects).selectDlg("Selecciona un Projecto");
+            if(projectFolder == null) 
+                return;
+            //$.evalFile (openProject);
+            var _obj = OpenFolder(projectFolder);
+            if(_obj == false){
+                alert('Parece que este Folder no contiene un archivo de Proyecto, intenta con uno diferente.')
+                return;
+            }else{
+                projectObject = readJson(_obj);
+                callWindow ("ProjectScreen");
+            }            
+        }})();
+    }
+
     w.bottons = w.mainScreen.add ('group {preferredSize: [450, 20], alignment: "top", alignChildren: ["fill","top"]}'); 
     w.preferencias = w.bottons.add ('button {text: "Preferencias"}');
     w.cerrar = w.bottons.add ('button {text: "Cerrar"}');
@@ -84,10 +108,6 @@ function StarScreen(p){
         }
     } 
 
-    
-      
-//    w.buttons.createPost.addEventListener('mouseover', function(e){}(mouseEventHandler(e,this)), false); 
-// w.buttons.createPost.addEventListener('mouseout', mouseEventHandler, false);
         
     for (var i = 0; i < w.buttons.columns[0].children.length; i++) {
         w.buttons.columns[0].children[i].addEventListener('mouseover', function(event){mouseEventHandler(event,this)}); 
@@ -95,11 +115,11 @@ function StarScreen(p){
         w.buttons.columns[0].children[i].addEventListener('click', function(event){mouseEventHandler(event,this)});
     }
 
-    for (var i = 0; i < w.buttons.columns[1].children.length; i++) {
+    /*for (var i = 0; i < w.buttons.columns[1].children.length; i++) {
         w.buttons.columns[1].children[i].addEventListener('mouseover', function(event){mouseEventHandler(event,this)}); 
         w.buttons.columns[1].children[i].addEventListener('mouseout', function(event){mouseEventHandler(event,this)});
         w.buttons.columns[1].children[i].addEventListener('click', function(event){mouseEventHandler(event,this)});
-    }
+    }*/
     
     openWindow  = w;
     w.show();
@@ -116,30 +136,10 @@ function newProject(p){
             pnl[0].mainScreen.labelBox = pnl[0].panel.add('statictext', undefined, 'Nombre');
             pnl[0].mainScreen.textBox = pnl[0].panel.add('edittext', undefined, "",{readonly: false});
             pnl[0].mainScreen.textBox.size = [360,20]
-        }
-        pnl[1] = w.add('panel {text: "Abrir Projecto",orientation: "column"}');
-        with(pnl[1]){
-            pnl[1].mainScreen = add ('group {preferredSize: [450, 60], orientation: "column", alignChildren: ["fill","fill"]}');
-            pnl[1].panel = pnl[1].mainScreen.add ('panel {text: "Proyecto", preferredSize: [-1, 40], orientation: "row",alignChildren:["fill","center"]}');
-            pnl[1].mainScreen.labelBox = pnl[1].panel.add('statictext', undefined, 'Nombre');
-            pnl[1].mainScreen.textBox = pnl[1].panel.add('edittext', undefined, "",{readonly: true});
-            pnl[1].mainScreen.textBox.size = [280,20];
-            pnl[1].mainScreen.textBox.enabled = false;
-            pnl[1].mainScreen.btnBox = pnl[1].panel.add('button', undefined, '...'); 
-            pnl[1].mainScreen.btnBox.onClick = (function(){return function(){
-                projectFolder = Folder(projects).selectDlg("Selecciona un Projecto");
-                if(projectFolder == null) 
-                    return;
-                pnl[1].mainScreen.textBox.text = projectFolder.name;
-                //$.evalFile (openProject);
-                var _obj = OpenFolder(projectFolder);
-                projectObject = readJson(_obj);
-            }})();
-        }
-    
+        }            
         pnl[3] = w.add('panel {orientation: "column"}');
         with(pnl[3]){
-            pnl[3].mainScreen = add ('group {preferredSize: [450, 60], orientation: "row", alignChildren: ["fill","fill"]}');
+            pnl[3].mainScreen = add ('group {preferredSize: [450, 30], orientation: "row", alignChildren: ["fill","fill"]}');
             pnl[3].create = pnl[3].mainScreen.add ('button {text: "Crear Proyecto"}');
             pnl[3].cerrar = pnl[3].mainScreen.add ('button {text: "Cerrar"}');
             pnl[3].cerrar.onClick = closeWindow;
@@ -152,7 +152,7 @@ function newProject(p){
         w.show();
         
          function setNewProyectName(){
-             if(pnl[1].mainScreen.textBox.text == ""){
+             //if(pnl[1].mainScreen.textBox.text == ""){
                  var name = pnl[0].mainScreen.textBox.text.replace(/ /g,'');
                  if(name.length < 1)
                    return;
@@ -161,12 +161,11 @@ function newProject(p){
                  generateProject_file(projectName,projectObject);
                  closeWindow();
                  callWindow ("ProjectScreen");
-             }else{
+             /*}else{
                  closeWindow();
                  callWindow ("ProjectScreen");                 
-             }
-         }
-        
+             }*/
+         }        
 }
 
 
@@ -985,9 +984,7 @@ function executeProject(){
         case "meme":
             $.evalFile (meme);
             MemeImage();
-    }
-    app.refresh();
-    alert('La Creación ha terminado con éxito!');
+    }       
 }
 
 function preferenciasWindow(){

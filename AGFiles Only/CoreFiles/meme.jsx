@@ -66,9 +66,7 @@
         saveFinalPNG(true,false,projectObject.ProjectName);
         saveObject();        
         closeDocument();
-        _projectFolder = new Folder(_projectFolder);
-        _projectFolder.execute()        
-        
+        endOfProcess(_projectFolder);
     }
     
     function getTemplate(){

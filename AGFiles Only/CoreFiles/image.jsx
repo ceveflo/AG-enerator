@@ -49,7 +49,10 @@
             selectLayer(true,false,mainDocLayers[3]);
             alignToZone(true,false,'Bottom');
             alignToZone(true,false,'Right');
-            moveLayers(true,false,{x: -10, y: -60});
+            var yValue = -60;
+            if(!text_bottom.enable)
+                yValue = -10;
+            moveLayers(true,false,{x: -10, y: yValue});
             nullSelection();
         }else{
             selectLayer(true,false,mainDocLayers[3]); // Hiden MainText
@@ -82,8 +85,7 @@
     
         saveObject();
         closeDocument();
-        _projectFolder = new Folder(_projectFolder);
-        _projectFolder.execute();
+        endOfProcess(_projectFolder);
     }
 
     function updateImage(){
