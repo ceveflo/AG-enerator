@@ -795,12 +795,14 @@ function ProjectScreen(){
             alert('Hay menos imagenes de las seleccionadas para trabajar');
             w.stubs.selection = 0;
             status = false;
+            w.stubs.selection = 1;
         }else{
             for(var i = 0; i < imageData.length; i++){
                 if(imageData[i] == null || imageData[i] == undefined){ 
                     alert('Hay menos imagenes de las seleccionadas para trabajar');
                     w.stubs.selection = 0;
                     status = false;
+                    w.stubs.selection = 1;
                     break;
                  }
             }

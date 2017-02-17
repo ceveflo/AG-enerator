@@ -1,0 +1,1395 @@
+[2017/2/4 18:36:8]: [Close]: Cerrando Generador
+[2017/2/4 18:38:35]: 
+
+[2017/2/4 18:38:35]: [Open]: Abriendo Generador
+[2017/2/4 18:38:35]: [Update]: Buscando actualizaciones
+[2017/2/4 18:38:35]: Update [Result]: Generador actualizado
+[2017/2/4 18:38:35]: Process [Main]: Ejecutando Main.jsx
+[2017/2/4 18:38:35]: Read [Preferences]: Tratando de leer las preferencias
+[2017/2/4 18:38:35]: Read [Folder]: Buscando en: ~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
+[2017/2/4 18:38:35]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:38:35]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:38:35]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:38:35]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:38:35]: Read [json]: Archivo encontrado~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
+[2017/2/4 18:38:35]: Window [Start Screen]: Abriendo ventana
+[2017/2/4 18:38:40]: Read [Folder]: Buscando en: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
+[2017/2/4 18:38:40]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:38:40]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:38:40]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:38:40]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:38:40]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:38:40]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:38:40]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:38:40]: Read [json]: Archivo encontrado~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
+[2017/2/4 18:38:40]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
+[2017/2/4 18:38:40]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
+[2017/2/4 18:38:40]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
+[2017/2/4 18:38:40]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/4 18:38:40]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/4 18:38:40]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/4 18:38:40]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+Datos:{
+	"type": "image",
+	"ProjectName": "psnow",
+	"text": {
+		"tag": {
+			"enable": true,
+			"index": 2,
+			"text": ""
+		},
+		"description": {
+			"enable": true,
+			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
+		},
+		"top": {
+			"enable": true,
+			"text": "Sony Playstation Now"
+		},
+		"bottom": {
+			"enable": false,
+			"text": ""
+		}
+	},
+	"reactions": {
+		"enable": false,
+		"list": [
+			"like",
+			"heart",
+			"wow",
+			"haha",
+			"sad",
+			"angry"
+		]
+	},
+	"colors": {
+		"tag-icon": [
+			1,
+			1,
+			1,
+			1
+		],
+		"tag-bg": [
+			0.80783081054688,
+			0.80783081054688,
+			0.80783081054688,
+			1
+		],
+		"tag-text": [
+			0.2823486328125,
+			0.2823486328125,
+			0.2823486328125,
+			1
+		],
+		"text": [
+			1,
+			1,
+			1,
+			1
+		],
+		"mask": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		],
+		"background": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		]
+	},
+	"fileNumber": 1,
+	"files": [
+		"psnow-17_30_10__PS-Now-Lead.png"
+	],
+	"thumbs": [
+		"psnow-17_30_10__PS-Now-Lead-thumb.png"
+	],
+	"imageSize": [
+		1108,
+		682
+	],
+	"imageType": "Normal"
+}
+[2017/2/4 18:38:40]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/4 18:38:41]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
+[2017/2/4 18:38:41]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
+[2017/2/4 18:38:41]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
+[2017/2/4 18:38:41]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/4 18:38:41]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/4 18:38:41]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/4 18:38:41]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+Datos:{
+	"type": "image",
+	"ProjectName": "psnow",
+	"text": {
+		"tag": {
+			"enable": true,
+			"index": 2,
+			"text": ""
+		},
+		"description": {
+			"enable": true,
+			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
+		},
+		"top": {
+			"enable": true,
+			"text": "Sony Playstation Now"
+		},
+		"bottom": {
+			"enable": false,
+			"text": ""
+		}
+	},
+	"reactions": {
+		"enable": false,
+		"list": [
+			"like",
+			"heart",
+			"wow",
+			"haha",
+			"sad",
+			"angry"
+		]
+	},
+	"colors": {
+		"tag-icon": [
+			1,
+			1,
+			1,
+			1
+		],
+		"tag-bg": [
+			0.80783081054688,
+			0.80783081054688,
+			0.80783081054688,
+			1
+		],
+		"tag-text": [
+			0.2823486328125,
+			0.2823486328125,
+			0.2823486328125,
+			1
+		],
+		"text": [
+			1,
+			1,
+			1,
+			1
+		],
+		"mask": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		],
+		"background": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		]
+	},
+	"fileNumber": 1,
+	"files": [
+		"psnow-17_30_10__PS-Now-Lead.png"
+	],
+	"thumbs": [
+		"psnow-17_30_10__PS-Now-Lead-thumb.png"
+	],
+	"imageSize": [
+		1108,
+		682
+	],
+	"imageType": "Normal"
+}
+[2017/2/4 18:38:41]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/4 18:38:41]: Execute [Generator]: Ejecutando proyecto: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/
+[2017/2/4 18:38:41]: Verify [File]: Buscando si ya se ha creado una imagen con nombre:psnow
+[2017/2/4 18:38:41]: Status [File]: Imagen encontrada, renombrando a:psnow-20170116T151255
+[2017/2/4 18:38:41]: Save [File]: Imagen guardada con nombre:psnow-20170116T151255 en folder: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
+[2017/2/4 18:38:42]: Create [File]: Creando PSD del proyecto basado en el template
+[2017/2/4 18:38:42]: Verify [Template][Info]: La plantilla seleccionada tiene las siguientes capas: 
+System_backgrounxdColor_solid,WorkingArea_AreaImage_smart,TextArea_BottomText_smart,TextArea_MainText_smart,TAG_TAG_smart
+[2017/2/4 18:38:42]: Select [Layer][Info]: Buscando: System_backgrounxdColor_solid
+[2017/2/4 18:38:42]: Status [Layer][Info]: Capa: System_backgrounxdColor_solid encontrada.
+[2017/2/4 18:38:42]: Status [Place]: Insertando Imagen
+[2017/2/4 18:38:42]: Select [Layer][Info]: Buscando: WorkingArea_AreaImage_smart
+[2017/2/4 18:38:42]: Status [Layer][Info]: Capa: WorkingArea_AreaImage_smart encontrada.
+[2017/2/4 18:38:42]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+AreaImage_Area_solid,AreaImage_Blur_smart,AreaImage_Image_smart
+[2017/2/4 18:38:42]: Select [Layer][Info]: Buscando: AreaImage_Image_smart
+[2017/2/4 18:38:42]: Status [Layer][Info]: Capa: AreaImage_Image_smart encontrada.
+[2017/2/4 18:38:43]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+ImagePlacer_selector_normal,ImagePlacer_image_normal
+[2017/2/4 18:38:43]: Select [Layer][Info]: Buscando: ImagePlacer_image_normal
+[2017/2/4 18:38:43]: Status [Layer][Info]: Capa: ImagePlacer_image_normal encontrada.
+[2017/2/4 18:38:44]: Select [Layer][Info]: Buscando: oimage
+[2017/2/4 18:38:44]: Status [Layer][Info]: Capa: oimage encontrada.
+[2017/2/4 18:38:44]: Select [Area][Info]: Seleccionando Area de capa: ImagePlacer_selector_normal
+[2017/2/4 18:38:44]: Status [Area][Info]: Se selecciono el area de la capa: ImagePlacer_selector_normal
+[2017/2/4 18:38:44]: Select [Layer][Info]: Buscando: ImagePlacer_selector_normal
+[2017/2/4 18:38:44]: Status [Layer][Info]: Capa: ImagePlacer_selector_normal encontrada.
+[2017/2/4 18:38:44]: Select [Layer][Info]: Buscando: AreaImage_Blur_smart
+[2017/2/4 18:38:44]: Status [Layer][Info]: Capa: AreaImage_Blur_smart encontrada.
+[2017/2/4 18:38:45]: Select [Layer][Info]: Buscando: TextArea_MainText_smart
+[2017/2/4 18:38:45]: Status [Layer][Info]: Capa: TextArea_MainText_smart encontrada.
+[2017/2/4 18:38:45]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+TextPlacer_placeHolder_solid,Text_Desc_smart,Text_Title_smart,TextPlacer_TextColor_solid,System_Sys_normal
+[2017/2/4 18:38:45]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
+[2017/2/4 18:38:45]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
+[2017/2/4 18:38:45]: Select [Layer][Info]: Buscando: Text_Title_smart
+[2017/2/4 18:38:45]: Status [Layer][Info]: Capa: Text_Title_smart encontrada.
+[2017/2/4 18:38:45]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+Text_Title_text
+[2017/2/4 18:38:45]: Select [Layer][Info]: Buscando: Text_Title_text
+[2017/2/4 18:38:45]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
+[2017/2/4 18:38:46]: Select [Layer][Info]: Buscando: Text_Title_text
+[2017/2/4 18:38:46]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
+[2017/2/4 18:38:55]: Select [Layer][Info]: Buscando: Text_Desc_smart
+[2017/2/4 18:38:55]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
+[2017/2/4 18:38:55]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+Text_Desc_text
+[2017/2/4 18:38:55]: Select [Layer][Info]: Buscando: Text_Desc_text
+[2017/2/4 18:38:55]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
+[2017/2/4 18:38:56]: Select [Layer][Info]: Buscando: Text_Desc_text
+[2017/2/4 18:38:56]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
+[2017/2/4 18:39:4]: Select [Layer][Info]: Buscando: System_Sys_normal
+[2017/2/4 18:39:4]: Status [Layer][Info]: Capa: System_Sys_normal encontrada.
+[2017/2/4 18:39:4]: Select [Area][Info]: Seleccionando Area de capa: Text_Title_smart
+[2017/2/4 18:39:4]: Status [Area][Info]: Se selecciono el area de la capa: Text_Title_smart
+[2017/2/4 18:39:4]: Metrics [Layer][Info]: width:150 px, height:1400 px
+[2017/2/4 18:39:4]: Select [Layer][Info]: Buscando: 0_0_0
+[2017/2/4 18:39:4]: Status [Layer][Info]: Capa: 0_0_0 encontrada.
+[2017/2/4 18:39:4]: Select [Layer][Info]: Buscando: Text_Desc_smart
+[2017/2/4 18:39:4]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
+[2017/2/4 18:39:4]: Select [Layer][Info]: Buscando: TextPlacer_TextColor_solid
+[2017/2/4 18:39:4]: Status [Layer][Info]: Capa: TextPlacer_TextColor_solid encontrada.
+[2017/2/4 18:39:4]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
+[2017/2/4 18:39:4]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
+[2017/2/4 18:39:6]: Select [Area][Info]: Seleccionando Area de capa: WorkingArea_AreaImage_smart
+[2017/2/4 18:39:20]: [Close]: Cerrando Generador
+[2017/2/4 18:43:55]: 
+
+[2017/2/4 18:43:55]: [Open]: Abriendo Generador
+[2017/2/4 18:43:55]: [Update]: Buscando actualizaciones
+[2017/2/4 18:43:55]: Update [Result]: Generador actualizado
+[2017/2/4 18:43:55]: Process [Main]: Ejecutando Main.jsx
+[2017/2/4 18:43:55]: Read [Preferences]: Tratando de leer las preferencias
+[2017/2/4 18:43:55]: Read [Folder]: Buscando en: ~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
+[2017/2/4 18:43:55]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:43:55]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:43:55]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:43:55]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:43:55]: Read [json]: Archivo encontrado~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
+[2017/2/4 18:43:55]: Window [Start Screen]: Abriendo ventana
+[2017/2/4 18:43:59]: Read [Folder]: Buscando en: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
+[2017/2/4 18:43:59]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:43:59]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:43:59]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:43:59]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:43:59]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:43:59]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:43:59]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:43:59]: Read [json]: Archivo encontrado~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
+[2017/2/4 18:44:0]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
+[2017/2/4 18:44:0]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
+[2017/2/4 18:44:0]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
+[2017/2/4 18:44:0]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/4 18:44:0]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/4 18:44:0]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/4 18:44:0]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+Datos:{
+	"type": "image",
+	"ProjectName": "psnow",
+	"text": {
+		"tag": {
+			"enable": true,
+			"index": 2,
+			"text": ""
+		},
+		"description": {
+			"enable": true,
+			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
+		},
+		"top": {
+			"enable": true,
+			"text": "Sony Playstation Now"
+		},
+		"bottom": {
+			"enable": false,
+			"text": ""
+		}
+	},
+	"reactions": {
+		"enable": false,
+		"list": [
+			"like",
+			"heart",
+			"wow",
+			"haha",
+			"sad",
+			"angry"
+		]
+	},
+	"colors": {
+		"tag-icon": [
+			1,
+			1,
+			1,
+			1
+		],
+		"tag-bg": [
+			0.80783081054688,
+			0.80783081054688,
+			0.80783081054688,
+			1
+		],
+		"tag-text": [
+			0.2823486328125,
+			0.2823486328125,
+			0.2823486328125,
+			1
+		],
+		"text": [
+			1,
+			1,
+			1,
+			1
+		],
+		"mask": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		],
+		"background": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		]
+	},
+	"fileNumber": 1,
+	"files": [
+		"psnow-17_30_10__PS-Now-Lead.png"
+	],
+	"thumbs": [
+		"psnow-17_30_10__PS-Now-Lead-thumb.png"
+	],
+	"imageSize": [
+		1108,
+		682
+	],
+	"imageType": "Normal"
+}
+[2017/2/4 18:44:0]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/4 18:44:0]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
+[2017/2/4 18:44:0]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
+[2017/2/4 18:44:0]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
+[2017/2/4 18:44:0]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/4 18:44:0]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/4 18:44:0]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/4 18:44:0]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+Datos:{
+	"type": "image",
+	"ProjectName": "psnow",
+	"text": {
+		"tag": {
+			"enable": true,
+			"index": 2,
+			"text": ""
+		},
+		"description": {
+			"enable": true,
+			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
+		},
+		"top": {
+			"enable": true,
+			"text": "Sony Playstation Now"
+		},
+		"bottom": {
+			"enable": false,
+			"text": ""
+		}
+	},
+	"reactions": {
+		"enable": false,
+		"list": [
+			"like",
+			"heart",
+			"wow",
+			"haha",
+			"sad",
+			"angry"
+		]
+	},
+	"colors": {
+		"tag-icon": [
+			1,
+			1,
+			1,
+			1
+		],
+		"tag-bg": [
+			0.80783081054688,
+			0.80783081054688,
+			0.80783081054688,
+			1
+		],
+		"tag-text": [
+			0.2823486328125,
+			0.2823486328125,
+			0.2823486328125,
+			1
+		],
+		"text": [
+			1,
+			1,
+			1,
+			1
+		],
+		"mask": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		],
+		"background": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		]
+	},
+	"fileNumber": 1,
+	"files": [
+		"psnow-17_30_10__PS-Now-Lead.png"
+	],
+	"thumbs": [
+		"psnow-17_30_10__PS-Now-Lead-thumb.png"
+	],
+	"imageSize": [
+		1108,
+		682
+	],
+	"imageType": "Normal"
+}
+[2017/2/4 18:44:0]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/4 18:44:1]: Execute [Generator]: Ejecutando proyecto: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/
+[2017/2/4 18:44:1]: Verify [File]: Buscando si ya se ha creado una imagen con nombre:psnow
+[2017/2/4 18:44:1]: Status [File]: Imagen encontrada, renombrando a:psnow-20170116T151255
+[2017/2/4 18:44:1]: Save [File]: Imagen guardada con nombre:psnow-20170116T151255 en folder: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
+[2017/2/4 18:44:1]: Create [File]: Creando PSD del proyecto basado en el template
+[2017/2/4 18:44:1]: Verify [Template][Info]: La plantilla seleccionada tiene las siguientes capas: 
+System_backgrounxdColor_solid,WorkingArea_AreaImage_smart,TextArea_BottomText_smart,TextArea_MainText_smart,TAG_TAG_smart
+[2017/2/4 18:44:1]: Select [Layer][Info]: Buscando: System_backgrounxdColor_solid
+[2017/2/4 18:44:1]: Status [Layer][Info]: Capa: System_backgrounxdColor_solid encontrada.
+[2017/2/4 18:44:1]: Status [Place]: Insertando Imagen
+[2017/2/4 18:44:1]: Select [Layer][Info]: Buscando: WorkingArea_AreaImage_smart
+[2017/2/4 18:44:1]: Status [Layer][Info]: Capa: WorkingArea_AreaImage_smart encontrada.
+[2017/2/4 18:44:1]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+AreaImage_Area_solid,AreaImage_Blur_smart,AreaImage_Image_smart
+[2017/2/4 18:44:1]: Select [Layer][Info]: Buscando: AreaImage_Image_smart
+[2017/2/4 18:44:1]: Status [Layer][Info]: Capa: AreaImage_Image_smart encontrada.
+[2017/2/4 18:44:2]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+ImagePlacer_selector_normal,ImagePlacer_image_normal
+[2017/2/4 18:44:2]: Select [Layer][Info]: Buscando: ImagePlacer_image_normal
+[2017/2/4 18:44:2]: Status [Layer][Info]: Capa: ImagePlacer_image_normal encontrada.
+[2017/2/4 18:44:3]: Select [Layer][Info]: Buscando: oimage
+[2017/2/4 18:44:3]: Status [Layer][Info]: Capa: oimage encontrada.
+[2017/2/4 18:44:3]: Select [Area][Info]: Seleccionando Area de capa: ImagePlacer_selector_normal
+[2017/2/4 18:44:3]: Status [Area][Info]: Se selecciono el area de la capa: ImagePlacer_selector_normal
+[2017/2/4 18:44:3]: Select [Layer][Info]: Buscando: ImagePlacer_selector_normal
+[2017/2/4 18:44:3]: Status [Layer][Info]: Capa: ImagePlacer_selector_normal encontrada.
+[2017/2/4 18:44:4]: Select [Layer][Info]: Buscando: AreaImage_Blur_smart
+[2017/2/4 18:44:4]: Status [Layer][Info]: Capa: AreaImage_Blur_smart encontrada.
+[2017/2/4 18:44:4]: Select [Layer][Info]: Buscando: TextArea_MainText_smart
+[2017/2/4 18:44:4]: Status [Layer][Info]: Capa: TextArea_MainText_smart encontrada.
+[2017/2/4 18:44:5]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+TextPlacer_placeHolder_solid,Text_Desc_smart,Text_Title_smart,TextPlacer_TextColor_solid,System_Sys_normal
+[2017/2/4 18:44:5]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
+[2017/2/4 18:44:5]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
+[2017/2/4 18:44:5]: Select [Layer][Info]: Buscando: Text_Title_smart
+[2017/2/4 18:44:5]: Status [Layer][Info]: Capa: Text_Title_smart encontrada.
+[2017/2/4 18:44:5]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+Text_Title_text
+[2017/2/4 18:44:5]: Select [Layer][Info]: Buscando: Text_Title_text
+[2017/2/4 18:44:5]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
+[2017/2/4 18:44:6]: Select [Layer][Info]: Buscando: Text_Title_text
+[2017/2/4 18:44:6]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
+[2017/2/4 18:44:14]: Select [Layer][Info]: Buscando: Text_Desc_smart
+[2017/2/4 18:44:14]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
+[2017/2/4 18:44:14]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+Text_Desc_text
+[2017/2/4 18:44:14]: Select [Layer][Info]: Buscando: Text_Desc_text
+[2017/2/4 18:44:14]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
+[2017/2/4 18:44:15]: Select [Layer][Info]: Buscando: Text_Desc_text
+[2017/2/4 18:44:15]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
+[2017/2/4 18:44:22]: Select [Layer][Info]: Buscando: System_Sys_normal
+[2017/2/4 18:44:22]: Status [Layer][Info]: Capa: System_Sys_normal encontrada.
+[2017/2/4 18:44:22]: Select [Area][Info]: Seleccionando Area de capa: Text_Title_smart
+[2017/2/4 18:44:22]: Status [Area][Info]: Se selecciono el area de la capa: Text_Title_smart
+[2017/2/4 18:44:22]: Metrics [Layer][Info]: width:1400 px, height:150 px
+[2017/2/4 18:44:22]: Select [Layer][Info]: Buscando: 0_0_0
+[2017/2/4 18:44:22]: Status [Layer][Info]: Capa: 0_0_0 encontrada.
+[2017/2/4 18:44:22]: Select [Layer][Info]: Buscando: Text_Desc_smart
+[2017/2/4 18:44:22]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
+[2017/2/4 18:44:22]: Select [Layer][Info]: Buscando: TextPlacer_TextColor_solid
+[2017/2/4 18:44:22]: Status [Layer][Info]: Capa: TextPlacer_TextColor_solid encontrada.
+[2017/2/4 18:44:23]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
+[2017/2/4 18:44:23]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
+[2017/2/4 18:44:24]: Select [Area][Info]: Seleccionando Area de capa: WorkingArea_AreaImage_smart
+[2017/2/4 18:45:8]: [Close]: Cerrando Generador
+[2017/2/4 18:48:41]: 
+
+[2017/2/4 18:48:41]: [Open]: Abriendo Generador
+[2017/2/4 18:48:41]: [Update]: Buscando actualizaciones
+[2017/2/4 18:48:41]: Update [Result]: Generador actualizado
+[2017/2/4 18:48:41]: Process [Main]: Ejecutando Main.jsx
+[2017/2/4 18:48:41]: Read [Preferences]: Tratando de leer las preferencias
+[2017/2/4 18:48:41]: Read [Folder]: Buscando en: ~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
+[2017/2/4 18:48:41]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:48:41]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:48:41]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:48:41]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:48:41]: Read [json]: Archivo encontrado~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
+[2017/2/4 18:48:41]: Window [Start Screen]: Abriendo ventana
+[2017/2/4 18:48:45]: Read [Folder]: Buscando en: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
+[2017/2/4 18:48:45]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:48:45]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:48:45]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:48:45]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:48:45]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:48:45]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:48:45]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:48:45]: Read [json]: Archivo encontrado~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
+[2017/2/4 18:48:46]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
+[2017/2/4 18:48:46]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
+[2017/2/4 18:48:46]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
+[2017/2/4 18:48:46]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/4 18:48:46]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/4 18:48:46]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/4 18:48:46]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+Datos:{
+	"type": "image",
+	"ProjectName": "psnow",
+	"text": {
+		"tag": {
+			"enable": true,
+			"index": 2,
+			"text": ""
+		},
+		"description": {
+			"enable": true,
+			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
+		},
+		"top": {
+			"enable": true,
+			"text": "Sony Playstation Now"
+		},
+		"bottom": {
+			"enable": false,
+			"text": ""
+		}
+	},
+	"reactions": {
+		"enable": false,
+		"list": [
+			"like",
+			"heart",
+			"wow",
+			"haha",
+			"sad",
+			"angry"
+		]
+	},
+	"colors": {
+		"tag-icon": [
+			1,
+			1,
+			1,
+			1
+		],
+		"tag-bg": [
+			0.80783081054688,
+			0.80783081054688,
+			0.80783081054688,
+			1
+		],
+		"tag-text": [
+			0.2823486328125,
+			0.2823486328125,
+			0.2823486328125,
+			1
+		],
+		"text": [
+			1,
+			1,
+			1,
+			1
+		],
+		"mask": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		],
+		"background": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		]
+	},
+	"fileNumber": 1,
+	"files": [
+		"psnow-17_30_10__PS-Now-Lead.png"
+	],
+	"thumbs": [
+		"psnow-17_30_10__PS-Now-Lead-thumb.png"
+	],
+	"imageSize": [
+		1108,
+		682
+	],
+	"imageType": "Normal"
+}
+[2017/2/4 18:48:46]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/4 18:48:47]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
+[2017/2/4 18:48:47]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
+[2017/2/4 18:48:47]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
+[2017/2/4 18:48:47]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/4 18:48:47]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/4 18:48:47]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/4 18:48:47]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+Datos:{
+	"type": "image",
+	"ProjectName": "psnow",
+	"text": {
+		"tag": {
+			"enable": true,
+			"index": 2,
+			"text": ""
+		},
+		"description": {
+			"enable": true,
+			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
+		},
+		"top": {
+			"enable": true,
+			"text": "Sony Playstation Now"
+		},
+		"bottom": {
+			"enable": false,
+			"text": ""
+		}
+	},
+	"reactions": {
+		"enable": false,
+		"list": [
+			"like",
+			"heart",
+			"wow",
+			"haha",
+			"sad",
+			"angry"
+		]
+	},
+	"colors": {
+		"tag-icon": [
+			1,
+			1,
+			1,
+			1
+		],
+		"tag-bg": [
+			0.80783081054688,
+			0.80783081054688,
+			0.80783081054688,
+			1
+		],
+		"tag-text": [
+			0.2823486328125,
+			0.2823486328125,
+			0.2823486328125,
+			1
+		],
+		"text": [
+			1,
+			1,
+			1,
+			1
+		],
+		"mask": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		],
+		"background": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		]
+	},
+	"fileNumber": 1,
+	"files": [
+		"psnow-17_30_10__PS-Now-Lead.png"
+	],
+	"thumbs": [
+		"psnow-17_30_10__PS-Now-Lead-thumb.png"
+	],
+	"imageSize": [
+		1108,
+		682
+	],
+	"imageType": "Normal"
+}
+[2017/2/4 18:48:47]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/4 18:48:47]: Execute [Generator]: Ejecutando proyecto: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/
+[2017/2/4 18:48:47]: Verify [File]: Buscando si ya se ha creado una imagen con nombre:psnow
+[2017/2/4 18:48:48]: Status [File]: Imagen encontrada, renombrando a:psnow-20170116T151255
+[2017/2/4 18:48:48]: Save [File]: Imagen guardada con nombre:psnow-20170116T151255 en folder: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
+[2017/2/4 18:48:48]: Create [File]: Creando PSD del proyecto basado en el template
+[2017/2/4 18:48:48]: Verify [Template][Info]: La plantilla seleccionada tiene las siguientes capas: 
+System_backgrounxdColor_solid,WorkingArea_AreaImage_smart,TextArea_BottomText_smart,TextArea_MainText_smart,TAG_TAG_smart
+[2017/2/4 18:48:48]: Select [Layer][Info]: Buscando: System_backgrounxdColor_solid
+[2017/2/4 18:48:48]: Status [Layer][Info]: Capa: System_backgrounxdColor_solid encontrada.
+[2017/2/4 18:48:48]: Status [Place]: Insertando Imagen
+[2017/2/4 18:48:48]: Select [Layer][Info]: Buscando: WorkingArea_AreaImage_smart
+[2017/2/4 18:48:48]: Status [Layer][Info]: Capa: WorkingArea_AreaImage_smart encontrada.
+[2017/2/4 18:48:49]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+AreaImage_Area_solid,AreaImage_Blur_smart,AreaImage_Image_smart
+[2017/2/4 18:48:49]: Select [Layer][Info]: Buscando: AreaImage_Image_smart
+[2017/2/4 18:48:49]: Status [Layer][Info]: Capa: AreaImage_Image_smart encontrada.
+[2017/2/4 18:48:49]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+ImagePlacer_selector_normal,ImagePlacer_image_normal
+[2017/2/4 18:48:49]: Select [Layer][Info]: Buscando: ImagePlacer_image_normal
+[2017/2/4 18:48:49]: Status [Layer][Info]: Capa: ImagePlacer_image_normal encontrada.
+[2017/2/4 18:48:50]: Select [Layer][Info]: Buscando: oimage
+[2017/2/4 18:48:50]: Status [Layer][Info]: Capa: oimage encontrada.
+[2017/2/4 18:48:50]: Select [Area][Info]: Seleccionando Area de capa: ImagePlacer_selector_normal
+[2017/2/4 18:48:50]: Status [Area][Info]: Se selecciono el area de la capa: ImagePlacer_selector_normal
+[2017/2/4 18:48:50]: Select [Layer][Info]: Buscando: ImagePlacer_selector_normal
+[2017/2/4 18:48:51]: Status [Layer][Info]: Capa: ImagePlacer_selector_normal encontrada.
+[2017/2/4 18:48:51]: Select [Layer][Info]: Buscando: AreaImage_Blur_smart
+[2017/2/4 18:48:51]: Status [Layer][Info]: Capa: AreaImage_Blur_smart encontrada.
+[2017/2/4 18:48:51]: Select [Layer][Info]: Buscando: TextArea_MainText_smart
+[2017/2/4 18:48:52]: Status [Layer][Info]: Capa: TextArea_MainText_smart encontrada.
+[2017/2/4 18:48:52]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+TextPlacer_placeHolder_solid,Text_Desc_smart,Text_Title_smart,TextPlacer_TextColor_solid,System_Sys_normal
+[2017/2/4 18:48:52]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
+[2017/2/4 18:48:52]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
+[2017/2/4 18:48:52]: Select [Layer][Info]: Buscando: Text_Title_smart
+[2017/2/4 18:48:52]: Status [Layer][Info]: Capa: Text_Title_smart encontrada.
+[2017/2/4 18:48:52]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+Text_Title_text
+[2017/2/4 18:48:52]: Select [Layer][Info]: Buscando: Text_Title_text
+[2017/2/4 18:48:52]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
+[2017/2/4 18:48:53]: Select [Layer][Info]: Buscando: Text_Title_text
+[2017/2/4 18:48:53]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
+[2017/2/4 18:49:1]: Select [Layer][Info]: Buscando: Text_Desc_smart
+[2017/2/4 18:49:1]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
+[2017/2/4 18:49:2]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+Text_Desc_text
+[2017/2/4 18:49:2]: Select [Layer][Info]: Buscando: Text_Desc_text
+[2017/2/4 18:49:2]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
+[2017/2/4 18:49:3]: Select [Layer][Info]: Buscando: Text_Desc_text
+[2017/2/4 18:49:3]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
+[2017/2/4 18:49:10]: Select [Layer][Info]: Buscando: System_Sys_normal
+[2017/2/4 18:49:10]: Status [Layer][Info]: Capa: System_Sys_normal encontrada.
+[2017/2/4 18:49:10]: Select [Area][Info]: Seleccionando Area de capa: Text_Title_smart
+[2017/2/4 18:49:10]: Status [Area][Info]: Se selecciono el area de la capa: Text_Title_smart
+[2017/2/4 18:49:10]: Metrics [Layer][Info]: width:1400 px, height:150 px
+[2017/2/4 18:49:10]: Select [Layer][Info]: Buscando: 0_0_0
+[2017/2/4 18:49:10]: Status [Layer][Info]: Capa: 0_0_0 encontrada.
+[2017/2/4 18:49:10]: Select [Layer][Info]: Buscando: Text_Desc_smart
+[2017/2/4 18:49:10]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
+[2017/2/4 18:49:10]: Select [Layer][Info]: Buscando: TextPlacer_TextColor_solid
+[2017/2/4 18:49:10]: Status [Layer][Info]: Capa: TextPlacer_TextColor_solid encontrada.
+[2017/2/4 18:49:10]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
+[2017/2/4 18:49:10]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
+[2017/2/4 18:49:11]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
+[2017/2/4 18:49:11]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
+[2017/2/4 18:49:23]: Select [Area][Info]: Seleccionando Area de capa: WorkingArea_AreaImage_smart
+[2017/2/4 18:49:23]: Status [Area][Error]: No Se selecciono el area de la capa: WorkingArea_AreaImage_smart. Es este el nombre correcto de la capa?
+[2017/2/4 18:49:23]: Select [Layer][Info]: Buscando: TextArea_MainText_smart
+[2017/2/4 18:49:23]: Status [Layer][Info]: Capa: TextArea_MainText_smart encontrada.
+[2017/2/4 18:49:34]: [Close]: Cerrando Generador
+[2017/2/4 18:51:10]: 
+
+[2017/2/4 18:51:10]: [Open]: Abriendo Generador
+[2017/2/4 18:51:10]: [Update]: Buscando actualizaciones
+[2017/2/4 18:51:10]: Update [Result]: Generador actualizado
+[2017/2/4 18:51:10]: Process [Main]: Ejecutando Main.jsx
+[2017/2/4 18:51:10]: Read [Preferences]: Tratando de leer las preferencias
+[2017/2/4 18:51:10]: Read [Folder]: Buscando en: ~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
+[2017/2/4 18:51:10]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:51:10]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:51:10]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:51:10]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:51:10]: Read [json]: Archivo encontrado~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
+[2017/2/4 18:51:10]: Window [Start Screen]: Abriendo ventana
+[2017/2/4 18:51:30]: [Close]: Cerrando Generador
+[2017/2/4 18:52:45]: 
+
+[2017/2/4 18:52:45]: [Open]: Abriendo Generador
+[2017/2/4 18:52:45]: [Update]: Buscando actualizaciones
+[2017/2/4 18:52:45]: Update [Result]: Generador actualizado
+[2017/2/4 18:52:45]: Process [Main]: Ejecutando Main.jsx
+[2017/2/4 18:52:45]: Read [Preferences]: Tratando de leer las preferencias
+[2017/2/4 18:52:45]: Read [Folder]: Buscando en: ~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
+[2017/2/4 18:52:45]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:52:45]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:52:45]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:52:45]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:52:45]: Read [json]: Archivo encontrado~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
+[2017/2/4 18:52:45]: Window [Start Screen]: Abriendo ventana
+[2017/2/4 18:52:49]: Read [Folder]: Buscando en: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
+[2017/2/4 18:52:49]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:52:49]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:52:49]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:52:49]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:52:49]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:52:49]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:52:49]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:52:49]: Read [json]: Archivo encontrado~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
+[2017/2/4 18:52:50]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
+[2017/2/4 18:52:50]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
+[2017/2/4 18:52:50]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
+[2017/2/4 18:52:50]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/4 18:52:50]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/4 18:52:50]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/4 18:52:50]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+Datos:{
+	"type": "image",
+	"ProjectName": "psnow",
+	"text": {
+		"tag": {
+			"enable": true,
+			"index": 2,
+			"text": ""
+		},
+		"description": {
+			"enable": true,
+			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
+		},
+		"top": {
+			"enable": true,
+			"text": "Sony Playstation Now"
+		},
+		"bottom": {
+			"enable": false,
+			"text": ""
+		}
+	},
+	"reactions": {
+		"enable": false,
+		"list": [
+			"like",
+			"heart",
+			"wow",
+			"haha",
+			"sad",
+			"angry"
+		]
+	},
+	"colors": {
+		"tag-icon": [
+			1,
+			1,
+			1,
+			1
+		],
+		"tag-bg": [
+			0.80783081054688,
+			0.80783081054688,
+			0.80783081054688,
+			1
+		],
+		"tag-text": [
+			0.2823486328125,
+			0.2823486328125,
+			0.2823486328125,
+			1
+		],
+		"text": [
+			1,
+			1,
+			1,
+			1
+		],
+		"mask": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		],
+		"background": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		]
+	},
+	"fileNumber": 1,
+	"files": [
+		"psnow-17_30_10__PS-Now-Lead.png"
+	],
+	"thumbs": [
+		"psnow-17_30_10__PS-Now-Lead-thumb.png"
+	],
+	"imageSize": [
+		1108,
+		682
+	],
+	"imageType": "Normal"
+}
+[2017/2/4 18:52:50]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/4 18:52:51]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
+[2017/2/4 18:52:51]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
+[2017/2/4 18:52:51]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
+[2017/2/4 18:52:51]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/4 18:52:51]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/4 18:52:51]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/4 18:52:51]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+Datos:{
+	"type": "image",
+	"ProjectName": "psnow",
+	"text": {
+		"tag": {
+			"enable": true,
+			"index": 2,
+			"text": ""
+		},
+		"description": {
+			"enable": true,
+			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
+		},
+		"top": {
+			"enable": true,
+			"text": "Sony Playstation Now"
+		},
+		"bottom": {
+			"enable": false,
+			"text": ""
+		}
+	},
+	"reactions": {
+		"enable": false,
+		"list": [
+			"like",
+			"heart",
+			"wow",
+			"haha",
+			"sad",
+			"angry"
+		]
+	},
+	"colors": {
+		"tag-icon": [
+			1,
+			1,
+			1,
+			1
+		],
+		"tag-bg": [
+			0.80783081054688,
+			0.80783081054688,
+			0.80783081054688,
+			1
+		],
+		"tag-text": [
+			0.2823486328125,
+			0.2823486328125,
+			0.2823486328125,
+			1
+		],
+		"text": [
+			1,
+			1,
+			1,
+			1
+		],
+		"mask": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		],
+		"background": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		]
+	},
+	"fileNumber": 1,
+	"files": [
+		"psnow-17_30_10__PS-Now-Lead.png"
+	],
+	"thumbs": [
+		"psnow-17_30_10__PS-Now-Lead-thumb.png"
+	],
+	"imageSize": [
+		1108,
+		682
+	],
+	"imageType": "Normal"
+}
+[2017/2/4 18:52:51]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/4 18:52:51]: Execute [Generator]: Ejecutando proyecto: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/
+[2017/2/4 18:52:51]: Verify [File]: Buscando si ya se ha creado una imagen con nombre:psnow
+[2017/2/4 18:52:51]: Status [File]: Imagen encontrada, renombrando a:psnow-20170116T151255
+[2017/2/4 18:52:51]: Save [File]: Imagen guardada con nombre:psnow-20170116T151255 en folder: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
+[2017/2/4 18:52:51]: Create [File]: Creando PSD del proyecto basado en el template
+[2017/2/4 18:52:51]: Verify [Template][Info]: La plantilla seleccionada tiene las siguientes capas: 
+System_backgrounxdColor_solid,WorkingArea_AreaImage_smart,TextArea_BottomText_smart,TextArea_MainText_smart,TAG_TAG_smart
+[2017/2/4 18:52:51]: Select [Layer][Info]: Buscando: System_backgrounxdColor_solid
+[2017/2/4 18:52:52]: Status [Layer][Info]: Capa: System_backgrounxdColor_solid encontrada.
+[2017/2/4 18:52:52]: Status [Place]: Insertando Imagen
+[2017/2/4 18:52:52]: Select [Layer][Info]: Buscando: WorkingArea_AreaImage_smart
+[2017/2/4 18:52:52]: Status [Layer][Info]: Capa: WorkingArea_AreaImage_smart encontrada.
+[2017/2/4 18:52:52]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+AreaImage_Area_solid,AreaImage_Blur_smart,AreaImage_Image_smart
+[2017/2/4 18:52:52]: Select [Layer][Info]: Buscando: AreaImage_Image_smart
+[2017/2/4 18:52:52]: Status [Layer][Info]: Capa: AreaImage_Image_smart encontrada.
+[2017/2/4 18:52:52]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+ImagePlacer_selector_normal,ImagePlacer_image_normal
+[2017/2/4 18:52:52]: Select [Layer][Info]: Buscando: ImagePlacer_image_normal
+[2017/2/4 18:52:52]: Status [Layer][Info]: Capa: ImagePlacer_image_normal encontrada.
+[2017/2/4 18:52:53]: Select [Layer][Info]: Buscando: oimage
+[2017/2/4 18:52:53]: Status [Layer][Info]: Capa: oimage encontrada.
+[2017/2/4 18:52:53]: Select [Area][Info]: Seleccionando Area de capa: ImagePlacer_selector_normal
+[2017/2/4 18:52:53]: Status [Area][Info]: Se selecciono el area de la capa: ImagePlacer_selector_normal
+[2017/2/4 18:52:53]: Select [Layer][Info]: Buscando: ImagePlacer_selector_normal
+[2017/2/4 18:52:53]: Status [Layer][Info]: Capa: ImagePlacer_selector_normal encontrada.
+[2017/2/4 18:52:53]: Select [Layer][Info]: Buscando: AreaImage_Blur_smart
+[2017/2/4 18:52:53]: Status [Layer][Info]: Capa: AreaImage_Blur_smart encontrada.
+[2017/2/4 18:52:54]: Select [Layer][Info]: Buscando: TextArea_MainText_smart
+[2017/2/4 18:52:54]: Status [Layer][Info]: Capa: TextArea_MainText_smart encontrada.
+[2017/2/4 18:52:54]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+TextPlacer_placeHolder_solid,Text_Desc_smart,Text_Title_smart,TextPlacer_TextColor_solid,System_Sys_normal
+[2017/2/4 18:52:54]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
+[2017/2/4 18:52:54]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
+[2017/2/4 18:52:54]: Select [Layer][Info]: Buscando: Text_Title_smart
+[2017/2/4 18:52:54]: Status [Layer][Info]: Capa: Text_Title_smart encontrada.
+[2017/2/4 18:52:54]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+Text_Title_text
+[2017/2/4 18:52:54]: Select [Layer][Info]: Buscando: Text_Title_text
+[2017/2/4 18:52:54]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
+[2017/2/4 18:52:55]: Select [Layer][Info]: Buscando: Text_Title_text
+[2017/2/4 18:52:55]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
+[2017/2/4 18:53:4]: Select [Layer][Info]: Buscando: Text_Desc_smart
+[2017/2/4 18:53:4]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
+[2017/2/4 18:53:4]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+Text_Desc_text
+[2017/2/4 18:53:4]: Select [Layer][Info]: Buscando: Text_Desc_text
+[2017/2/4 18:53:4]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
+[2017/2/4 18:53:5]: Select [Layer][Info]: Buscando: Text_Desc_text
+[2017/2/4 18:53:5]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
+[2017/2/4 18:53:12]: Select [Layer][Info]: Buscando: System_Sys_normal
+[2017/2/4 18:53:12]: Status [Layer][Info]: Capa: System_Sys_normal encontrada.
+[2017/2/4 18:53:12]: Select [Area][Info]: Seleccionando Area de capa: Text_Title_smart
+[2017/2/4 18:53:12]: Status [Area][Info]: Se selecciono el area de la capa: Text_Title_smart
+[2017/2/4 18:53:12]: Metrics [Layer][Info]: width:1400 px, height:150 px
+[2017/2/4 18:53:12]: Select [Layer][Info]: Buscando: 0_0_0
+[2017/2/4 18:53:12]: Status [Layer][Info]: Capa: 0_0_0 encontrada.
+[2017/2/4 18:53:12]: Select [Layer][Info]: Buscando: Text_Desc_smart
+[2017/2/4 18:53:12]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
+[2017/2/4 18:53:12]: Select [Layer][Info]: Buscando: TextPlacer_TextColor_solid
+[2017/2/4 18:53:12]: Status [Layer][Info]: Capa: TextPlacer_TextColor_solid encontrada.
+[2017/2/4 18:53:12]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
+[2017/2/4 18:53:12]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
+[2017/2/4 18:53:13]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
+[2017/2/4 18:53:13]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
+[2017/2/4 18:53:14]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
+[2017/2/4 18:53:14]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
+[2017/2/4 18:53:21]: Select [Area][Info]: Seleccionando Area de capa: WorkingArea_AreaImage_smart
+[2017/2/4 18:53:21]: Status [Area][Error]: No Se selecciono el area de la capa: WorkingArea_AreaImage_smart. Es este el nombre correcto de la capa?
+[2017/2/4 18:53:21]: Select [Layer][Info]: Buscando: TextArea_MainText_smart
+[2017/2/4 18:53:21]: Status [Layer][Info]: Capa: TextArea_MainText_smart encontrada.
+[2017/2/4 18:53:47]: [Close]: Cerrando Generador
+[2017/2/4 18:54:40]: 
+
+[2017/2/4 18:54:40]: [Open]: Abriendo Generador
+[2017/2/4 18:54:40]: [Update]: Buscando actualizaciones
+[2017/2/4 18:54:40]: Update [Result]: Generador actualizado
+[2017/2/4 18:54:40]: Process [Main]: Ejecutando Main.jsx
+[2017/2/4 18:54:40]: Read [Preferences]: Tratando de leer las preferencias
+[2017/2/4 18:54:40]: Read [Folder]: Buscando en: ~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
+[2017/2/4 18:54:40]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:54:40]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:54:40]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:54:40]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:54:40]: Read [json]: Archivo encontrado~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
+[2017/2/4 18:54:40]: Window [Start Screen]: Abriendo ventana
+[2017/2/4 18:54:46]: Read [Folder]: Buscando en: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
+[2017/2/4 18:54:46]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:54:46]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:54:46]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:54:46]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:54:46]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:54:46]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:54:46]: Read [json]: Buscando archivos: .json
+[2017/2/4 18:54:46]: Read [json]: Archivo encontrado~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
+[2017/2/4 18:54:46]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
+[2017/2/4 18:54:46]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
+[2017/2/4 18:54:46]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
+[2017/2/4 18:54:46]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/4 18:54:46]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/4 18:54:46]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/4 18:54:46]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+Datos:{
+	"type": "image",
+	"ProjectName": "psnow",
+	"text": {
+		"tag": {
+			"enable": true,
+			"index": 2,
+			"text": ""
+		},
+		"description": {
+			"enable": true,
+			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
+		},
+		"top": {
+			"enable": true,
+			"text": "Sony Playstation Now"
+		},
+		"bottom": {
+			"enable": false,
+			"text": ""
+		}
+	},
+	"reactions": {
+		"enable": false,
+		"list": [
+			"like",
+			"heart",
+			"wow",
+			"haha",
+			"sad",
+			"angry"
+		]
+	},
+	"colors": {
+		"tag-icon": [
+			1,
+			1,
+			1,
+			1
+		],
+		"tag-bg": [
+			0.80783081054688,
+			0.80783081054688,
+			0.80783081054688,
+			1
+		],
+		"tag-text": [
+			0.2823486328125,
+			0.2823486328125,
+			0.2823486328125,
+			1
+		],
+		"text": [
+			1,
+			1,
+			1,
+			1
+		],
+		"mask": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		],
+		"background": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		]
+	},
+	"fileNumber": 1,
+	"files": [
+		"psnow-17_30_10__PS-Now-Lead.png"
+	],
+	"thumbs": [
+		"psnow-17_30_10__PS-Now-Lead-thumb.png"
+	],
+	"imageSize": [
+		1108,
+		682
+	],
+	"imageType": "Normal"
+}
+[2017/2/4 18:54:46]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/4 18:54:48]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
+[2017/2/4 18:54:48]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
+[2017/2/4 18:54:48]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
+[2017/2/4 18:54:48]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/4 18:54:48]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/4 18:54:48]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/4 18:54:48]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+Datos:{
+	"type": "image",
+	"ProjectName": "psnow",
+	"text": {
+		"tag": {
+			"enable": true,
+			"index": 2,
+			"text": ""
+		},
+		"description": {
+			"enable": true,
+			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
+		},
+		"top": {
+			"enable": true,
+			"text": "Sony Playstation Now"
+		},
+		"bottom": {
+			"enable": false,
+			"text": ""
+		}
+	},
+	"reactions": {
+		"enable": false,
+		"list": [
+			"like",
+			"heart",
+			"wow",
+			"haha",
+			"sad",
+			"angry"
+		]
+	},
+	"colors": {
+		"tag-icon": [
+			1,
+			1,
+			1,
+			1
+		],
+		"tag-bg": [
+			0.80783081054688,
+			0.80783081054688,
+			0.80783081054688,
+			1
+		],
+		"tag-text": [
+			0.2823486328125,
+			0.2823486328125,
+			0.2823486328125,
+			1
+		],
+		"text": [
+			1,
+			1,
+			1,
+			1
+		],
+		"mask": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		],
+		"background": [
+			0,
+			0.43191528320313,
+			0.70587158203125,
+			1
+		]
+	},
+	"fileNumber": 1,
+	"files": [
+		"psnow-17_30_10__PS-Now-Lead.png"
+	],
+	"thumbs": [
+		"psnow-17_30_10__PS-Now-Lead-thumb.png"
+	],
+	"imageSize": [
+		1108,
+		682
+	],
+	"imageType": "Normal"
+}
+[2017/2/4 18:54:48]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/4 18:54:48]: Execute [Generator]: Ejecutando proyecto: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/
+[2017/2/4 18:54:48]: Verify [File]: Buscando si ya se ha creado una imagen con nombre:psnow
+[2017/2/4 18:54:48]: Status [File]: Imagen encontrada, renombrando a:psnow-20170116T151255
+[2017/2/4 18:54:48]: Save [File]: Imagen guardada con nombre:psnow-20170116T151255 en folder: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
+[2017/2/4 18:54:49]: Create [File]: Creando PSD del proyecto basado en el template
+[2017/2/4 18:54:49]: Verify [Template][Info]: La plantilla seleccionada tiene las siguientes capas: 
+System_backgrounxdColor_solid,WorkingArea_AreaImage_smart,TextArea_BottomText_smart,TextArea_MainText_smart,TAG_TAG_smart
+[2017/2/4 18:54:49]: Select [Layer][Info]: Buscando: System_backgrounxdColor_solid
+[2017/2/4 18:54:49]: Status [Layer][Info]: Capa: System_backgrounxdColor_solid encontrada.
+[2017/2/4 18:54:49]: Status [Place]: Insertando Imagen
+[2017/2/4 18:54:49]: Select [Layer][Info]: Buscando: WorkingArea_AreaImage_smart
+[2017/2/4 18:54:49]: Status [Layer][Info]: Capa: WorkingArea_AreaImage_smart encontrada.
+[2017/2/4 18:54:49]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+AreaImage_Area_solid,AreaImage_Blur_smart,AreaImage_Image_smart
+[2017/2/4 18:54:49]: Select [Layer][Info]: Buscando: AreaImage_Image_smart
+[2017/2/4 18:54:49]: Status [Layer][Info]: Capa: AreaImage_Image_smart encontrada.
+[2017/2/4 18:54:49]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+ImagePlacer_selector_normal,ImagePlacer_image_normal
+[2017/2/4 18:54:49]: Select [Layer][Info]: Buscando: ImagePlacer_image_normal
+[2017/2/4 18:54:49]: Status [Layer][Info]: Capa: ImagePlacer_image_normal encontrada.
+[2017/2/4 18:54:51]: Select [Layer][Info]: Buscando: oimage
+[2017/2/4 18:54:51]: Status [Layer][Info]: Capa: oimage encontrada.
+[2017/2/4 18:54:51]: Select [Area][Info]: Seleccionando Area de capa: ImagePlacer_selector_normal
+[2017/2/4 18:54:51]: Status [Area][Info]: Se selecciono el area de la capa: ImagePlacer_selector_normal
+[2017/2/4 18:54:51]: Select [Layer][Info]: Buscando: ImagePlacer_selector_normal
+[2017/2/4 18:54:51]: Status [Layer][Info]: Capa: ImagePlacer_selector_normal encontrada.
+[2017/2/4 18:54:51]: Select [Layer][Info]: Buscando: AreaImage_Blur_smart
+[2017/2/4 18:54:51]: Status [Layer][Info]: Capa: AreaImage_Blur_smart encontrada.
+[2017/2/4 18:54:52]: Select [Layer][Info]: Buscando: TextArea_MainText_smart
+[2017/2/4 18:54:52]: Status [Layer][Info]: Capa: TextArea_MainText_smart encontrada.
+[2017/2/4 18:54:53]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+TextPlacer_placeHolder_solid,Text_Desc_smart,Text_Title_smart,TextPlacer_TextColor_solid,System_Sys_normal
+[2017/2/4 18:54:53]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
+[2017/2/4 18:54:53]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
+[2017/2/4 18:54:53]: Select [Layer][Info]: Buscando: Text_Title_smart
+[2017/2/4 18:54:53]: Status [Layer][Info]: Capa: Text_Title_smart encontrada.
+[2017/2/4 18:54:53]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+Text_Title_text
+[2017/2/4 18:54:53]: Select [Layer][Info]: Buscando: Text_Title_text
+[2017/2/4 18:54:53]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
+[2017/2/4 18:54:54]: Select [Layer][Info]: Buscando: Text_Title_text
+[2017/2/4 18:54:54]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
+[2017/2/4 18:54:55]: Select [Layer][Info]: Buscando: Text_Desc_smart
+[2017/2/4 18:54:55]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
+[2017/2/4 18:54:56]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
+Text_Desc_text
+[2017/2/4 18:54:56]: Select [Layer][Info]: Buscando: Text_Desc_text
+[2017/2/4 18:54:56]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
+[2017/2/4 18:54:57]: Select [Layer][Info]: Buscando: Text_Desc_text
+[2017/2/4 18:54:57]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
+[2017/2/4 18:54:59]: Select [Layer][Info]: Buscando: System_Sys_normal
+[2017/2/4 18:54:59]: Status [Layer][Info]: Capa: System_Sys_normal encontrada.
+[2017/2/4 18:54:59]: Select [Area][Info]: Seleccionando Area de capa: Text_Title_smart
+[2017/2/4 18:54:59]: Status [Area][Info]: Se selecciono el area de la capa: Text_Title_smart
+[2017/2/4 18:54:59]: Metrics [Layer][Info]: width:1408 px, height:419 px
+[2017/2/4 18:54:59]: Select [Layer][Info]: Buscando: 0_0_0
+[2017/2/4 18:54:59]: Status [Layer][Info]: Capa: 0_0_0 encontrada.
+[2017/2/4 18:54:59]: Select [Layer][Info]: Buscando: Text_Desc_smart
+[2017/2/4 18:54:59]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
+[2017/2/4 18:54:59]: Select [Layer][Info]: Buscando: TextPlacer_TextColor_solid
+[2017/2/4 18:54:59]: Status [Layer][Info]: Capa: TextPlacer_TextColor_solid encontrada.
+[2017/2/4 18:54:59]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
+[2017/2/4 18:54:59]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
+[2017/2/4 18:54:59]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
+[2017/2/4 18:54:59]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
+[2017/2/4 18:55:0]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
+[2017/2/4 18:55:0]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
+[2017/2/4 18:55:3]: Select [Area][Info]: Seleccionando Area de capa: WorkingArea_AreaImage_smart
+[2017/2/4 18:55:3]: Status [Area][Error]: No Se selecciono el area de la capa: WorkingArea_AreaImage_smart. Es este el nombre correcto de la capa?
+[2017/2/4 18:55:3]: Select [Layer][Info]: Buscando: TextArea_MainText_smart
+[2017/2/4 18:55:3]: Status [Layer][Info]: Capa: TextArea_MainText_smart encontrada.
+[2017/2/4 18:55:24]: [Close]: Cerrando Generador

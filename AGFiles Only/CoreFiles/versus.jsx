@@ -21,7 +21,7 @@
     selectLayer(true,false,'WorkingArea');
    
         
-    function collectLayers(theParent, allLayers) {
+    function collectLayersVersus(theParent, allLayers) {
         if (!allLayers) {var allLayers = new Array}
         var theNumber = theParent.layers.length - 1;
         for (var m = theNumber; m >= 0; m--) {
@@ -40,7 +40,7 @@
     };
 
     function EditWorkingArea (){
-        var theLayers = collectLayers(app.activeDocument.activeLayer, []); 
+        var theLayers = collectLayersVersus(app.activeDocument.activeLayer, []); 
         $.evalFile (setSizes);
         for (var l = 0; l < theLayers.length ; ++l) {
             selectLayer(true,false,theLayers[l].name);

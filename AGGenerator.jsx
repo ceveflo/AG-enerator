@@ -23,6 +23,7 @@ var statusScripts = up.result;
 
 if(statusScripts){
     AGlog.createEvent('Update [Result]: Generador actualizado');
-    $.evalFile(Main);
     AGlog.createEvent('Process [Main]: Ejecutando Main.jsx');
+    $.evalFile(Main);
+    AGlog.createEvent('[Close]: Cerrando Generador');
 }

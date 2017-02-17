@@ -122,10 +122,10 @@ function selectProjectFolder(){
 }
 
 function getPreferences(){
+    AGlog.createEvent('Read [file]: Buscando las preferencias en: '+ fileFolder + '/AGFiles Only/');
 	var folder = fileFolder + "/AGFiles Only/";
-	var AGFiles = folder.getFiles();
-
-
+    AGlog.createEvent('Read [file]: Folder:' + folder);
+	var AGFiles = folder.getFiles();   
 	for ( var i = 0; i < AGFiles.length; i++ ) {
 			// Make sure all the files in the folder are compatible with PS
 		if (IsFileOneOfThese( AGFiles[i], gFilesToOpen )) {
@@ -215,39 +215,62 @@ var extend = function () {
 };
 
 function generateProject_file(pname, obj){
-   projectFolder = new Folder(projects + "/[AG-Project]"+ pname);
+   AGlog.createEvent('Create [Project Folder]: Creando folder del proyecto con nombre: \[AG-Project\]'+pname+' en Folder:' + AGpreferences.projectFolder);
+   projectFolder = new Folder(AGpreferences.projectFolder + '/[AG-Project]'+ pname);   
     if ( ! projectFolder.exists ) {
         projectFolder.create();
+        AGlog.createEvent('Create [Project Folder]: Folder Creado ('+projectFolder+')');
+    }else{
+        AGlog.createEvent('Verify [Project Folder]: Folder Existente ('+projectFolder+')');
     }
     var tempImgtFolder = new Folder(projectFolder + "/images/");
+    AGlog.createEvent('Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:' + tempImgtFolder);
     if ( ! tempImgtFolder.exists ) {
+        AGlog.createEvent('Verify [Project Folder][Temp Images]: El folder no existe, se creara.');
         tempImgtFolder.create();
+    }else{
+        AGlog.createEvent('Verify [Project Folder][Temp Images]: El folder existe');
     }
 
-   var saveFile = File(projectFolder + "/" + pname +"[ProjectFile].json");
-    if(saveFile.exists)
+   AGlog.createEvent('Create [Project Folder][File]: Generando archivo de proyecto.');
+   var saveFile = File(projectFolder + '/' + pname +'\[ProjectFile\].json');
+    if(saveFile.exists){
+        AGlog.createEvent('Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.');
         saveFile.remove();
+    }
 
-    var objString = JSON.stringify(obj);
-    
-    saveFile.encoding = "UTF8";
-    saveFile.open("e", "TEXT", "????");
-    saveFile.writeln(objString);
-    saveFile.close();
+    var objString = JSON.stringify(obj,null,"\t");
+    AGlog.createEvent('Create [Project Folder][File]: Escribiendo archivo de proyecto.\nDatos:'+objString);    
+    try{
+        saveFile.encoding = "UTF8";
+        saveFile.open("e", "TEXT", "????");
+        saveFile.writeln(objString);
+        saveFile.close();
+        AGlog.createEvent('Status [File][Info]: Se creo con exito el archivo de proyecto');
+    }catch(e){
+        AGlog.createEvent('Status [File][Error]: No se pudo generar el archivo de proyecto.');
+    }
 }
 
 function generatePref_file(obj){
-   //$.writeln(AGFolder);
+   AGlog.createEvent('Create [File]: Generando archivo de preferencias');
    var saveFile = File(AGFolder + "/preferences.json");
-    if(saveFile.exists);
+    if(saveFile.exists){
+        AGlog.createEvent('Create [File]: Se encontro el archivo ya existente. Eliminando.');
         saveFile.remove();
+    }
 
     var objString = JSON.stringify(obj);
-    
-    saveFile.encoding = "UTF8";
-    saveFile.open("e", "TEXT", "????");
-    saveFile.writeln(objString);
-    saveFile.close();
+    AGlog.createEvent('Create [File]: Escribiendo archivo de preferencias.\nDatos:'+objString);    
+    try{
+        saveFile.encoding = "UTF8";
+        saveFile.open("e", "TEXT", "????");
+        saveFile.writeln(objString);
+        saveFile.close();
+        AGlog.createEvent('Status [File][Info]: Se creo con exito el archivo de preferencias');
+    }catch(e){
+        AGlog.createEvent('Status [File][Error]: No se pudo generar el archivo de preferencias.');
+    }
 }
 
 function openPSDTemplate(enabled, withDialog, type) {
@@ -260,7 +283,8 @@ function openPSDTemplate(enabled, withDialog, type) {
     executeAction(cTID('Opn '), desc1, dialogMode);
   };
 
-function selectLayer(enabled, withDialog,layerName ) {
+function selectLayer(enabled, withDialog, layerName ) {
+    AGlog.createEvent('Select [Layer][Info]: Buscando: '+ layerName);
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
@@ -269,8 +293,12 @@ function selectLayer(enabled, withDialog,layerName ) {
     ref1.putName(cTID('Lyr '), layerName);
     desc1.putReference(cTID('null'), ref1);
     desc1.putBoolean(cTID('MkVs'), false);
-    //$.writeln(layerName);
-    executeAction(cTID('slct'), desc1, dialogMode);
+    try{        
+        executeAction(cTID('slct'), desc1, dialogMode);
+        AGlog.createEvent('Status [Layer][Info]: Capa: '+ layerName + ' encontrada.');
+    }catch(e){
+        AGlog.createEvent('Status [Layer][Info]: Capa: '+ layerName + ' no encontrada. ¿Es este el nombre correcto?');
+    }
 };
 
 function nullSelection(enabled, withDialog) {
@@ -286,6 +314,7 @@ function nullSelection(enabled, withDialog) {
 };
 
 function SetSelectionArea(enabled, withDialog,LayerName) {
+    AGlog.createEvent('Select [Area][Info]: Seleccionando Area de capa: '+ LayerName);
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
@@ -298,10 +327,16 @@ function SetSelectionArea(enabled, withDialog,LayerName) {
     //$.writeln('setSelection',LayerName);
     ref2.putName(cTID('Lyr '), LayerName);
     desc1.putReference(cTID('T   '), ref2);
-    executeAction(cTID('setd'), desc1, dialogMode);
+    try{
+        executeAction(cTID('setd'), desc1, dialogMode);
+        AGlog.createEvent('Status [Area][Info]: Se selecciono el area de la capa: '+ LayerName);
+    }catch(e){
+        AGlog.createEvent('Status [Area][Error]: No Se selecciono el area de la capa: '+ LayerName +'. Es este el nombre correcto de la capa?');
+    }
 };
 
   function selectSolidArea(enabled, withDialog,LayerName) {
+    AGlog.createEvent('Select [Area][Info]: Seleccionando Area de capa: '+ LayerName);
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
@@ -315,8 +350,48 @@ function SetSelectionArea(enabled, withDialog,LayerName) {
     desc1.putReference(cTID('T   '), ref2);
     desc1.putInteger(cTID('Vrsn'), 1);
     desc1.putBoolean(sTID("vectorMaskParams"), true);
-    executeAction(cTID('setd'), desc1, dialogMode);
+    try{
+        executeAction(cTID('setd'), desc1, dialogMode);
+        AGlog.createEvent('Status [Area][Info]: Se selecciono el area de la capa: '+ LayerName);
+    }catch(e){
+        AGlog.createEvent('Status [Area][Error]: No Se selecciono el area de la capa: '+ LayerName +'. Es este el nombre correcto de la capa?');
+    }
   };
+
+function newColorLayerBySelection(red,green,blue,selectLayer) {
+    newLayer = app.activeDocument.artLayers.add();
+    newLayer.name = red + "_" +green + "_" + blue;
+    newColor = new SolidColor;
+    newColor.rgb.red = red;
+    newColor.rgb.green = green;
+    newColor.rgb.blue = blue;
+    SetSelectionArea(true,false,selectLayer)
+    app.activeDocument.selection.fill(newColor);
+    app.activeDocument.selection.deselect();
+};
+
+function getLayerMetrics(){
+    var metricLayer = app.activeDocument.activeLayer;
+    var width = metricLayer.bounds[2]-metricLayer.bounds[0];
+    var length = metricLayer.bounds[3]-metricLayer.bounds[1];
+    AGlog.createEvent('Metrics [Layer][Info]: width:'+ width +', height:'+length);
+    return {'w': width, 'h': length};
+}
+
+function deleteLayer(enabled, withDialog) {
+    if (enabled != undefined && !enabled)
+      return;
+    var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
+    var desc1 = new ActionDescriptor();
+    var ref1 = new ActionReference();
+    ref1.putEnumerated(cTID('Lyr '), cTID('Ordn'), cTID('Trgt'));
+    desc1.putReference(cTID('null'), ref1);
+    var list1 = new ActionList();
+    list1.putInteger(69);
+    desc1.putList(cTID('LyrI'), list1);
+    executeAction(cTID('Dlt '), desc1, dialogMode);
+};
+
 
  function trim(enabled, withDialog) {
     if (enabled != undefined && !enabled)
@@ -508,6 +583,27 @@ function selectAllLayers() {
     desc.putReference(cTID('null'), ref);
     executeAction(sTID('selectAllLayers'), desc, DialogModes.NO);
 }
+
+function collectLayers(theParent, allLayers) {    
+    if (!allLayers) {var allLayers = new Array}
+    var theNumber = theParent.layers.length - 1;
+    for (var m = theNumber; m >= 0; m--) {
+        var theLayer = theParent.layers[m];
+        var Parentname = theParent.name.split("_")[0] + "_";
+        // apply the function to layersets;  
+        if (theLayer.typename == "ArtLayer") {
+            var oname = theLayer.name.split("_");
+            theLayer.name = Parentname + oname[0] + "_" + oname[1];
+            allLayers.push(theLayer.name)
+        } else {
+            allLayers = (collectLayers(theLayer, allLayers))
+            // this line includes the layer groups;  
+            //allLayers.push(theLayer);
+        }
+    };
+    return allLayers
+};
+
 function showLayer(enabled, withDialog){
     if (enabled != undefined && !enabled)
       return;
@@ -545,9 +641,10 @@ function savetempPNG(enabled, withDialog, name) {
     desc1.putInteger(cTID('DocI'), 1569);
     try{
         executeAction(cTID('save'), desc1, dialogMode);
-     }catch(e){
-         //$.writeln("Error:",e);
-     }
+        AGlog.createEvent('Save [File]: Imagen guardada con nombre:'+ name + ' en folder: '+ projectFolder+'/images/');
+    }catch(e){
+        AGlog.createEvent('Save [File][Error]: No se pudo guardar la imagen con nombre:'+ name + ' en folder: '+ projectFolder+'/images/');
+    }
 };
 
 function saveFinalPNG(enabled, withDialog, name) {
@@ -562,7 +659,12 @@ function saveFinalPNG(enabled, withDialog, name) {
     desc1.putObject(cTID('As  '), sTID("PNGFormat"), desc2);
     desc1.putPath(cTID('In  '), new File(projectFolder+"/"+name));
     desc1.putInteger(cTID('DocI'), 1559);
-    executeAction(cTID('save'), desc1, dialogMode);
+    try{
+        executeAction(cTID('save'), desc1, dialogMode);
+        AGlog.createEvent('Save [File]: Imagen guardada con nombre:'+ name + ' en folder: '+ projectFolder);
+    }catch(e){
+        AGlog.createEvent('Save [File][Error]: No se pudo guardar la imagen con nombre:'+ name + '.png en folder: '+ projectFolder);
+    }
 };
 
 function createThumb(file, fileName){
