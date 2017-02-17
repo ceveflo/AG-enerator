@@ -274,13 +274,18 @@ function generatePref_file(obj){
 }
 
 function openPSDTemplate(enabled, withDialog, type) {
+    AGlog.createEvent('Opening [File][Info]: Abriendo el psd.');
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
     var typeValue = (type != undefined ?  type : "normalTemplate");
-    var desc1 = new ActionDescriptor();
-    desc1.putPath(cTID('null'), new File(psd_files+typeValue+".psd"));
-    executeAction(cTID('Opn '), desc1, dialogMode);
+    var desc1 = new ActionDescriptor();    
+    try{
+        desc1.putPath(cTID('null'), new File(psd_files+typeValue+".psd"));
+        executeAction(cTID('Opn '), desc1, dialogMode);
+    }catch(e){
+        AGlog.createEvent('Status [File][Error]: No se pudo abrir el psd.\n'+e);
+    }  
   };
 
 function selectLayer(enabled, withDialog, layerName ) {
@@ -290,18 +295,19 @@ function selectLayer(enabled, withDialog, layerName ) {
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
     var desc1 = new ActionDescriptor();
     var ref1 = new ActionReference();
-    ref1.putName(cTID('Lyr '), layerName);
-    desc1.putReference(cTID('null'), ref1);
-    desc1.putBoolean(cTID('MkVs'), false);
-    try{        
+    try{
+        ref1.putName(cTID('Lyr '), layerName);
+        desc1.putReference(cTID('null'), ref1);
+        desc1.putBoolean(cTID('MkVs'), false);
         executeAction(cTID('slct'), desc1, dialogMode);
         AGlog.createEvent('Status [Layer][Info]: Capa: '+ layerName + ' encontrada.');
     }catch(e){
-        AGlog.createEvent('Status [Layer][Info]: Capa: '+ layerName + ' no encontrada. ¿Es este el nombre correcto?');
+        AGlog.createEvent('Status [Layer][Error]: Capa: '+ layerName + ' no encontrada. ¿Es este el nombre correcto?\n' +e);
     }
 };
 
 function nullSelection(enabled, withDialog) {
+    AGlog.createEvent('Select [Area]: Quitando seleccion.');
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
@@ -310,11 +316,16 @@ function nullSelection(enabled, withDialog) {
     ref1.putProperty(cTID('Chnl'), sTID("selection"));
     desc1.putReference(cTID('null'), ref1);
     desc1.putEnumerated(cTID('T   '), cTID('Ordn'), cTID('None'));
-    executeAction(cTID('setd'), desc1, dialogMode);
+    try{
+        executeAction(cTID('setd'), desc1, dialogMode);
+        AGlog.createEvent('Status [Area][Info]: Seleccion removida.');
+    }catch(e){
+        AGlog.createEvent('Status [Area][Error]: No se quito la seleccion.\n'+e);
+    }
 };
 
 function SetSelectionArea(enabled, withDialog,LayerName) {
-    AGlog.createEvent('Select [Area][Info]: Seleccionando Area de capa: '+ LayerName);
+    AGlog.createEvent('Select [Area]: Seleccionando Area de capa: '+ LayerName);
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
@@ -323,11 +334,10 @@ function SetSelectionArea(enabled, withDialog,LayerName) {
     ref1.putProperty(cTID('Chnl'), sTID("selection"));
     desc1.putReference(cTID('null'), ref1);
     var ref2 = new ActionReference();
-    ref2.putEnumerated(cTID('Chnl'), cTID('Chnl'), cTID('Trsp'));
-    //$.writeln('setSelection',LayerName);
-    ref2.putName(cTID('Lyr '), LayerName);
-    desc1.putReference(cTID('T   '), ref2);
     try{
+        ref2.putEnumerated(cTID('Chnl'), cTID('Chnl'), cTID('Trsp'));
+        ref2.putName(cTID('Lyr '), LayerName);
+        desc1.putReference(cTID('T   '), ref2);
         executeAction(cTID('setd'), desc1, dialogMode);
         AGlog.createEvent('Status [Area][Info]: Se selecciono el area de la capa: '+ LayerName);
     }catch(e){
@@ -336,7 +346,7 @@ function SetSelectionArea(enabled, withDialog,LayerName) {
 };
 
   function selectSolidArea(enabled, withDialog,LayerName) {
-    AGlog.createEvent('Select [Area][Info]: Seleccionando Area de capa: '+ LayerName);
+    AGlog.createEvent('Select [Area]: Seleccionando Area de capa: '+ LayerName);
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
@@ -344,13 +354,13 @@ function SetSelectionArea(enabled, withDialog,LayerName) {
     var ref1 = new ActionReference();
     ref1.putProperty(cTID('Chnl'), sTID("selection"));
     desc1.putReference(cTID('null'), ref1);
-    var ref2 = new ActionReference();
-    ref2.putEnumerated(cTID('Path'), cTID('Path'), sTID("vectorMask"));
-    ref2.putName(cTID('Lyr '), LayerName);
-    desc1.putReference(cTID('T   '), ref2);
-    desc1.putInteger(cTID('Vrsn'), 1);
-    desc1.putBoolean(sTID("vectorMaskParams"), true);
+    var ref2 = new ActionReference();    
     try{
+        ref2.putEnumerated(cTID('Path'), cTID('Path'), sTID("vectorMask"));
+        ref2.putName(cTID('Lyr '), LayerName);
+        desc1.putReference(cTID('T   '), ref2);
+        desc1.putInteger(cTID('Vrsn'), 1);
+        desc1.putBoolean(sTID("vectorMaskParams"), true);
         executeAction(cTID('setd'), desc1, dialogMode);
         AGlog.createEvent('Status [Area][Info]: Se selecciono el area de la capa: '+ LayerName);
     }catch(e){
@@ -359,15 +369,20 @@ function SetSelectionArea(enabled, withDialog,LayerName) {
   };
 
 function newColorLayerBySelection(red,green,blue,selectLayer) {
-    newLayer = app.activeDocument.artLayers.add();
-    newLayer.name = red + "_" +green + "_" + blue;
-    newColor = new SolidColor;
-    newColor.rgb.red = red;
-    newColor.rgb.green = green;
-    newColor.rgb.blue = blue;
-    SetSelectionArea(true,false,selectLayer)
-    app.activeDocument.selection.fill(newColor);
-    app.activeDocument.selection.deselect();
+    AGlog.createEvent('Create [Layer]: Creando capa con de seleccion: '+ selectLayer);
+    try{
+        newLayer = app.activeDocument.artLayers.add();
+        newLayer.name = red + "_" +green + "_" + blue;
+        newColor = new SolidColor;
+        newColor.rgb.red = red;
+        newColor.rgb.green = green;
+        newColor.rgb.blue = blue;
+        SetSelectionArea(true,false,selectLayer)
+        app.activeDocument.selection.fill(newColor);
+        app.activeDocument.selection.deselect();
+    }catch(e){
+        AGlog.createEvent('Status [Layer][Error]: No se creo la capa:\n'+ e);
+    }
 };
 
 function getLayerMetrics(){
@@ -394,6 +409,7 @@ function deleteLayer(enabled, withDialog) {
 
 
  function trim(enabled, withDialog) {
+    AGlog.createEvent('Trim [Area]: Haciendo trim al area del documento activo');
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
@@ -403,11 +419,17 @@ function deleteLayer(enabled, withDialog) {
     desc1.putBoolean(cTID('Btom'), true);
     desc1.putBoolean(cTID('Left'), true);
     desc1.putBoolean(cTID('Rght'), true);
-    executeAction(sTID('trim'), desc1, dialogMode);
+    try{
+        executeAction(sTID('trim'), desc1, dialogMode);
+        AGlog.createEvent('Trim [Area][Info]: Trim ejecutado.');
+    }catch(e){
+        AGlog.createEvent('Trim [Area][Error]: No se pudo hacer trim.\n'+e);
+     }
  };
 
 
 function alignToZone(enabled, withDialog, alignTo) {
+    AGlog.createEvent('Align [Layer]: Moviendo capa a: '+ alignTo);
     switch(alignTo){
         case "Top":
             alignTo = "ADSTops";
@@ -433,28 +455,46 @@ function alignToZone(enabled, withDialog, alignTo) {
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
     var desc1 = new ActionDescriptor();
     var ref1 = new ActionReference();
-    ref1.putEnumerated(cTID('Lyr '), cTID('Ordn'), cTID('Trgt'));
-    desc1.putReference(cTID('null'), ref1);
-    desc1.putEnumerated(cTID('Usng'), cTID('ADSt'), sTID(alignTo));
-    executeAction(cTID('Algn'), desc1, dialogMode);
+    try{
+        ref1.putEnumerated(cTID('Lyr '), cTID('Ordn'), cTID('Trgt'));
+        desc1.putReference(cTID('null'), ref1);
+        desc1.putEnumerated(cTID('Usng'), cTID('ADSt'), sTID(alignTo));
+        executeAction(cTID('Algn'), desc1, dialogMode);
+        AGlog.createEvent('Align [Layer][Info]: Se movio capa a: '+ alignTo);
+    }catch(e){
+        AGlog.createEvent('Align [Layer][Error]: No se movio la capa. Hay un area seleccionada?\n'+e);
+    }
 };
 
 function openSmartObject(enabled, withDialog) {
+    AGlog.createEvent('Open [SmartObject]: Abriendo.');
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
     var desc1 = new ActionDescriptor();
-    executeAction(sTID('placedLayerEditContents'), desc1, dialogMode);  
+    try{
+        executeAction(sTID('placedLayerEditContents'), desc1, dialogMode);  
+        AGlog.createEvent('Open [SmartObject][Info]: abierto.');
+    }catch(e){
+        AGlog.createEvent('Open [SmartObject][Error]: No se pudo abrir. Es un smart object?\n'+e);
+    }
 };
 
   function saveObject(enabled, withDialog) {
+    AGlog.createEvent('Save [currentDocument]: Salvando.');
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
-    executeAction(cTID('save'), undefined, dialogMode);
+    try{
+        executeAction(cTID('save'), undefined, dialogMode);
+        AGlog.createEvent('Save [Status][info]: Salvado.');
+    }catch(e){
+        AGlog.createEvent('Save [Status][Error]: No se Salvo.'+e);
+    }
 };
 
 function setOnly(enabled, withDialog) {
+    AGlog.createEvent('Set [currentDocument]: se utiliza?.');
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
@@ -463,81 +503,114 @@ function setOnly(enabled, withDialog) {
 
 
 function updateSmartObject(enabled, withDialog) {
+    AGlog.createEvent('Update [smartObject]: Actualizando.');
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
-    executeAction(sTID('updatePlacedLayer'), undefined, dialogMode);
+    try{        
+        executeAction(sTID('updatePlacedLayer'), undefined, dialogMode);
+        AGlog.createEvent('Update [status][Info]: Actualizado.');
+    }catch(e){
+        AGlog.createEvent('Update [status][Error]: No se actualizo.\n'+e);
+    }
 };
  
 function closeObject(enabled, withDialog) {
+    AGlog.createEvent('Close [currentDocument]: Cerrando.');
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
-    executeAction(cTID('Cls '), undefined, dialogMode);
+    try{
+        executeAction(cTID('Cls '), undefined, dialogMode);
+        AGlog.createEvent('Close [status][Info]: Cerrado.');
+    }
+    catch(e){
+        AGlog.createEvent('Close [status][Error]: No se cerro.\n'+e);
+    }
 };
 
 function closeDocument(enabled, withDialog) {
+    AGlog.createEvent('Close [Document]: Cerrando.');
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
     var desc1 = new ActionDescriptor();
     desc1.putInteger(cTID('DocI'), 1559);
     desc1.putBoolean(sTID("forceNotify"), true);
-    executeAction(cTID('Cls '), desc1, dialogMode);
+    try{
+        executeAction(cTID('Cls '), undefined, dialogMode);
+        AGlog.createEvent('Close [status][Info]: Cerrado.');
+    }
+    catch(e){
+        AGlog.createEvent('Close [status][Error]: No se cerro.\n'+e);
+    }
 };
 
   function changeCanvasSize(enabled, withDialog, size) {
+    AGlog.createEvent('Resize [canvas]: Transformando canvas. (Size: '+size.width+':'+size.height+')');
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
     var desc1 = new ActionDescriptor();
-    //$.writeln('size :',size);
-    desc1.putUnitDouble(cTID('Wdth'), cTID('#Pxl'), size.width);
-    desc1.putUnitDouble(cTID('Hght'), cTID('#Pxl'), size.height);
-    desc1.putEnumerated(cTID('Hrzn'), cTID('HrzL'), cTID('Cntr'));
-    desc1.putEnumerated(cTID('Vrtc'), cTID('VrtL'), cTID('Cntr'));
-    executeAction(sTID('canvasSize'), desc1, dialogMode);
+    try{
+        desc1.putUnitDouble(cTID('Wdth'), cTID('#Pxl'), size.width);
+        desc1.putUnitDouble(cTID('Hght'), cTID('#Pxl'), size.height);
+        desc1.putEnumerated(cTID('Hrzn'), cTID('HrzL'), cTID('Cntr'));
+        desc1.putEnumerated(cTID('Vrtc'), cTID('VrtL'), cTID('Cntr'));
+        executeAction(sTID('canvasSize'), desc1, dialogMode);
+        AGlog.createEvent('Resize [status][Info]: Transformado.');
+    }catch(e){
+        AGlog.createEvent('Resize [status][Info]: No se pudo transformar.\n'+e);
+    }
   };
 
 function placeObject(enabled, withDialog, file) {
+    AGlog.createEvent('Place [Image]: Insertando imagen: '+file);
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
     var desc1 = new ActionDescriptor();
-    desc1.putPath(cTID('null'), new File(file));
-    desc1.putEnumerated(cTID('FTcs'), cTID('QCSt'), sTID("QCSAverage"));
-    var desc2 = new ActionDescriptor();
-    desc2.putUnitDouble(cTID('Hrzn'), cTID('#Pxl'), 0);
-    desc2.putUnitDouble(cTID('Vrtc'), cTID('#Pxl'), 0);
-    desc1.putObject(cTID('Ofst'), cTID('Ofst'), desc2);
     try{
-        executeAction(cTID('Plc '), desc1, dialogMode);  
-    }catch(_){
-        sendAlert('Por Favor seleccione una imagen');
-        placeObject(true, true);
+        desc1.putPath(cTID('null'), new File(file));
+        desc1.putEnumerated(cTID('FTcs'), cTID('QCSt'), sTID("QCSAverage"));
+        var desc2 = new ActionDescriptor();
+        desc2.putUnitDouble(cTID('Hrzn'), cTID('#Pxl'), 0);
+        desc2.putUnitDouble(cTID('Vrtc'), cTID('#Pxl'), 0);
+        desc1.putObject(cTID('Ofst'), cTID('Ofst'), desc2);
+        executeAction(cTID('Plc '), desc1, dialogMode);
+        AGlog.createEvent('Status [Image][info]: Imagen Insertanda');
+    }catch(e){
+        AGlog.createEvent('Status [Image][Error]: No se pudo insertar\n'+e);
     }
 };
 
 function changeSolidColor(enabled, withDialog, rgb) {
+    AGlog.createEvent('Change [ColorSolid]: Cambiando color');
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
     if(rgb == undefined ) rgb  = {r: 255 , g: 255, b: 255};
     var desc1 = new ActionDescriptor();
     var ref1 = new ActionReference();
-    ref1.putEnumerated(sTID("contentLayer"), cTID('Ordn'), cTID('Trgt'));
-    desc1.putReference(cTID('null'), ref1);
-    var desc2 = new ActionDescriptor();
-    var desc3 = new ActionDescriptor();
-    desc3.putDouble(cTID('Rd  '), rgb.r);
-    desc3.putDouble(cTID('Grn '), rgb.g);
-    desc3.putDouble(cTID('Bl  '), rgb.b);
-    desc2.putObject(cTID('Clr '), sTID("RGBColor"), desc3);
-    desc1.putObject(cTID('T   '), sTID("solidColorLayer"), desc2);
-    executeAction(cTID('setd'), desc1, dialogMode);
+    try{
+        ref1.putEnumerated(sTID("contentLayer"), cTID('Ordn'), cTID('Trgt'));
+        desc1.putReference(cTID('null'), ref1);
+        var desc2 = new ActionDescriptor();
+        var desc3 = new ActionDescriptor();
+        desc3.putDouble(cTID('Rd  '), rgb.r);
+        desc3.putDouble(cTID('Grn '), rgb.g);
+        desc3.putDouble(cTID('Bl  '), rgb.b);
+        desc2.putObject(cTID('Clr '), sTID("RGBColor"), desc3);
+        desc1.putObject(cTID('T   '), sTID("solidColorLayer"), desc2);
+        executeAction(cTID('setd'), desc1, dialogMode);
+        AGlog.createEvent('Status [ColorSolid][info]: Color cambiado a: '+[rgb.r,rgb.g,rgb.b].toString());
+    }catch(e){
+        AGlog.createEvent('Status [ColorSolid][Error]: No se pudo cambiar. Es un solido?\n'+e);
+    }
 };
 
-function renameLayer(enabled, withDialog) {
+function renameLayer(Name, enabled, withDialog) {
+    AGlog.createEvent('Rename [layer]: Cambiando nombre de capa a: '+Name);
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
@@ -546,12 +619,18 @@ function renameLayer(enabled, withDialog) {
     ref1.putEnumerated(cTID('Lyr '), cTID('Ordn'), cTID('Trgt'));
     desc1.putReference(cTID('null'), ref1);
     var desc2 = new ActionDescriptor();
-    desc2.putString(cTID('Nm  '), "oimage");
-    desc1.putObject(cTID('T   '), cTID('Lyr '), desc2);
-    executeAction(cTID('setd'), desc1, dialogMode);
+    try{
+        desc2.putString(cTID('Nm  '), Name);
+        desc1.putObject(cTID('T   '), cTID('Lyr '), desc2);
+        executeAction(cTID('setd'), desc1, dialogMode);
+        AGlog.createEvent('Status [layer][info]: Cambiado');
+    }catch(e){
+        AGlog.createEvent('Status [layer][Error]: No se renombro.\n'+e);
+    }
 };
 
   function changeTextSize(enabled, withDialog, size) {
+    AGlog.createEvent('Change [TextSize]: Cambiando el tamano del texto a:'+ size);
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
@@ -561,14 +640,20 @@ function renameLayer(enabled, withDialog) {
     ref1.putEnumerated(cTID('TxLr'), cTID('Ordn'), cTID('Trgt'));
     desc1.putReference(cTID('null'), ref1);
     var desc2 = new ActionDescriptor();
-    desc2.putInteger(sTID("textOverrideFeatureName"), 808465458);
-    desc2.putInteger(sTID("typeStyleOperationType"), 3);
-    desc2.putUnitDouble(cTID('Sz  '), cTID('#Pnt'), size);
-    desc1.putObject(cTID('T   '), cTID('TxtS'), desc2);
-    executeAction(cTID('setd'), desc1, dialogMode);
+    try{
+        desc2.putInteger(sTID("textOverrideFeatureName"), 808465458);
+        desc2.putInteger(sTID("typeStyleOperationType"), 3);
+        desc2.putUnitDouble(cTID('Sz  '), cTID('#Pnt'), size);
+        desc1.putObject(cTID('T   '), cTID('TxtS'), desc2);
+        executeAction(cTID('setd'), desc1, dialogMode);
+        AGlog.createEvent('Status [TextSize][info]: Cambiado');
+    }catch(e){
+        AGlog.createEvent('Status [TextSize][Error]: No se cambio.\n'+e);
+    }
   };
 
-function collapseAllGroups() {  
+function collapseAllGroups() {
+    AGlog.createEvent('Collapse [Groups]: Se usa?');
     try {  
         var idcollapseAllGroupsEvent = stringIDToTypeID( "collapseAllGroupsEvent" );  
         var desc13 = new ActionDescriptor();  
@@ -577,14 +662,21 @@ function collapseAllGroups() {
 }  
 
 function selectAllLayers() {
+    AGlog.createEvent('Select [CurrentDocument]: Seleccionando todas las capas del documento activo.');
     var ref = new ActionReference();
     ref.putEnumerated(cTID('Lyr '), cTID('Ordn'), cTID('Trgt'));
     var desc = new ActionDescriptor();
     desc.putReference(cTID('null'), ref);
-    executeAction(sTID('selectAllLayers'), desc, DialogModes.NO);
+    try{
+        executeAction(sTID('selectAllLayers'), desc, DialogModes.NO);
+        AGlog.createEvent('Status [CurrentDocument][info]: Seleccionadas todas las capas del documento activo.');
+    }catch(e){
+        AGlog.createEvent('Status [CurrentDocument][Error]: No se selecciono nada. existe un documento?\n'+e);
+    }
 }
 
-function collectLayers(theParent, allLayers) {    
+function collectLayers(theParent, allLayers) {
+    AGlog.createEvent('Collect [Layers]: Obteniendo capas hijas de: '+theParent.name);
     if (!allLayers) {var allLayers = new Array}
     var theNumber = theParent.layers.length - 1;
     for (var m = theNumber; m >= 0; m--) {
@@ -593,7 +685,7 @@ function collectLayers(theParent, allLayers) {
         // apply the function to layersets;  
         if (theLayer.typename == "ArtLayer") {
             var oname = theLayer.name.split("_");
-            theLayer.name = Parentname + oname[0] + "_" + oname[1];
+            theLayer.name = Parentname + oname[0] + "_" + (oname[1] == undefined ? "layer" : oname[1]);
             allLayers.push(theLayer.name)
         } else {
             allLayers = (collectLayers(theLayer, allLayers))
@@ -601,10 +693,30 @@ function collectLayers(theParent, allLayers) {
             //allLayers.push(theLayer);
         }
     };
+    AGlog.createEvent('Status[Layers]: Capas: '+allLayers.toString());
+    return allLayers
+};
+
+function CollectAllParents(theParent, allLayers) {
+    AGlog.createEvent('Collect [Sets]: Obteniendo Sets hijos de: '+theParent.name);
+    if (!allLayers) {var allLayers = new Array}
+    var theNumber = theParent.layers.length - 1;
+    for (var m = theNumber; m >= 0; m--) {
+        var theLayer = theParent.layers[m];
+        var Parentname = theParent.name.split("_")[0] + "_";
+        // apply the function to layersets;  
+        if (theLayer.typename == "LayerSet") {
+            var oname = theLayer.name.split("_");
+            theLayer.name = oname[0] + "_LayerSet";
+            allLayers.push(theLayer.name)
+        }
+    };
+    AGlog.createEvent('Status [Sets][info]:  '+allLayers.toString());
     return allLayers
 };
 
 function showLayer(enabled, withDialog){
+    AGlog.createEvent('Visibility [layers]: Mostrando layers seleccionadas');
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
@@ -618,6 +730,7 @@ function showLayer(enabled, withDialog){
 }
 
 function hideLayers() {
+    AGlog.createEvent('Visibility [layers]: Ocultando layers seleccionadas');
     var ref = new ActionReference();
     ref.putEnumerated(cTID('Lyr '), cTID('Ordn'), cTID('Trgt'));
     var list = new ActionList();
@@ -637,9 +750,9 @@ function savetempPNG(enabled, withDialog, name) {
     desc2.putEnumerated(sTID("PNGFilter"), sTID("PNGFilter"), sTID("PNGFilterAdaptive"));
     desc2.putInteger(cTID('Cmpr'), 9);
     desc1.putObject(cTID('As  '), sTID("PNGFormat"), desc2);
-    desc1.putPath(cTID('In  '), new File(projectFolder+"/images/"+name));
-    desc1.putInteger(cTID('DocI'), 1569);
     try{
+        desc1.putPath(cTID('In  '), new File(projectFolder+"/images/"+name));
+        desc1.putInteger(cTID('DocI'), 1569);
         executeAction(cTID('save'), desc1, dialogMode);
         AGlog.createEvent('Save [File]: Imagen guardada con nombre:'+ name + ' en folder: '+ projectFolder+'/images/');
     }catch(e){
@@ -657,9 +770,9 @@ function saveFinalPNG(enabled, withDialog, name) {
     desc2.putEnumerated(sTID("PNGFilter"), sTID("PNGFilter"), sTID("PNGFilterAdaptive"));
     desc2.putInteger(cTID('Cmpr'), 9);
     desc1.putObject(cTID('As  '), sTID("PNGFormat"), desc2);
-    desc1.putPath(cTID('In  '), new File(projectFolder+"/"+name));
-    desc1.putInteger(cTID('DocI'), 1559);
     try{
+        desc1.putPath(cTID('In  '), new File(projectFolder+"/"+name));
+        desc1.putInteger(cTID('DocI'), 1559);
         executeAction(cTID('save'), desc1, dialogMode);
         AGlog.createEvent('Save [File]: Imagen guardada con nombre:'+ name + ' en folder: '+ projectFolder);
     }catch(e){
@@ -680,6 +793,7 @@ function createThumb(file, fileName){
 }
 
   function changeColor(enabled, withDialog,rgb) {
+    AGlog.createEvent('Change [Layer Text/Fill]: Cambiando color');
     if (enabled != undefined && !enabled)
       return;
     if(rgb == undefined ) rgb  = {r: 0 , g: 0, b: 0};
@@ -693,12 +807,17 @@ function createThumb(file, fileName){
     desc2.putInteger(sTID("textOverrideFeatureName"), 808466226);
     desc2.putInteger(sTID("typeStyleOperationType"), 3);
     var desc3 = new ActionDescriptor();
+    try{
     desc3.putDouble(cTID('Rd  '), rgb.r);
     desc3.putDouble(cTID('Grn '), rgb.g);
     desc3.putDouble(cTID('Bl  '), rgb.b);
     desc2.putObject(cTID('Clr '), sTID("RGBColor"), desc3);
     desc1.putObject(cTID('T   '), cTID('TxtS'), desc2);
     executeAction(cTID('setd'), desc1, dialogMode);
+    AGlog.createEvent('Status [ColorSolid][info]: Color cambiado a: '+[rgb.r,rgb.g,rgb.b].toString());
+    }catch(e){
+        AGlog.createEvent('Status [ColorSolid][Error]: No se pudo cambiar. Es un texto/fill layer?\n'+e);
+    }
   };
 
 
@@ -774,7 +893,7 @@ function createThumb(file, fileName){
             desc2.putString(sTID("fontPostScriptName"), "Gobold");
             desc2.putString(cTID('FntN'), "Gobold");
             break;
-        case n:
+        case 2:
             desc2.putString(sTID("fontPostScriptName"), "ArialMT");
             desc2.putString(cTID('FntN'), "Arial");
             break;
@@ -867,23 +986,34 @@ function createThumb(file, fileName){
     var desc2 = new ActionDescriptor();
     desc2.putBoolean(sTID("maximizeCompatibility"), true);
     desc1.putObject(cTID('As  '), cTID('Pht3'), desc2);
-    desc1.putPath(cTID('In  '), new File(PSDpath+".psd"));
-    desc1.putInteger(cTID('DocI'), 3715);
-    executeAction(cTID('save'), desc1, dialogMode);
+    try{
+        desc1.putPath(cTID('In  '), new File(PSDpath+".psd"));
+        desc1.putInteger(cTID('DocI'), 3715);
+        executeAction(cTID('save'), desc1, dialogMode);
+    }catch(e){
+        AGlog.createEvent('Status [File][Error]: No se pudo crear el PSD\n'+e);
+    }
   };
 
 
   function addBlur(enabled, withDialog, blurValue) {
+    AGlog.createEvent('Blur [layer]: Agregando blur: '+blurValue);
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
     var desc1 = new ActionDescriptor();
-    desc1.putUnitDouble(cTID('Rds '), cTID('#Pxl'), blurValue);
-    executeAction(sTID('gaussianBlur'), desc1, dialogMode);
+    try{    
+        desc1.putUnitDouble(cTID('Rds '), cTID('#Pxl'), blurValue);
+        executeAction(sTID('gaussianBlur'), desc1, dialogMode);
+        AGlog.createEvent('Status [layer][info]: blur agregado.');
+    }catch(e){
+        AGlog.createEvent('Status [layer][Error]: Imposible agregar blur. Es una capa vacia? ');
+    }
   };
 
   // Set
   function addOpacity(enabled, withDialog, opacityValue) {
+    AGlog.createEvent('Opacity [layer]: Valor de opacidad: '+opacityValue);
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
@@ -892,13 +1022,18 @@ function createThumb(file, fileName){
     ref1.putEnumerated(cTID('Lyr '), cTID('Ordn'), cTID('Trgt'));
     desc1.putReference(cTID('null'), ref1);
     var desc2 = new ActionDescriptor();
-    
-    desc2.putUnitDouble(cTID('Opct'), cTID('#Prc'), opacityValue);
-    desc1.putObject(cTID('T   '), cTID('Lyr '), desc2);
-    executeAction(cTID('setd'), desc1, dialogMode);
+    try{
+        desc2.putUnitDouble(cTID('Opct'), cTID('#Prc'), opacityValue);
+        desc1.putObject(cTID('T   '), cTID('Lyr '), desc2);
+        executeAction(cTID('setd'), desc1, dialogMode);
+        AGlog.createEvent('Opacity [Status][Info]: Valor de opacidad modificado.');
+    }catch(e){
+        AGlog.createEvent('Opacity [Status][Error]: Valor de opacidad sin cambios.\n'+e);
+    }
   };
 
   function addExifData(){
+    AGlog.createEvent('DocInfo [currentDocument]: Agregando Exif');
     var docRef = app.activeDocument;
     docRef.info.author = "Cesar Velasco"
     docRef.info.caption = 
@@ -927,6 +1062,7 @@ function createThumb(file, fileName){
 
   // Set
   function addFillOpacity(enabled, withDialog, opacityValue) {
+      AGlog.createEvent('Opacity [layer]: Agregando opacidad (Fill): '+ opacityValue);
     if (enabled != undefined && !enabled)
       return;
     var dialogMode = (withDialog ? DialogModes.ALL : DialogModes.NO);
@@ -935,9 +1071,14 @@ function createThumb(file, fileName){
     ref1.putEnumerated(cTID('Lyr '), cTID('Ordn'), cTID('Trgt'));
     desc1.putReference(cTID('null'), ref1);
     var desc2 = new ActionDescriptor();
-    desc2.putUnitDouble(sTID("fillOpacity"), cTID('#Prc'), opacityValue);
-    desc1.putObject(cTID('T   '), cTID('Lyr '), desc2);
-    executeAction(cTID('setd'), desc1, dialogMode);
+    try{
+        desc2.putUnitDouble(sTID("fillOpacity"), cTID('#Prc'), opacityValue);
+        desc1.putObject(cTID('T   '), cTID('Lyr '), desc2);
+        executeAction(cTID('setd'), desc1, dialogMode);
+        AGlog.createEvent('Opacity [Status][Info]: Valor de opacidad modificado.');
+    }catch(e){
+        AGlog.createEvent('Opacity [Status][Error]: Valor de opacidad sin cambios.\n'+e);
+    }
   };
 
   // Layer Via Copy
@@ -972,7 +1113,12 @@ function createThumb(file, fileName){
     desc3.putBoolean(cTID('Clrz'), false);
     desc2.putObject(cTID('Type'), cTID('HStr'), desc3);
     desc1.putObject(cTID('Usng'), cTID('AdjL'), desc2);
-    executeAction(cTID('Mk  '), desc1, dialogMode);
+    try{
+        executeAction(cTID('Mk  '), desc1, dialogMode);
+        AGlog.createEvent('Create [Layer]: layer de ajuste Hue creado');
+    }catch(e){
+        AGlog.createEvent('Create [Layer][error]: layer de ajuste Hue no fue creado');
+    }
   };
 
   // Set

@@ -20,13 +20,13 @@
     
     try{
         savePSD(true,false,(_projectFolder+projectObject.ProjectName+" ("+template+")"));
-        AGlog.createEvent('Create [File]: Creando PSD del proyecto basado en el template');
+        AGlog.createEvent('Create [File]: Creando PSD del proyecto basado en el template:'+ template);
     }catch(_){
         AGlog.createEvent('Status [File][Error]: No se pudo crear el PSD');
     }
     
     var mainDocLayers = collectLayers(docRef,null);
-    AGlog.createEvent('Verify [Template][Info]: La plantilla seleccionada tiene las siguientes capas: \n'+ mainDocLayers.toString());
+    //AGlog.createEvent('Verify [Template][Info]: La plantilla seleccionada tiene las siguientes capas: \n'+ mainDocLayers.toString());
 
     function EditWorkingArea (){        
         
@@ -55,23 +55,25 @@
             selectLayer(true,false,mainDocLayers[3]); // Hiden MainText
             hideLayers();
          }
-        /*    
+        
         if(text_bottom.enable){
-            updateText(text_bottom,"BottomText");
+            updateText(text_bottom,2);
         }else{
-            selectLayer(true,false,"BottomText");
+            selectLayer(true,false,mainDocLayers[2]);
             hideLayers();
         }
-        if(text_tag.enable == true){
+    
+        if(text_tag.enable){
             updateTAG(text_tag);
-        } 
+        }else{
+            selectLayer(true,false,mainDocLayers[4]);
+            hideLayers();
+        }
 
         
-        selectLayer(true,false,"AreaImage");
+        selectLayer(true,false,mainDocLayers[1]);
         addFillOpacity(true,false,0);
         saveFinalPNG(true,false,"[VideoMask]"+projectObject.ProjectName);
-        
-        
         addFillOpacity(true,false,100);
         
         addExifData();
@@ -81,22 +83,25 @@
         saveObject();
         closeDocument();
         _projectFolder = new Folder(_projectFolder);
-        _projectFolder.execute()     */
+        _projectFolder.execute();
     }
 
     function updateImage(){
         $.evalFile (setSizes);
-        selectLayer(true,false,mainDocLayers[1]);   // Setting AreaImage 
+        selectLayer(true,false,mainDocLayers[1]);   // Setting AreaImage
+        var sO = [];
+        sO[0] = mainDocLayers[1];
         openSmartObject();
         var soDocLayers = collectLayers(app.activeDocument,null);
-        AGlog.createEvent('Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: \n'+ soDocLayers.toString());
+        //AGlog.createEvent('Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: \n'+ soDocLayers.toString());
         selectLayer(true,false,soDocLayers[2]);
+            sO[1] = soDocLayers[2];
             openSmartObject();
             var imgDocLayers = collectLayers(app.activeDocument,null);
-            AGlog.createEvent('Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: \n'+ imgDocLayers.toString());
+            //AGlog.createEvent('Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: \n'+ imgDocLayers.toString());
             selectLayer(true,false,imgDocLayers[1]);
             placeObject(true,false, _projectFolder+"images/"+projectObject.files[0]);
-            renameLayer();
+            renameLayer('oimage');
             FitLayerToCanvas(true,true);
             makeHue();
             addHue();
@@ -110,35 +115,40 @@
             saveObject();
             updateSmartObject();
             closeObject();
+            renameLayer(sO[1]);
         selectLayer(true,false,soDocLayers[1]);
         addBlur(true,false,25);
         saveObject();
         updateSmartObject();
         closeObject();
+        renameLayer(sO[0]);
     }
 
     function updateTAG(obj){
-        selectLayer(true,false,"TAG") //text_tag 
+        var sO = [];
+        sO[0] = mainDocLayers[4];
+        selectLayer(true,false,mainDocLayers[4]) //text_tag 
         openSmartObject();
-        
-        selectLayer(true,false,"TagText");
+        var soDocLayers = collectLayers(app.activeDocument,null);
+        selectLayer(true,false,soDocLayers[2]);
         var textTochange = app.activeDocument.activeLayer; 
         var tagTxt = getTag(obj);
         textTochange.textItem.contents = tagTxt;
         var tagBG = projectObject.colors["tag-text"];
         changeColor(true,false, {'r': (tagBG[0] * 255), 'g': (tagBG[1] * 255), 'b': (tagBG[2] * 255)});
         
-        selectLayer(true,false,"TAG");
+        selectLayer(true,false,soDocLayers[0]);
         var tagBG = projectObject.colors["tag-icon"];
         changeSolidColor(true,false, {'r': (tagBG[0] * 255), 'g': (tagBG[1] * 255), 'b': (tagBG[2] * 255)});
         
-        selectLayer(true,false,"TAG-BG");
+        selectLayer(true,false,soDocLayers[1]);
         var tagBG = projectObject.colors["tag-bg"];        
         changeSolidColor(true,false, {'r': (tagBG[0] * 255), 'g': (tagBG[1] * 255), 'b': (tagBG[2] * 255)});
         
         saveObject();
         updateSmartObject();
         closeObject();
+        renameLayer(sO[0]);
     }
 
     function getTag(obj){
@@ -154,20 +164,23 @@
     function updateText(obj,layer,changeSize,deep){
         selectLayer(true,false,mainDocLayers[layer]);
         showLayer();
+        var sO = []
+        sO[0] = mainDocLayers[layer];
         openSmartObject();
         var soDocLayers = collectLayers(app.activeDocument,[]);
-        AGlog.createEvent('Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: \n'+ soDocLayers.toString());
+        //AGlog.createEvent('Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: \n'+ soDocLayers.toString());
         
         selectLayer(true,false,soDocLayers[0]);
         showLayer();
         
-        if(deep != undefined && deep){        
-            if(text_top.enable){
-                selectLayer(true,false,soDocLayers[2]);
+        if(deep != undefined && deep){
+            sO[1] = soDocLayers[2];
+            selectLayer(true,false,soDocLayers[2]);
+            if(text_top.enable){                
                 showLayer();
                 openSmartObject();
                     var textDocLayers = collectLayers(app.activeDocument,[]);
-                    AGlog.createEvent('Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: \n'+ textDocLayers.toString());                    
+                    //AGlog.createEvent('Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: \n'+ textDocLayers.toString());                    
                     selectLayer(true,false,textDocLayers[0]);
                     changeText(text_top);
                     app.refresh();
@@ -177,17 +190,21 @@
                     saveObject();
                     updateSmartObject();
                     closeObject();
-                    
+                    renameLayer(sO[1]);
                     app.activeDocument.selection.selectAll();
                     alignToZone(true,false,'Top');
+                    alignToZone(true,false,'Right');
+            }else{
+                hideLayers();
             }
         
+            sO[2] = soDocLayers[1];
+            selectLayer(true,false,soDocLayers[1]);
             if(text_desc.enable){
-                selectLayer(true,false,soDocLayers[1]);
                 showLayer();
                 openSmartObject();
                     var textDocLayers = collectLayers(app.activeDocument,[]);
-                    AGlog.createEvent('Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: \n'+ textDocLayers.toString());
+                    //AGlog.createEvent('Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: \n'+ textDocLayers.toString());
                     selectLayer(true,false,textDocLayers[0]);
                     changeText(text_desc);
                     app.refresh();
@@ -197,6 +214,7 @@
                     saveObject();
                     updateSmartObject();
                     closeObject();
+                    renameLayer(sO[2]);
                     
                  if(text_top.enable){
                     selectLayer(true,false,soDocLayers[4]);
@@ -204,13 +222,15 @@
                     var moveValue =  getLayerMetrics();
                     selectLayer(true,false,"0_0_0");
                     hideLayers();
-                    //selectSolidArea(true,false,soDocLayers[0]);
                     app.activeDocument.selection.selectAll();
                     selectLayer(true,false,soDocLayers[1]);
                     alignToZone(true,false,'Top');
+                    alignToZone(true,false,'Right');
                     moveLayers(true,false,{x: 0, y: parseInt(moveValue.h) + 10});   
                     nullSelection();
                 }
+            }else{
+                hideLayers();
             }
         
             selectLayer(true,false,soDocLayers[3]);
@@ -221,27 +241,32 @@
             hideLayers();
             trim();
             showLayer();
-            resizeCanvas(25);            
+            resizeCanvas(55);            
             selectLayer(true,false,soDocLayers[0]);
             var mask_color = projectObject.colors.mask;
-            changeSolidColor(true,false, {'r': (mask_color[0] * 255), 'g': (mask_color[1] * 255), 'b': (mask_color[2] * 255)});            
-            app.refresh();                        
-            
+            changeSolidColor(true,false, {'r': (mask_color[0] * 255), 'g': (mask_color[1] * 255), 'b': (mask_color[2] * 255)});
+            app.refresh();
             changeOpacity(soDocLayers[0]);
-            
-            
         }else{
-            selectLayer(true,false,"TextArea");
+            selectLayer(true,false,soDocLayers[1]);
             changeText(obj);
+            app.refresh();
             if(changeSize != undefined && changeSize)
-                fontChangerScreen("TextArea","");
+                fontChangerScreen(soDocLayers[1],"Texto del Bottom");
             var txt_color = projectObject.colors.text;
             changeColor(true,false, {'r': (txt_color[0] * 255), 'g': (txt_color[1] * 255), 'b': (txt_color[2] * 255)});
+
+            selectLayer(true,false,soDocLayers[0]);
+            var mask_color = projectObject.colors.mask;
+            changeSolidColor(true,false, {'r': (mask_color[0] * 255), 'g': (mask_color[1] * 255), 'b': (mask_color[2] * 255)});
+            app.refresh();
+            changeOpacity(soDocLayers[0]);
         }        
 
         saveObject();
         updateSmartObject();
         closeObject();
+        renameLayer(sO[0]);
         
     }   
 

@@ -18,17 +18,25 @@
             if(file.exists){
                 file.encoding = "UTF8";
                 file.open("e", "TEXT", "????");
-                prevdata = file.read();                
-                $.writeln(prevdata);
+                prevdata = file.read();
                 file.close();
-                //file.remove();
+                //
             }
         
             file.encoding = "UTF8";
             file.open("e", "TEXT", "????");
             file.writeln(prevdata + eventString);
             file.close();
-                       
+        }
+    
+        this.removeLog = function(){
+            if(file.exists){
+               file.remove();  
+                file.encoding = "UTF8";
+                file.open("e", "TEXT", "????");
+                file.write("");
+                file.close();
+            }
         }
 
 }

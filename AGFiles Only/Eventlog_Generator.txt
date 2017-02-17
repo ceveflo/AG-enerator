@@ -1,356 +1,87 @@
-[2017/2/4 18:36:8]: [Close]: Cerrando Generador
-[2017/2/4 18:38:35]: 
+[2017/2/5 0:54:50]: 
 
-[2017/2/4 18:38:35]: [Open]: Abriendo Generador
-[2017/2/4 18:38:35]: [Update]: Buscando actualizaciones
-[2017/2/4 18:38:35]: Update [Result]: Generador actualizado
-[2017/2/4 18:38:35]: Process [Main]: Ejecutando Main.jsx
-[2017/2/4 18:38:35]: Read [Preferences]: Tratando de leer las preferencias
-[2017/2/4 18:38:35]: Read [Folder]: Buscando en: ~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
-[2017/2/4 18:38:35]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:38:35]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:38:35]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:38:35]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:38:35]: Read [json]: Archivo encontrado~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
-[2017/2/4 18:38:35]: Window [Start Screen]: Abriendo ventana
-[2017/2/4 18:38:40]: Read [Folder]: Buscando en: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
-[2017/2/4 18:38:40]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:38:40]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:38:40]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:38:40]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:38:40]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:38:40]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:38:40]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:38:40]: Read [json]: Archivo encontrado~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
-[2017/2/4 18:38:40]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
-[2017/2/4 18:38:40]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
-[2017/2/4 18:38:40]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
-[2017/2/4 18:38:40]: Verify [Project Folder][Temp Images]: El folder existe
-[2017/2/4 18:38:40]: Create [Project Folder][File]: Generando archivo de proyecto.
-[2017/2/4 18:38:40]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
-[2017/2/4 18:38:40]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
-Datos:{
-	"type": "image",
-	"ProjectName": "psnow",
-	"text": {
-		"tag": {
-			"enable": true,
-			"index": 2,
-			"text": ""
-		},
-		"description": {
-			"enable": true,
-			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
-		},
-		"top": {
-			"enable": true,
-			"text": "Sony Playstation Now"
-		},
-		"bottom": {
-			"enable": false,
-			"text": ""
-		}
-	},
-	"reactions": {
-		"enable": false,
-		"list": [
-			"like",
-			"heart",
-			"wow",
-			"haha",
-			"sad",
-			"angry"
-		]
-	},
-	"colors": {
-		"tag-icon": [
-			1,
-			1,
-			1,
-			1
-		],
-		"tag-bg": [
-			0.80783081054688,
-			0.80783081054688,
-			0.80783081054688,
-			1
-		],
-		"tag-text": [
-			0.2823486328125,
-			0.2823486328125,
-			0.2823486328125,
-			1
-		],
-		"text": [
-			1,
-			1,
-			1,
-			1
-		],
-		"mask": [
-			0,
-			0.43191528320313,
-			0.70587158203125,
-			1
-		],
-		"background": [
-			0,
-			0.43191528320313,
-			0.70587158203125,
-			1
-		]
-	},
-	"fileNumber": 1,
-	"files": [
-		"psnow-17_30_10__PS-Now-Lead.png"
-	],
-	"thumbs": [
-		"psnow-17_30_10__PS-Now-Lead-thumb.png"
-	],
-	"imageSize": [
-		1108,
-		682
-	],
-	"imageType": "Normal"
-}
-[2017/2/4 18:38:40]: Status [File][Info]: Se creo con exito el archivo de proyecto
-[2017/2/4 18:38:41]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
-[2017/2/4 18:38:41]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
-[2017/2/4 18:38:41]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
-[2017/2/4 18:38:41]: Verify [Project Folder][Temp Images]: El folder existe
-[2017/2/4 18:38:41]: Create [Project Folder][File]: Generando archivo de proyecto.
-[2017/2/4 18:38:41]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
-[2017/2/4 18:38:41]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
-Datos:{
-	"type": "image",
-	"ProjectName": "psnow",
-	"text": {
-		"tag": {
-			"enable": true,
-			"index": 2,
-			"text": ""
-		},
-		"description": {
-			"enable": true,
-			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
-		},
-		"top": {
-			"enable": true,
-			"text": "Sony Playstation Now"
-		},
-		"bottom": {
-			"enable": false,
-			"text": ""
-		}
-	},
-	"reactions": {
-		"enable": false,
-		"list": [
-			"like",
-			"heart",
-			"wow",
-			"haha",
-			"sad",
-			"angry"
-		]
-	},
-	"colors": {
-		"tag-icon": [
-			1,
-			1,
-			1,
-			1
-		],
-		"tag-bg": [
-			0.80783081054688,
-			0.80783081054688,
-			0.80783081054688,
-			1
-		],
-		"tag-text": [
-			0.2823486328125,
-			0.2823486328125,
-			0.2823486328125,
-			1
-		],
-		"text": [
-			1,
-			1,
-			1,
-			1
-		],
-		"mask": [
-			0,
-			0.43191528320313,
-			0.70587158203125,
-			1
-		],
-		"background": [
-			0,
-			0.43191528320313,
-			0.70587158203125,
-			1
-		]
-	},
-	"fileNumber": 1,
-	"files": [
-		"psnow-17_30_10__PS-Now-Lead.png"
-	],
-	"thumbs": [
-		"psnow-17_30_10__PS-Now-Lead-thumb.png"
-	],
-	"imageSize": [
-		1108,
-		682
-	],
-	"imageType": "Normal"
-}
-[2017/2/4 18:38:41]: Status [File][Info]: Se creo con exito el archivo de proyecto
-[2017/2/4 18:38:41]: Execute [Generator]: Ejecutando proyecto: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/
-[2017/2/4 18:38:41]: Verify [File]: Buscando si ya se ha creado una imagen con nombre:psnow
-[2017/2/4 18:38:41]: Status [File]: Imagen encontrada, renombrando a:psnow-20170116T151255
-[2017/2/4 18:38:41]: Save [File]: Imagen guardada con nombre:psnow-20170116T151255 en folder: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
-[2017/2/4 18:38:42]: Create [File]: Creando PSD del proyecto basado en el template
-[2017/2/4 18:38:42]: Verify [Template][Info]: La plantilla seleccionada tiene las siguientes capas: 
-System_backgrounxdColor_solid,WorkingArea_AreaImage_smart,TextArea_BottomText_smart,TextArea_MainText_smart,TAG_TAG_smart
-[2017/2/4 18:38:42]: Select [Layer][Info]: Buscando: System_backgrounxdColor_solid
-[2017/2/4 18:38:42]: Status [Layer][Info]: Capa: System_backgrounxdColor_solid encontrada.
-[2017/2/4 18:38:42]: Status [Place]: Insertando Imagen
-[2017/2/4 18:38:42]: Select [Layer][Info]: Buscando: WorkingArea_AreaImage_smart
-[2017/2/4 18:38:42]: Status [Layer][Info]: Capa: WorkingArea_AreaImage_smart encontrada.
-[2017/2/4 18:38:42]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-AreaImage_Area_solid,AreaImage_Blur_smart,AreaImage_Image_smart
-[2017/2/4 18:38:42]: Select [Layer][Info]: Buscando: AreaImage_Image_smart
-[2017/2/4 18:38:42]: Status [Layer][Info]: Capa: AreaImage_Image_smart encontrada.
-[2017/2/4 18:38:43]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-ImagePlacer_selector_normal,ImagePlacer_image_normal
-[2017/2/4 18:38:43]: Select [Layer][Info]: Buscando: ImagePlacer_image_normal
-[2017/2/4 18:38:43]: Status [Layer][Info]: Capa: ImagePlacer_image_normal encontrada.
-[2017/2/4 18:38:44]: Select [Layer][Info]: Buscando: oimage
-[2017/2/4 18:38:44]: Status [Layer][Info]: Capa: oimage encontrada.
-[2017/2/4 18:38:44]: Select [Area][Info]: Seleccionando Area de capa: ImagePlacer_selector_normal
-[2017/2/4 18:38:44]: Status [Area][Info]: Se selecciono el area de la capa: ImagePlacer_selector_normal
-[2017/2/4 18:38:44]: Select [Layer][Info]: Buscando: ImagePlacer_selector_normal
-[2017/2/4 18:38:44]: Status [Layer][Info]: Capa: ImagePlacer_selector_normal encontrada.
-[2017/2/4 18:38:44]: Select [Layer][Info]: Buscando: AreaImage_Blur_smart
-[2017/2/4 18:38:44]: Status [Layer][Info]: Capa: AreaImage_Blur_smart encontrada.
-[2017/2/4 18:38:45]: Select [Layer][Info]: Buscando: TextArea_MainText_smart
-[2017/2/4 18:38:45]: Status [Layer][Info]: Capa: TextArea_MainText_smart encontrada.
-[2017/2/4 18:38:45]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-TextPlacer_placeHolder_solid,Text_Desc_smart,Text_Title_smart,TextPlacer_TextColor_solid,System_Sys_normal
-[2017/2/4 18:38:45]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
-[2017/2/4 18:38:45]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
-[2017/2/4 18:38:45]: Select [Layer][Info]: Buscando: Text_Title_smart
-[2017/2/4 18:38:45]: Status [Layer][Info]: Capa: Text_Title_smart encontrada.
-[2017/2/4 18:38:45]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-Text_Title_text
-[2017/2/4 18:38:45]: Select [Layer][Info]: Buscando: Text_Title_text
-[2017/2/4 18:38:45]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
-[2017/2/4 18:38:46]: Select [Layer][Info]: Buscando: Text_Title_text
-[2017/2/4 18:38:46]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
-[2017/2/4 18:38:55]: Select [Layer][Info]: Buscando: Text_Desc_smart
-[2017/2/4 18:38:55]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
-[2017/2/4 18:38:55]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-Text_Desc_text
-[2017/2/4 18:38:55]: Select [Layer][Info]: Buscando: Text_Desc_text
-[2017/2/4 18:38:55]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
-[2017/2/4 18:38:56]: Select [Layer][Info]: Buscando: Text_Desc_text
-[2017/2/4 18:38:56]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
-[2017/2/4 18:39:4]: Select [Layer][Info]: Buscando: System_Sys_normal
-[2017/2/4 18:39:4]: Status [Layer][Info]: Capa: System_Sys_normal encontrada.
-[2017/2/4 18:39:4]: Select [Area][Info]: Seleccionando Area de capa: Text_Title_smart
-[2017/2/4 18:39:4]: Status [Area][Info]: Se selecciono el area de la capa: Text_Title_smart
-[2017/2/4 18:39:4]: Metrics [Layer][Info]: width:150 px, height:1400 px
-[2017/2/4 18:39:4]: Select [Layer][Info]: Buscando: 0_0_0
-[2017/2/4 18:39:4]: Status [Layer][Info]: Capa: 0_0_0 encontrada.
-[2017/2/4 18:39:4]: Select [Layer][Info]: Buscando: Text_Desc_smart
-[2017/2/4 18:39:4]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
-[2017/2/4 18:39:4]: Select [Layer][Info]: Buscando: TextPlacer_TextColor_solid
-[2017/2/4 18:39:4]: Status [Layer][Info]: Capa: TextPlacer_TextColor_solid encontrada.
-[2017/2/4 18:39:4]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
-[2017/2/4 18:39:4]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
-[2017/2/4 18:39:6]: Select [Area][Info]: Seleccionando Area de capa: WorkingArea_AreaImage_smart
-[2017/2/4 18:39:20]: [Close]: Cerrando Generador
-[2017/2/4 18:43:55]: 
+[2017/2/5 0:54:50]: [Open]: Abriendo Generador
+[2017/2/5 0:54:50]: [Update]: Buscando actualizaciones
+[2017/2/5 0:54:50]: Update [Result]: Generador actualizado
+[2017/2/5 0:54:50]: Process [Main]: Ejecutando Main.jsx
+[2017/2/5 0:55:24]: 
 
-[2017/2/4 18:43:55]: [Open]: Abriendo Generador
-[2017/2/4 18:43:55]: [Update]: Buscando actualizaciones
-[2017/2/4 18:43:55]: Update [Result]: Generador actualizado
-[2017/2/4 18:43:55]: Process [Main]: Ejecutando Main.jsx
-[2017/2/4 18:43:55]: Read [Preferences]: Tratando de leer las preferencias
-[2017/2/4 18:43:55]: Read [Folder]: Buscando en: ~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
-[2017/2/4 18:43:55]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:43:55]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:43:55]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:43:55]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:43:55]: Read [json]: Archivo encontrado~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
-[2017/2/4 18:43:55]: Window [Start Screen]: Abriendo ventana
-[2017/2/4 18:43:59]: Read [Folder]: Buscando en: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
-[2017/2/4 18:43:59]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:43:59]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:43:59]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:43:59]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:43:59]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:43:59]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:43:59]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:43:59]: Read [json]: Archivo encontrado~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
-[2017/2/4 18:44:0]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
-[2017/2/4 18:44:0]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
-[2017/2/4 18:44:0]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
-[2017/2/4 18:44:0]: Verify [Project Folder][Temp Images]: El folder existe
-[2017/2/4 18:44:0]: Create [Project Folder][File]: Generando archivo de proyecto.
-[2017/2/4 18:44:0]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
-[2017/2/4 18:44:0]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+[2017/2/5 0:55:24]: [Open]: Abriendo Generador
+[2017/2/5 0:55:24]: [Update]: Buscando actualizaciones
+[2017/2/5 0:55:24]: Update [Result]: Generador actualizado
+[2017/2/5 0:55:24]: Process [Main]: Ejecutando Main.jsx
+[2017/2/5 0:55:24]: Read [Preferences]: Tratando de leer las preferencias
+[2017/2/5 0:55:24]: Read [Folder]: Buscando en: /c/wamp64/www/AGenerator/AG-enerator/AGFiles%20Only
+[2017/2/5 0:55:24]: Read [json]: Buscando archivos: .json
+[2017/2/5 0:55:24]: Read [json]: Buscando archivos: .json
+[2017/2/5 0:55:24]: Read [json]: Buscando archivos: .json
+[2017/2/5 0:55:24]: Read [json]: Buscando archivos: .json
+[2017/2/5 0:55:24]: Read [json]: Archivo encontrado/c/wamp64/www/AGenerator/AG-enerator/AGFiles%20Only
+[2017/2/5 0:55:24]: Window [Start Screen]: Abriendo ventana
+[2017/2/5 0:55:31]: Read [Folder]: Buscando en: ~/Pictures/AGgenerator/%5BAG-Project%5DVersusBerserkNioh
+[2017/2/5 0:55:31]: Read [json]: Buscando archivos: .json
+[2017/2/5 0:55:31]: Read [json]: Buscando archivos: .json
+[2017/2/5 0:55:31]: Read [json]: Buscando archivos: .json
+[2017/2/5 0:55:31]: Read [json]: Buscando archivos: .json
+[2017/2/5 0:55:31]: Read [json]: Buscando archivos: .json
+[2017/2/5 0:55:31]: Read [json]: Archivo encontrado~/Pictures/AGgenerator/%5BAG-Project%5DVersusBerserkNioh
+[2017/2/5 0:55:32]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]VersusBerserkNioh en Folder:~/Pictures/AGgenerator
+[2017/2/5 0:55:32]: Verify [Project Folder]: Folder Existente (~/Pictures/AGgenerator/%5BAG-Project%5DVersusBerserkNioh)
+[2017/2/5 0:55:32]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AGgenerator/%5BAG-Project%5DVersusBerserkNioh/images
+[2017/2/5 0:55:32]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/5 0:55:32]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/5 0:55:32]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/5 0:55:32]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
 Datos:{
-	"type": "image",
-	"ProjectName": "psnow",
+	"type": "versus",
+	"ProjectName": "VersusBerserkNioh",
 	"text": {
 		"tag": {
 			"enable": true,
-			"index": 2,
-			"text": ""
+			"text": "",
+			"index": 0
 		},
 		"description": {
-			"enable": true,
-			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
+			"enable": false,
+			"text": ""
 		},
 		"top": {
 			"enable": true,
-			"text": "Sony Playstation Now"
+			"text": "Te amo"
 		},
 		"bottom": {
-			"enable": false,
-			"text": ""
+			"enable": true,
+			"text": "¿Cual es más sadico?"
 		}
 	},
 	"reactions": {
-		"enable": false,
+		"enable": true,
 		"list": [
-			"like",
+			"haha",
 			"heart",
 			"wow",
-			"haha",
+			"like",
 			"sad",
 			"angry"
 		]
 	},
 	"colors": {
 		"tag-icon": [
-			1,
-			1,
-			1,
+			0,
+			0,
+			0,
 			1
 		],
 		"tag-bg": [
-			0.80783081054688,
-			0.80783081054688,
-			0.80783081054688,
+			1,
+			1,
+			1,
 			1
 		],
 		"tag-text": [
-			0.2823486328125,
-			0.2823486328125,
-			0.2823486328125,
+			0,
+			0,
+			0,
 			1
 		],
 		"text": [
@@ -360,89 +91,86 @@ Datos:{
 			1
 		],
 		"mask": [
+			0.62744140625,
 			0,
-			0.43191528320313,
-			0.70587158203125,
+			0.07394409179688,
 			1
 		],
 		"background": [
 			0,
-			0.43191528320313,
-			0.70587158203125,
+			0,
+			0,
 			1
 		]
 	},
-	"fileNumber": 1,
+	"fileNumber": "2",
 	"files": [
-		"psnow-17_30_10__PS-Now-Lead.png"
+		"VersusBerserkNioh-2_38_20__bersek-band-of-the-hawk-poster-1.png",
+		"VersusBerserkNioh-2_38_29__nioh-listing-thumb-01-ps4-us-08dec15.png"
 	],
 	"thumbs": [
-		"psnow-17_30_10__PS-Now-Lead-thumb.png"
-	],
-	"imageSize": [
-		1108,
-		682
-	],
-	"imageType": "Normal"
+		"VersusBerserkNioh-2_38_20__bersek-band-of-the-hawk-poster-1-thumb.png",
+		"VersusBerserkNioh-2_38_29__nioh-listing-thumb-01-ps4-us-08dec15-thumb.png"
+	]
 }
-[2017/2/4 18:44:0]: Status [File][Info]: Se creo con exito el archivo de proyecto
-[2017/2/4 18:44:0]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
-[2017/2/4 18:44:0]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
-[2017/2/4 18:44:0]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
-[2017/2/4 18:44:0]: Verify [Project Folder][Temp Images]: El folder existe
-[2017/2/4 18:44:0]: Create [Project Folder][File]: Generando archivo de proyecto.
-[2017/2/4 18:44:0]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
-[2017/2/4 18:44:0]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+[2017/2/5 0:55:32]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/5 0:55:33]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]VersusBerserkNioh en Folder:~/Pictures/AGgenerator
+[2017/2/5 0:55:33]: Verify [Project Folder]: Folder Existente (~/Pictures/AGgenerator/%5BAG-Project%5DVersusBerserkNioh)
+[2017/2/5 0:55:33]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AGgenerator/%5BAG-Project%5DVersusBerserkNioh/images
+[2017/2/5 0:55:33]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/5 0:55:33]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/5 0:55:33]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/5 0:55:33]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
 Datos:{
-	"type": "image",
-	"ProjectName": "psnow",
+	"type": "versus",
+	"ProjectName": "VersusBerserkNioh",
 	"text": {
 		"tag": {
 			"enable": true,
-			"index": 2,
-			"text": ""
+			"text": "",
+			"index": 0
 		},
 		"description": {
-			"enable": true,
-			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
+			"enable": false,
+			"text": ""
 		},
 		"top": {
 			"enable": true,
-			"text": "Sony Playstation Now"
+			"text": "Te amo"
 		},
 		"bottom": {
-			"enable": false,
-			"text": ""
+			"enable": true,
+			"text": "¿Cual es más sadico?"
 		}
 	},
 	"reactions": {
-		"enable": false,
+		"enable": true,
 		"list": [
-			"like",
+			"haha",
 			"heart",
 			"wow",
-			"haha",
+			"like",
 			"sad",
 			"angry"
 		]
 	},
 	"colors": {
 		"tag-icon": [
-			1,
-			1,
-			1,
+			0,
+			0,
+			0,
 			1
 		],
 		"tag-bg": [
-			0.80783081054688,
-			0.80783081054688,
-			0.80783081054688,
+			1,
+			1,
+			1,
 			1
 		],
 		"tag-text": [
-			0.2823486328125,
-			0.2823486328125,
-			0.2823486328125,
+			0,
+			0,
+			0,
 			1
 		],
 		"text": [
@@ -452,147 +180,201 @@ Datos:{
 			1
 		],
 		"mask": [
+			0.62744140625,
 			0,
-			0.43191528320313,
-			0.70587158203125,
+			0.07394409179688,
 			1
 		],
 		"background": [
 			0,
-			0.43191528320313,
-			0.70587158203125,
+			0,
+			0,
 			1
 		]
 	},
-	"fileNumber": 1,
+	"fileNumber": "2",
 	"files": [
-		"psnow-17_30_10__PS-Now-Lead.png"
+		"VersusBerserkNioh-2_38_20__bersek-band-of-the-hawk-poster-1.png",
+		"VersusBerserkNioh-2_38_29__nioh-listing-thumb-01-ps4-us-08dec15.png"
 	],
 	"thumbs": [
-		"psnow-17_30_10__PS-Now-Lead-thumb.png"
-	],
-	"imageSize": [
-		1108,
-		682
-	],
-	"imageType": "Normal"
+		"VersusBerserkNioh-2_38_20__bersek-band-of-the-hawk-poster-1-thumb.png",
+		"VersusBerserkNioh-2_38_29__nioh-listing-thumb-01-ps4-us-08dec15-thumb.png"
+	]
 }
-[2017/2/4 18:44:0]: Status [File][Info]: Se creo con exito el archivo de proyecto
-[2017/2/4 18:44:1]: Execute [Generator]: Ejecutando proyecto: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/
-[2017/2/4 18:44:1]: Verify [File]: Buscando si ya se ha creado una imagen con nombre:psnow
-[2017/2/4 18:44:1]: Status [File]: Imagen encontrada, renombrando a:psnow-20170116T151255
-[2017/2/4 18:44:1]: Save [File]: Imagen guardada con nombre:psnow-20170116T151255 en folder: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
-[2017/2/4 18:44:1]: Create [File]: Creando PSD del proyecto basado en el template
-[2017/2/4 18:44:1]: Verify [Template][Info]: La plantilla seleccionada tiene las siguientes capas: 
-System_backgrounxdColor_solid,WorkingArea_AreaImage_smart,TextArea_BottomText_smart,TextArea_MainText_smart,TAG_TAG_smart
-[2017/2/4 18:44:1]: Select [Layer][Info]: Buscando: System_backgrounxdColor_solid
-[2017/2/4 18:44:1]: Status [Layer][Info]: Capa: System_backgrounxdColor_solid encontrada.
-[2017/2/4 18:44:1]: Status [Place]: Insertando Imagen
-[2017/2/4 18:44:1]: Select [Layer][Info]: Buscando: WorkingArea_AreaImage_smart
-[2017/2/4 18:44:1]: Status [Layer][Info]: Capa: WorkingArea_AreaImage_smart encontrada.
-[2017/2/4 18:44:1]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-AreaImage_Area_solid,AreaImage_Blur_smart,AreaImage_Image_smart
-[2017/2/4 18:44:1]: Select [Layer][Info]: Buscando: AreaImage_Image_smart
-[2017/2/4 18:44:1]: Status [Layer][Info]: Capa: AreaImage_Image_smart encontrada.
-[2017/2/4 18:44:2]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-ImagePlacer_selector_normal,ImagePlacer_image_normal
-[2017/2/4 18:44:2]: Select [Layer][Info]: Buscando: ImagePlacer_image_normal
-[2017/2/4 18:44:2]: Status [Layer][Info]: Capa: ImagePlacer_image_normal encontrada.
-[2017/2/4 18:44:3]: Select [Layer][Info]: Buscando: oimage
-[2017/2/4 18:44:3]: Status [Layer][Info]: Capa: oimage encontrada.
-[2017/2/4 18:44:3]: Select [Area][Info]: Seleccionando Area de capa: ImagePlacer_selector_normal
-[2017/2/4 18:44:3]: Status [Area][Info]: Se selecciono el area de la capa: ImagePlacer_selector_normal
-[2017/2/4 18:44:3]: Select [Layer][Info]: Buscando: ImagePlacer_selector_normal
-[2017/2/4 18:44:3]: Status [Layer][Info]: Capa: ImagePlacer_selector_normal encontrada.
-[2017/2/4 18:44:4]: Select [Layer][Info]: Buscando: AreaImage_Blur_smart
-[2017/2/4 18:44:4]: Status [Layer][Info]: Capa: AreaImage_Blur_smart encontrada.
-[2017/2/4 18:44:4]: Select [Layer][Info]: Buscando: TextArea_MainText_smart
-[2017/2/4 18:44:4]: Status [Layer][Info]: Capa: TextArea_MainText_smart encontrada.
-[2017/2/4 18:44:5]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-TextPlacer_placeHolder_solid,Text_Desc_smart,Text_Title_smart,TextPlacer_TextColor_solid,System_Sys_normal
-[2017/2/4 18:44:5]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
-[2017/2/4 18:44:5]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
-[2017/2/4 18:44:5]: Select [Layer][Info]: Buscando: Text_Title_smart
-[2017/2/4 18:44:5]: Status [Layer][Info]: Capa: Text_Title_smart encontrada.
-[2017/2/4 18:44:5]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-Text_Title_text
-[2017/2/4 18:44:5]: Select [Layer][Info]: Buscando: Text_Title_text
-[2017/2/4 18:44:5]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
-[2017/2/4 18:44:6]: Select [Layer][Info]: Buscando: Text_Title_text
-[2017/2/4 18:44:6]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
-[2017/2/4 18:44:14]: Select [Layer][Info]: Buscando: Text_Desc_smart
-[2017/2/4 18:44:14]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
-[2017/2/4 18:44:14]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-Text_Desc_text
-[2017/2/4 18:44:14]: Select [Layer][Info]: Buscando: Text_Desc_text
-[2017/2/4 18:44:14]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
-[2017/2/4 18:44:15]: Select [Layer][Info]: Buscando: Text_Desc_text
-[2017/2/4 18:44:15]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
-[2017/2/4 18:44:22]: Select [Layer][Info]: Buscando: System_Sys_normal
-[2017/2/4 18:44:22]: Status [Layer][Info]: Capa: System_Sys_normal encontrada.
-[2017/2/4 18:44:22]: Select [Area][Info]: Seleccionando Area de capa: Text_Title_smart
-[2017/2/4 18:44:22]: Status [Area][Info]: Se selecciono el area de la capa: Text_Title_smart
-[2017/2/4 18:44:22]: Metrics [Layer][Info]: width:1400 px, height:150 px
-[2017/2/4 18:44:22]: Select [Layer][Info]: Buscando: 0_0_0
-[2017/2/4 18:44:22]: Status [Layer][Info]: Capa: 0_0_0 encontrada.
-[2017/2/4 18:44:22]: Select [Layer][Info]: Buscando: Text_Desc_smart
-[2017/2/4 18:44:22]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
-[2017/2/4 18:44:22]: Select [Layer][Info]: Buscando: TextPlacer_TextColor_solid
-[2017/2/4 18:44:22]: Status [Layer][Info]: Capa: TextPlacer_TextColor_solid encontrada.
-[2017/2/4 18:44:23]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
-[2017/2/4 18:44:23]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
-[2017/2/4 18:44:24]: Select [Area][Info]: Seleccionando Area de capa: WorkingArea_AreaImage_smart
-[2017/2/4 18:45:8]: [Close]: Cerrando Generador
-[2017/2/4 18:48:41]: 
+[2017/2/5 0:55:33]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/5 0:55:33]: Execute [Generator]: Ejecutando proyecto: ~/Pictures/AGgenerator/%5BAG-Project%5DVersusBerserkNioh/
+[2017/2/5 0:55:33]: Verify [File]: Buscando si ya se ha creado una imagen con nombre:VersusBerserkNioh
+[2017/2/5 0:55:34]: Status [File]: Imagen encontrada, renombrando a:VersusBerserkNioh-
+[2017/2/5 0:55:39]: Save [File]: Imagen guardada con nombre:VersusBerserkNioh- en folder: ~/Pictures/AGgenerator/%5BAG-Project%5DVersusBerserkNioh
+[2017/2/5 0:55:39]: Close [smartObject]: Cerrando.
+[2017/2/5 0:55:40]: Close [status][Info]: Cerrado.
+[2017/2/5 0:55:40]: Opening [File][Info]: Abriendo el psd.
+[2017/2/5 0:55:40]: Create [File]: Creando PSD del proyecto basado en el template
+[2017/2/5 0:55:40]: Verify [Template][Info]: La plantilla seleccionada tiene los siguientes sets: 
+System_LayerSet,WorkingArea_LayerSet,ReactionIcons_LayerSet,TextArea_LayerSet
+[2017/2/5 0:55:40]: Select [Layer][Info]: Buscando: WorkingArea_LayerSet
+[2017/2/5 0:55:40]: Status [Layer][Info]: Capa: WorkingArea_LayerSet encontrada.
+[2017/2/5 0:55:41]: Verify [Template][Info]: El set seleccionado tiene los siguientes layers: 
+WorkingArea_WorkingArea_0,WorkingArea_WorkingArea_1
+[2017/2/5 0:55:41]: Select [Layer][Info]: Buscando: WorkingArea_WorkingArea_0
+[2017/2/5 0:55:41]: Status [Layer][Info]: Capa: WorkingArea_WorkingArea_0 encontrada.
+[2017/2/5 0:55:41]: Open [SmartObject]: Abriendo.
+[2017/2/5 0:55:41]: Open [SmartObject][Info]: abierto.
+[2017/2/5 0:55:41]: Place [Image]: Insertando imagen: ~/Pictures/AGgenerator/%5BAG-Project%5DVersusBerserkNioh/images/VersusBerserkNioh-2_38_20__bersek-band-of-the-hawk-poster-1.png
+[2017/2/5 0:55:41]: Status [Image][info]: Imagen Insertanda
+[2017/2/5 0:55:43]: Select [Layer][Info]: Buscando: oImage
+[2017/2/5 0:55:43]: Status [Layer][Info]: Capa: oImage encontrada.
+[2017/2/5 0:55:43]: Align [Layer]: Moviendo capa a: CenterH
+[2017/2/5 0:55:43]: Align [Layer][Info]: Se movio capa a: ADSCentersH
+[2017/2/5 0:55:43]: Save [currentDocument]: Salvando.
+[2017/2/5 0:55:44]: Save [Status][info]: Salvado.
+[2017/2/5 0:55:44]: Update [smartObject]: Actualizando.
+[2017/2/5 0:55:44]: Update [status][Info]: Actualizado.
+[2017/2/5 0:55:44]: Close [smartObject]: Cerrando.
+[2017/2/5 0:55:44]: Close [status][Info]: Cerrado.
+[2017/2/5 0:55:44]: Select [Layer][Info]: Buscando: WorkingArea_WorkingArea_1
+[2017/2/5 0:55:44]: Status [Layer][Info]: Capa: WorkingArea_WorkingArea_1 encontrada.
+[2017/2/5 0:55:44]: Open [SmartObject]: Abriendo.
+[2017/2/5 0:55:44]: Open [SmartObject][Info]: abierto.
+[2017/2/5 0:55:44]: Place [Image]: Insertando imagen: ~/Pictures/AGgenerator/%5BAG-Project%5DVersusBerserkNioh/images/VersusBerserkNioh-2_38_29__nioh-listing-thumb-01-ps4-us-08dec15.png
+[2017/2/5 0:55:45]: Status [Image][info]: Imagen Insertanda
+[2017/2/5 0:55:46]: Select [Layer][Info]: Buscando: oImage
+[2017/2/5 0:55:46]: Status [Layer][Info]: Capa: oImage encontrada.
+[2017/2/5 0:55:46]: Align [Layer]: Moviendo capa a: CenterH
+[2017/2/5 0:55:46]: Align [Layer][Info]: Se movio capa a: ADSCentersH
+[2017/2/5 0:55:46]: Save [currentDocument]: Salvando.
+[2017/2/5 0:55:47]: Save [Status][info]: Salvado.
+[2017/2/5 0:55:47]: Update [smartObject]: Actualizando.
+[2017/2/5 0:55:47]: Update [status][Info]: Actualizado.
+[2017/2/5 0:55:47]: Close [smartObject]: Cerrando.
+[2017/2/5 0:55:47]: Close [status][Info]: Cerrado.
+[2017/2/5 0:55:47]: Select [Layer][Info]: Buscando: TextArea_LayerSet
+[2017/2/5 0:55:48]: Status [Layer][Info]: Capa: TextArea_LayerSet encontrada.
+[2017/2/5 0:55:48]: Verify [Template][Info]: El set seleccionado tiene los siguientes layers: 
+TextArea_layer_Bottom,TextArea_layer_Top
+[2017/2/5 0:55:48]: Search [Layer by Split]:  Buscando capa: Bottom, en: TextArea,layer,Bottom
+[2017/2/5 0:55:48]: Search [Status]:  Capa: Bottom encontrada.
+[2017/2/5 0:55:48]: Select [Layer][Info]: Buscando: TextArea_layer_Bottom
+[2017/2/5 0:55:48]: Status [Layer][Info]: Capa: TextArea_layer_Bottom encontrada.
+[2017/2/5 0:55:48]: Open [SmartObject]: Abriendo.
+[2017/2/5 0:55:48]: Open [SmartObject][Info]: abierto.
+[2017/2/5 0:55:48]: Select [Layer][Info]: Buscando: Bottom_background_Text
+[2017/2/5 0:55:48]: Status [Layer][Info]: Capa: Bottom_background_Text encontrada.
+[2017/2/5 0:55:48]: Select [Layer][Info]: Buscando: Bottom_background_shape
+[2017/2/5 0:55:48]: Status [Layer][Info]: Capa: Bottom_background_shape encontrada.
+[2017/2/5 0:55:48]: Save [currentDocument]: Salvando.
+[2017/2/5 0:55:48]: Save [Status][info]: Salvado.
+[2017/2/5 0:55:48]: Update [smartObject]: Actualizando.
+[2017/2/5 0:55:48]: Update [status][Info]: Actualizado.
+[2017/2/5 0:55:48]: Close [smartObject]: Cerrando.
+[2017/2/5 0:55:48]: Close [status][Info]: Cerrado.
+[2017/2/5 0:55:48]: Search [Layer by Split]:  Buscando capa: Top, en: TextArea,layer,Top
+[2017/2/5 0:55:48]: Search [Status]:  Capa: Top encontrada.
+[2017/2/5 0:55:48]: Select [Layer][Info]: Buscando: TextArea_layer_Top
+[2017/2/5 0:55:48]: Status [Layer][Info]: Capa: TextArea_layer_Top encontrada.
+[2017/2/5 0:55:48]: Open [SmartObject]: Abriendo.
+[2017/2/5 0:55:49]: Open [SmartObject][Info]: abierto.
+[2017/2/5 0:55:49]: Select [Layer][Info]: Buscando: Bottom_background_Text
+[2017/2/5 0:55:49]: Status [Layer][Info]: Capa: Bottom_background_Text encontrada.
+[2017/2/5 0:55:49]: Select [Layer][Info]: Buscando: Bottom_background_shape
+[2017/2/5 0:55:49]: Status [Layer][Info]: Capa: Bottom_background_shape encontrada.
+[2017/2/5 0:55:49]: Save [currentDocument]: Salvando.
+[2017/2/5 0:55:49]: Save [Status][info]: Salvado.
+[2017/2/5 0:55:49]: Update [smartObject]: Actualizando.
+[2017/2/5 0:55:49]: Update [status][Info]: Actualizado.
+[2017/2/5 0:55:49]: Close [smartObject]: Cerrando.
+[2017/2/5 0:55:49]: Close [status][Info]: Cerrado.
+[2017/2/5 0:55:49]: Select [Layer][Info]: Buscando: System_LayerSet
+[2017/2/5 0:55:49]: Status [Layer][Info]: Capa: System_LayerSet encontrada.
+[2017/2/5 0:55:49]: Select [Layer][Info]: Buscando: System_backgroundColor_layer
+[2017/2/5 0:55:49]: Status [Layer][Info]: Capa: System_backgroundColor_layer encontrada.
+[2017/2/5 0:55:49]: Select [Layer][Info]: Buscando: ReactionIcons_LayerSet
+[2017/2/5 0:55:49]: Status [Layer][Info]: Capa: ReactionIcons_LayerSet encontrada.
+[2017/2/5 0:55:49]: Select [Layer][Info]: Buscando: ReactionIcons_faceBookReactions_1
+[2017/2/5 0:55:50]: Status [Layer][Info]: Capa: ReactionIcons_faceBookReactions_1 encontrada.
+[2017/2/5 0:55:50]: Open [SmartObject]: Abriendo.
+[2017/2/5 0:55:50]: Open [SmartObject][Info]: abierto.
+[2017/2/5 0:55:50]: Select [Layer][Info]: Buscando: haha
+[2017/2/5 0:55:50]: Status [Layer][Info]: Capa: haha encontrada.
+[2017/2/5 0:55:50]: Save [currentDocument]: Salvando.
+[2017/2/5 0:55:50]: Save [Status][info]: Salvado.
+[2017/2/5 0:55:50]: Update [smartObject]: Actualizando.
+[2017/2/5 0:55:50]: Update [status][Info]: Actualizado.
+[2017/2/5 0:55:50]: Close [smartObject]: Cerrando.
+[2017/2/5 0:55:50]: Close [status][Info]: Cerrado.
+[2017/2/5 0:55:50]: Select [Layer][Info]: Buscando: ReactionIcons_faceBookReactions_2
+[2017/2/5 0:55:50]: Status [Layer][Info]: Capa: ReactionIcons_faceBookReactions_2 encontrada.
+[2017/2/5 0:55:50]: Open [SmartObject]: Abriendo.
+[2017/2/5 0:55:50]: Open [SmartObject][Info]: abierto.
+[2017/2/5 0:55:50]: Select [Layer][Info]: Buscando: heart
+[2017/2/5 0:55:50]: Status [Layer][Info]: Capa: heart encontrada.
+[2017/2/5 0:55:50]: Save [currentDocument]: Salvando.
+[2017/2/5 0:55:51]: Save [Status][info]: Salvado.
+[2017/2/5 0:55:51]: Update [smartObject]: Actualizando.
+[2017/2/5 0:55:51]: Update [status][Info]: Actualizado.
+[2017/2/5 0:55:51]: Close [smartObject]: Cerrando.
+[2017/2/5 0:55:51]: Close [status][Info]: Cerrado.
+[2017/2/5 0:55:57]: Save [File]: Imagen guardada con nombre:VersusBerserkNioh en folder: ~/Pictures/AGgenerator/%5BAG-Project%5DVersusBerserkNioh
+[2017/2/5 0:55:57]: Save [currentDocument]: Salvando.
+[2017/2/5 0:55:57]: Save [Status][info]: Salvado.
+[2017/2/5 0:55:57]: Close [Document]: Cerrando.
+[2017/2/5 0:55:57]: Close [status][Info]: Cerrado.
+[2017/2/5 0:56:0]: [Close]: Cerrando Generador
+[2017/2/5 1:48:2]: 
 
-[2017/2/4 18:48:41]: [Open]: Abriendo Generador
-[2017/2/4 18:48:41]: [Update]: Buscando actualizaciones
-[2017/2/4 18:48:41]: Update [Result]: Generador actualizado
-[2017/2/4 18:48:41]: Process [Main]: Ejecutando Main.jsx
-[2017/2/4 18:48:41]: Read [Preferences]: Tratando de leer las preferencias
-[2017/2/4 18:48:41]: Read [Folder]: Buscando en: ~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
-[2017/2/4 18:48:41]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:48:41]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:48:41]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:48:41]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:48:41]: Read [json]: Archivo encontrado~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
-[2017/2/4 18:48:41]: Window [Start Screen]: Abriendo ventana
-[2017/2/4 18:48:45]: Read [Folder]: Buscando en: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
-[2017/2/4 18:48:45]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:48:45]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:48:45]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:48:45]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:48:45]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:48:45]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:48:45]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:48:45]: Read [json]: Archivo encontrado~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
-[2017/2/4 18:48:46]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
-[2017/2/4 18:48:46]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
-[2017/2/4 18:48:46]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
-[2017/2/4 18:48:46]: Verify [Project Folder][Temp Images]: El folder existe
-[2017/2/4 18:48:46]: Create [Project Folder][File]: Generando archivo de proyecto.
-[2017/2/4 18:48:46]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
-[2017/2/4 18:48:46]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+[2017/2/5 1:48:2]: [Open]: Abriendo Generador
+[2017/2/5 1:48:2]: [Update]: Buscando actualizaciones
+[2017/2/5 1:48:2]: Update [Result]: Generador actualizado
+[2017/2/5 1:48:2]: Process [Main]: Ejecutando Main.jsx
+[2017/2/5 1:48:2]: Read [Preferences]: Tratando de leer las preferencias
+[2017/2/5 1:48:2]: Read [Folder]: Buscando en: /c/wamp64/www/AGenerator/AG-enerator/AGFiles%20Only
+[2017/2/5 1:48:2]: Read [json]: Buscando archivos: .json
+[2017/2/5 1:48:2]: Read [json]: Buscando archivos: .json
+[2017/2/5 1:48:2]: Read [json]: Buscando archivos: .json
+[2017/2/5 1:48:2]: Read [json]: Buscando archivos: .json
+[2017/2/5 1:48:2]: Read [json]: Archivo encontrado/c/wamp64/www/AGenerator/AG-enerator/AGFiles%20Only
+[2017/2/5 1:48:2]: Window [Start Screen]: Abriendo ventana
+[2017/2/5 1:48:10]: Read [Folder]: Buscando en: ~/Pictures/AGgenerator/%5BAG-Project%5DtestVertical
+[2017/2/5 1:48:10]: Read [json]: Buscando archivos: .json
+[2017/2/5 1:48:10]: Read [json]: Buscando archivos: .json
+[2017/2/5 1:48:10]: Read [json]: Buscando archivos: .json
+[2017/2/5 1:48:10]: Read [json]: Buscando archivos: .json
+[2017/2/5 1:48:11]: Read [json]: Buscando archivos: .json
+[2017/2/5 1:48:11]: Read [json]: Buscando archivos: .json
+[2017/2/5 1:48:11]: Read [json]: Buscando archivos: .json
+[2017/2/5 1:48:11]: Read [json]: Buscando archivos: .json
+[2017/2/5 1:48:11]: Read [json]: Buscando archivos: .json
+[2017/2/5 1:48:11]: Read [json]: Buscando archivos: .json
+[2017/2/5 1:48:11]: Read [json]: Buscando archivos: .json
+[2017/2/5 1:48:11]: Read [json]: Archivo encontrado~/Pictures/AGgenerator/%5BAG-Project%5DtestVertical
+[2017/2/5 1:48:11]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]testVertical en Folder:~/Pictures/AGgenerator
+[2017/2/5 1:48:11]: Verify [Project Folder]: Folder Existente (~/Pictures/AGgenerator/%5BAG-Project%5DtestVertical)
+[2017/2/5 1:48:11]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AGgenerator/%5BAG-Project%5DtestVertical/images
+[2017/2/5 1:48:11]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/5 1:48:11]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/5 1:48:11]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/5 1:48:11]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
 Datos:{
 	"type": "image",
-	"ProjectName": "psnow",
+	"ProjectName": "testVertical",
 	"text": {
 		"tag": {
-			"enable": true,
-			"index": 2,
+			"enable": false,
+			"index": 3,
 			"text": ""
 		},
 		"description": {
 			"enable": true,
-			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
+			"text": "Test 3"
 		},
 		"top": {
 			"enable": true,
-			"text": "Sony Playstation Now"
+			"text": "Test"
 		},
 		"bottom": {
-			"enable": false,
-			"text": ""
+			"enable": true,
+			"text": "Test2"
 		}
 	},
 	"reactions": {
@@ -608,83 +390,83 @@ Datos:{
 	},
 	"colors": {
 		"tag-icon": [
-			1,
-			1,
-			1,
+			0,
+			0,
+			0,
 			1
 		],
 		"tag-bg": [
-			0.80783081054688,
-			0.80783081054688,
-			0.80783081054688,
+			1,
+			1,
+			1,
 			1
 		],
 		"tag-text": [
-			0.2823486328125,
-			0.2823486328125,
-			0.2823486328125,
+			0,
+			0,
+			0,
 			1
 		],
 		"text": [
-			1,
-			1,
-			1,
+			0,
+			0,
+			0,
 			1
 		],
 		"mask": [
+			1,
+			0.40008544921875,
 			0,
-			0.43191528320313,
-			0.70587158203125,
 			1
 		],
 		"background": [
 			0,
-			0.43191528320313,
-			0.70587158203125,
+			0,
+			0,
 			1
 		]
 	},
 	"fileNumber": 1,
 	"files": [
-		"psnow-17_30_10__PS-Now-Lead.png"
+		"testVertical-21_27_51__aLKLb8g_700b.png"
 	],
 	"thumbs": [
-		"psnow-17_30_10__PS-Now-Lead-thumb.png"
+		"testVertical-21_27_51__aLKLb8g_700b-thumb.png"
 	],
 	"imageSize": [
-		1108,
-		682
+		700,
+		1049
 	],
-	"imageType": "Normal"
+	"imageType": "Vertical"
 }
-[2017/2/4 18:48:46]: Status [File][Info]: Se creo con exito el archivo de proyecto
-[2017/2/4 18:48:47]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
-[2017/2/4 18:48:47]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
-[2017/2/4 18:48:47]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
-[2017/2/4 18:48:47]: Verify [Project Folder][Temp Images]: El folder existe
-[2017/2/4 18:48:47]: Create [Project Folder][File]: Generando archivo de proyecto.
-[2017/2/4 18:48:47]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
-[2017/2/4 18:48:47]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+[2017/2/5 1:48:11]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/5 1:48:13]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]testVertical en Folder:~/Pictures/AGgenerator
+[2017/2/5 1:48:13]: Verify [Project Folder]: Folder Existente (~/Pictures/AGgenerator/%5BAG-Project%5DtestVertical)
+[2017/2/5 1:48:13]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AGgenerator/%5BAG-Project%5DtestVertical/images
+[2017/2/5 1:48:13]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/5 1:48:13]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/5 1:48:13]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/5 1:48:13]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
 Datos:{
 	"type": "image",
-	"ProjectName": "psnow",
+	"ProjectName": "testVertical",
 	"text": {
 		"tag": {
 			"enable": true,
-			"index": 2,
+			"index": 3,
 			"text": ""
 		},
 		"description": {
 			"enable": true,
-			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
+			"text": "Test 3"
 		},
 		"top": {
 			"enable": true,
-			"text": "Sony Playstation Now"
+			"text": "Test"
 		},
 		"bottom": {
-			"enable": false,
-			"text": ""
+			"enable": true,
+			"text": "Test2"
 		}
 	},
 	"reactions": {
@@ -700,190 +482,761 @@ Datos:{
 	},
 	"colors": {
 		"tag-icon": [
-			1,
-			1,
-			1,
+			0,
+			0,
+			0,
 			1
 		],
 		"tag-bg": [
-			0.80783081054688,
-			0.80783081054688,
-			0.80783081054688,
+			1,
+			1,
+			1,
 			1
 		],
 		"tag-text": [
-			0.2823486328125,
-			0.2823486328125,
-			0.2823486328125,
+			0,
+			0,
+			0,
 			1
 		],
 		"text": [
-			1,
-			1,
-			1,
+			0,
+			0,
+			0,
 			1
 		],
 		"mask": [
+			1,
+			0.40008544921875,
 			0,
-			0.43191528320313,
-			0.70587158203125,
 			1
 		],
 		"background": [
 			0,
-			0.43191528320313,
-			0.70587158203125,
+			0,
+			0,
 			1
 		]
 	},
 	"fileNumber": 1,
 	"files": [
-		"psnow-17_30_10__PS-Now-Lead.png"
+		"testVertical-21_27_51__aLKLb8g_700b.png"
 	],
 	"thumbs": [
-		"psnow-17_30_10__PS-Now-Lead-thumb.png"
+		"testVertical-21_27_51__aLKLb8g_700b-thumb.png"
 	],
 	"imageSize": [
-		1108,
-		682
+		700,
+		1049
 	],
-	"imageType": "Normal"
+	"imageType": "Vertical"
 }
-[2017/2/4 18:48:47]: Status [File][Info]: Se creo con exito el archivo de proyecto
-[2017/2/4 18:48:47]: Execute [Generator]: Ejecutando proyecto: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/
-[2017/2/4 18:48:47]: Verify [File]: Buscando si ya se ha creado una imagen con nombre:psnow
-[2017/2/4 18:48:48]: Status [File]: Imagen encontrada, renombrando a:psnow-20170116T151255
-[2017/2/4 18:48:48]: Save [File]: Imagen guardada con nombre:psnow-20170116T151255 en folder: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
-[2017/2/4 18:48:48]: Create [File]: Creando PSD del proyecto basado en el template
-[2017/2/4 18:48:48]: Verify [Template][Info]: La plantilla seleccionada tiene las siguientes capas: 
-System_backgrounxdColor_solid,WorkingArea_AreaImage_smart,TextArea_BottomText_smart,TextArea_MainText_smart,TAG_TAG_smart
-[2017/2/4 18:48:48]: Select [Layer][Info]: Buscando: System_backgrounxdColor_solid
-[2017/2/4 18:48:48]: Status [Layer][Info]: Capa: System_backgrounxdColor_solid encontrada.
-[2017/2/4 18:48:48]: Status [Place]: Insertando Imagen
-[2017/2/4 18:48:48]: Select [Layer][Info]: Buscando: WorkingArea_AreaImage_smart
-[2017/2/4 18:48:48]: Status [Layer][Info]: Capa: WorkingArea_AreaImage_smart encontrada.
-[2017/2/4 18:48:49]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-AreaImage_Area_solid,AreaImage_Blur_smart,AreaImage_Image_smart
-[2017/2/4 18:48:49]: Select [Layer][Info]: Buscando: AreaImage_Image_smart
-[2017/2/4 18:48:49]: Status [Layer][Info]: Capa: AreaImage_Image_smart encontrada.
-[2017/2/4 18:48:49]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-ImagePlacer_selector_normal,ImagePlacer_image_normal
-[2017/2/4 18:48:49]: Select [Layer][Info]: Buscando: ImagePlacer_image_normal
-[2017/2/4 18:48:49]: Status [Layer][Info]: Capa: ImagePlacer_image_normal encontrada.
-[2017/2/4 18:48:50]: Select [Layer][Info]: Buscando: oimage
-[2017/2/4 18:48:50]: Status [Layer][Info]: Capa: oimage encontrada.
-[2017/2/4 18:48:50]: Select [Area][Info]: Seleccionando Area de capa: ImagePlacer_selector_normal
-[2017/2/4 18:48:50]: Status [Area][Info]: Se selecciono el area de la capa: ImagePlacer_selector_normal
-[2017/2/4 18:48:50]: Select [Layer][Info]: Buscando: ImagePlacer_selector_normal
-[2017/2/4 18:48:51]: Status [Layer][Info]: Capa: ImagePlacer_selector_normal encontrada.
-[2017/2/4 18:48:51]: Select [Layer][Info]: Buscando: AreaImage_Blur_smart
-[2017/2/4 18:48:51]: Status [Layer][Info]: Capa: AreaImage_Blur_smart encontrada.
-[2017/2/4 18:48:51]: Select [Layer][Info]: Buscando: TextArea_MainText_smart
-[2017/2/4 18:48:52]: Status [Layer][Info]: Capa: TextArea_MainText_smart encontrada.
-[2017/2/4 18:48:52]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-TextPlacer_placeHolder_solid,Text_Desc_smart,Text_Title_smart,TextPlacer_TextColor_solid,System_Sys_normal
-[2017/2/4 18:48:52]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
-[2017/2/4 18:48:52]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
-[2017/2/4 18:48:52]: Select [Layer][Info]: Buscando: Text_Title_smart
-[2017/2/4 18:48:52]: Status [Layer][Info]: Capa: Text_Title_smart encontrada.
-[2017/2/4 18:48:52]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-Text_Title_text
-[2017/2/4 18:48:52]: Select [Layer][Info]: Buscando: Text_Title_text
-[2017/2/4 18:48:52]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
-[2017/2/4 18:48:53]: Select [Layer][Info]: Buscando: Text_Title_text
-[2017/2/4 18:48:53]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
-[2017/2/4 18:49:1]: Select [Layer][Info]: Buscando: Text_Desc_smart
-[2017/2/4 18:49:1]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
-[2017/2/4 18:49:2]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-Text_Desc_text
-[2017/2/4 18:49:2]: Select [Layer][Info]: Buscando: Text_Desc_text
-[2017/2/4 18:49:2]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
-[2017/2/4 18:49:3]: Select [Layer][Info]: Buscando: Text_Desc_text
-[2017/2/4 18:49:3]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
-[2017/2/4 18:49:10]: Select [Layer][Info]: Buscando: System_Sys_normal
-[2017/2/4 18:49:10]: Status [Layer][Info]: Capa: System_Sys_normal encontrada.
-[2017/2/4 18:49:10]: Select [Area][Info]: Seleccionando Area de capa: Text_Title_smart
-[2017/2/4 18:49:10]: Status [Area][Info]: Se selecciono el area de la capa: Text_Title_smart
-[2017/2/4 18:49:10]: Metrics [Layer][Info]: width:1400 px, height:150 px
-[2017/2/4 18:49:10]: Select [Layer][Info]: Buscando: 0_0_0
-[2017/2/4 18:49:10]: Status [Layer][Info]: Capa: 0_0_0 encontrada.
-[2017/2/4 18:49:10]: Select [Layer][Info]: Buscando: Text_Desc_smart
-[2017/2/4 18:49:10]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
-[2017/2/4 18:49:10]: Select [Layer][Info]: Buscando: TextPlacer_TextColor_solid
-[2017/2/4 18:49:10]: Status [Layer][Info]: Capa: TextPlacer_TextColor_solid encontrada.
-[2017/2/4 18:49:10]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
-[2017/2/4 18:49:10]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
-[2017/2/4 18:49:11]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
-[2017/2/4 18:49:11]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
-[2017/2/4 18:49:23]: Select [Area][Info]: Seleccionando Area de capa: WorkingArea_AreaImage_smart
-[2017/2/4 18:49:23]: Status [Area][Error]: No Se selecciono el area de la capa: WorkingArea_AreaImage_smart. Es este el nombre correcto de la capa?
-[2017/2/4 18:49:23]: Select [Layer][Info]: Buscando: TextArea_MainText_smart
-[2017/2/4 18:49:23]: Status [Layer][Info]: Capa: TextArea_MainText_smart encontrada.
-[2017/2/4 18:49:34]: [Close]: Cerrando Generador
-[2017/2/4 18:51:10]: 
+[2017/2/5 1:48:13]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/5 1:48:13]: Execute [Generator]: Ejecutando proyecto: ~/Pictures/AGgenerator/%5BAG-Project%5DtestVertical/
+[2017/2/5 1:48:13]: Verify [File]: Buscando si ya se ha creado una imagen con nombre:testVertical
+[2017/2/5 1:48:13]: Status [File]: Imagen encontrada, renombrando a:testVertical-20170116T214538
+[2017/2/5 1:48:16]: Save [File]: Imagen guardada con nombre:testVertical-20170116T214538 en folder: ~/Pictures/AGgenerator/%5BAG-Project%5DtestVertical
+[2017/2/5 1:48:16]: Close [currentDocument]: Cerrando.
+[2017/2/5 1:48:16]: Close [status][Info]: Cerrado.
+[2017/2/5 1:48:16]: Opening [File][Info]: Abriendo el psd.
+[2017/2/5 1:48:16]: Create [File]: Creando PSD del proyecto basado en el template:normalTemplateVertical
+[2017/2/5 1:48:16]: Collect [Layers]: Obteniendo capas hijas de: testVertical (normalTemplateVertical).psd
+[2017/2/5 1:48:16]: Collect [Layers]: Obteniendo capas hijas de: System
+[2017/2/5 1:48:16]: Status[Layers]: Capas: System_background_solid
+[2017/2/5 1:48:16]: Collect [Layers]: Obteniendo capas hijas de: WorkingArea
+[2017/2/5 1:48:16]: Status[Layers]: Capas: System_background_solid,WorkingArea_Image_smart
+[2017/2/5 1:48:16]: Collect [Layers]: Obteniendo capas hijas de: TextArea
+[2017/2/5 1:48:16]: Status[Layers]: Capas: System_background_solid,WorkingArea_Image_smart,TextArea_BottomText_smart,TextArea_MainText_smart
+[2017/2/5 1:48:16]: Collect [Layers]: Obteniendo capas hijas de: TAG
+[2017/2/5 1:48:16]: Status[Layers]: Capas: System_background_solid,WorkingArea_Image_smart,TextArea_BottomText_smart,TextArea_MainText_smart,TAG_TAG_smart
+[2017/2/5 1:48:16]: Status[Layers]: Capas: System_background_solid,WorkingArea_Image_smart,TextArea_BottomText_smart,TextArea_MainText_smart,TAG_TAG_smart
+[2017/2/5 1:48:16]: Select [Layer][Info]: Buscando: System_background_solid
+[2017/2/5 1:48:16]: Status [Layer][Info]: Capa: System_background_solid encontrada.
+[2017/2/5 1:48:16]: Change [ColorSolid]: Cambiando color
+[2017/2/5 1:48:16]: Status [ColorSolid][info]: Color cambiado a: 0,0,0
+[2017/2/5 1:48:16]: Status [Place]: Insertando Imagen
+[2017/2/5 1:48:16]: Select [Layer][Info]: Buscando: WorkingArea_Image_smart
+[2017/2/5 1:48:16]: Status [Layer][Info]: Capa: WorkingArea_Image_smart encontrada.
+[2017/2/5 1:48:16]: Open [SmartObject]: Abriendo.
+[2017/2/5 1:48:16]: Open [SmartObject][Info]: abierto.
+[2017/2/5 1:48:16]: Collect [Layers]: Obteniendo capas hijas de: AreaImage11.psb
+[2017/2/5 1:48:16]: Collect [Layers]: Obteniendo capas hijas de: AreaImagge
+[2017/2/5 1:48:16]: Status[Layers]: Capas: AreaImagge_Area_solid,AreaImagge_Blur_smart,AreaImagge_Image_smart
+[2017/2/5 1:48:16]: Status[Layers]: Capas: AreaImagge_Area_solid,AreaImagge_Blur_smart,AreaImagge_Image_smart
+[2017/2/5 1:48:16]: Select [Layer][Info]: Buscando: AreaImagge_Image_smart
+[2017/2/5 1:48:16]: Status [Layer][Info]: Capa: AreaImagge_Image_smart encontrada.
+[2017/2/5 1:48:16]: Open [SmartObject]: Abriendo.
+[2017/2/5 1:48:17]: Open [SmartObject][Info]: abierto.
+[2017/2/5 1:48:17]: Collect [Layers]: Obteniendo capas hijas de: ImagePlacer1.psb
+[2017/2/5 1:48:17]: Collect [Layers]: Obteniendo capas hijas de: Placer
+[2017/2/5 1:48:17]: Status[Layers]: Capas: Placer_selector_normal,Placer_image_normal
+[2017/2/5 1:48:17]: Status[Layers]: Capas: Placer_selector_normal,Placer_image_normal
+[2017/2/5 1:48:17]: Select [Layer][Info]: Buscando: Placer_image_normal
+[2017/2/5 1:48:17]: Status [Layer][Info]: Capa: Placer_image_normal encontrada.
+[2017/2/5 1:48:17]: Place [Image]: Insertando imagen: ~/Pictures/AGgenerator/%5BAG-Project%5DtestVertical/images/testVertical-21_27_51__aLKLb8g_700b.png
+[2017/2/5 1:48:17]: Status [Image][info]: Imagen Insertanda
+[2017/2/5 1:48:17]: Rename [layer]: Cambiando nombre de capa a: oimage
+[2017/2/5 1:48:17]: Status [layer][info]: Cambiado
+[2017/2/5 1:48:18]: Create [Layer]: layer de ajuste Hue creado
+[2017/2/5 1:48:18]: Select [Layer][Info]: Buscando: oimage
+[2017/2/5 1:48:18]: Status [Layer][Info]: Capa: oimage encontrada.
+[2017/2/5 1:48:18]: Select [Area]: Seleccionando Area de capa: Placer_selector_normal
+[2017/2/5 1:48:18]: Status [Area][Info]: Se selecciono el area de la capa: Placer_selector_normal
+[2017/2/5 1:48:18]: Align [Layer]: Moviendo capa a: CenterH
+[2017/2/5 1:48:18]: Align [Layer][Info]: Se movio capa a: ADSCentersH
+[2017/2/5 1:48:18]: Select [Area]: Quitando seleccion.
+[2017/2/5 1:48:18]: Status [Area][Info]: Seleccion removida.
+[2017/2/5 1:48:18]: Select [Layer][Info]: Buscando: Placer_selector_normal
+[2017/2/5 1:48:18]: Status [Layer][Info]: Capa: Placer_selector_normal encontrada.
+[2017/2/5 1:48:18]: Visibility [layers]: Ocultando layers seleccionadas
+[2017/2/5 1:48:18]: Save [currentDocument]: Salvando.
+[2017/2/5 1:48:19]: Save [Status][info]: Salvado.
+[2017/2/5 1:48:19]: Update [smartObject]: Actualizando.
+[2017/2/5 1:48:19]: Update [status][Info]: Actualizado.
+[2017/2/5 1:48:19]: Close [currentDocument]: Cerrando.
+[2017/2/5 1:48:19]: Close [status][Info]: Cerrado.
+[2017/2/5 1:48:19]: Rename [layer]: Cambiando nombre de capa a: AreaImagge_Image_smart
+[2017/2/5 1:48:19]: Status [layer][info]: Cambiado
+[2017/2/5 1:48:19]: Select [Layer][Info]: Buscando: AreaImagge_Blur_smart
+[2017/2/5 1:48:19]: Status [Layer][Info]: Capa: AreaImagge_Blur_smart encontrada.
+[2017/2/5 1:48:19]: Blur [layer]: Agregando blur: 25
+[2017/2/5 1:48:19]: Status [layer][info]: blur agregado.
+[2017/2/5 1:48:19]: Save [currentDocument]: Salvando.
+[2017/2/5 1:48:19]: Save [Status][info]: Salvado.
+[2017/2/5 1:48:19]: Update [smartObject]: Actualizando.
+[2017/2/5 1:48:19]: Update [status][Info]: Actualizado.
+[2017/2/5 1:48:19]: Close [currentDocument]: Cerrando.
+[2017/2/5 1:48:19]: Close [status][Info]: Cerrado.
+[2017/2/5 1:48:19]: Rename [layer]: Cambiando nombre de capa a: WorkingArea_Image_smart
+[2017/2/5 1:48:19]: Status [layer][info]: Cambiado
+[2017/2/5 1:48:19]: Select [Layer][Info]: Buscando: TextArea_MainText_smart
+[2017/2/5 1:48:19]: Status [Layer][Info]: Capa: TextArea_MainText_smart encontrada.
+[2017/2/5 1:48:19]: Visibility [layers]: Mostrando layers seleccionadas
+[2017/2/5 1:48:19]: Open [SmartObject]: Abriendo.
+[2017/2/5 1:48:20]: Open [SmartObject][Info]: abierto.
+[2017/2/5 1:48:20]: Collect [Layers]: Obteniendo capas hijas de: MainText11.psb
+[2017/2/5 1:48:20]: Collect [Layers]: Obteniendo capas hijas de: TextPlacer
+[2017/2/5 1:48:20]: Collect [Layers]: Obteniendo capas hijas de: Text
+[2017/2/5 1:48:20]: Status[Layers]: Capas: TextPlacer_placeHolder_solid,Text_Desc_smart,Text_Title_smart
+[2017/2/5 1:48:20]: Collect [Layers]: Obteniendo capas hijas de: System
+[2017/2/5 1:48:20]: Status[Layers]: Capas: TextPlacer_placeHolder_solid,Text_Desc_smart,Text_Title_smart,TextPlacer_TextColor_solid,System_Sys_normal
+[2017/2/5 1:48:20]: Status[Layers]: Capas: TextPlacer_placeHolder_solid,Text_Desc_smart,Text_Title_smart,TextPlacer_TextColor_solid,System_Sys_normal
+[2017/2/5 1:48:20]: Status[Layers]: Capas: TextPlacer_placeHolder_solid,Text_Desc_smart,Text_Title_smart,TextPlacer_TextColor_solid,System_Sys_normal
+[2017/2/5 1:48:20]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
+[2017/2/5 1:48:20]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
+[2017/2/5 1:48:20]: Visibility [layers]: Mostrando layers seleccionadas
+[2017/2/5 1:48:20]: Select [Layer][Info]: Buscando: Text_Title_smart
+[2017/2/5 1:48:20]: Status [Layer][Info]: Capa: Text_Title_smart encontrada.
+[2017/2/5 1:48:20]: Visibility [layers]: Mostrando layers seleccionadas
+[2017/2/5 1:48:20]: Open [SmartObject]: Abriendo.
+[2017/2/5 1:48:20]: Open [SmartObject][Info]: abierto.
+[2017/2/5 1:48:20]: Collect [Layers]: Obteniendo capas hijas de: TextArea11.psb
+[2017/2/5 1:48:20]: Collect [Layers]: Obteniendo capas hijas de: Text
+[2017/2/5 1:48:20]: Status[Layers]: Capas: Text_Title_text
+[2017/2/5 1:48:20]: Status[Layers]: Capas: Text_Title_text
+[2017/2/5 1:48:20]: Select [Layer][Info]: Buscando: Text_Title_text
+[2017/2/5 1:48:20]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
+[2017/2/5 1:48:21]: Select [Layer][Info]: Buscando: Text_Title_text
+[2017/2/5 1:48:21]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
+[2017/2/5 1:48:30]: Change [TextSize]: Cambiando el tamano del texto a:79
+[2017/2/5 1:48:30]: Status [TextSize][info]: Cambiado
+[2017/2/5 1:48:31]: Change [TextSize]: Cambiando el tamano del texto a:84
+[2017/2/5 1:48:31]: Status [TextSize][info]: Cambiado
+[2017/2/5 1:48:33]: Change [TextSize]: Cambiando el tamano del texto a:89
+[2017/2/5 1:48:33]: Status [TextSize][info]: Cambiado
+[2017/2/5 1:48:34]: Change [TextSize]: Cambiando el tamano del texto a:94
+[2017/2/5 1:48:34]: Status [TextSize][info]: Cambiado
+[2017/2/5 1:48:36]: Change [TextSize]: Cambiando el tamano del texto a:99
+[2017/2/5 1:48:36]: Status [TextSize][info]: Cambiado
+[2017/2/5 1:48:38]: Change [TextSize]: Cambiando el tamano del texto a:104
+[2017/2/5 1:48:38]: Status [TextSize][info]: Cambiado
+[2017/2/5 1:48:39]: Change [TextSize]: Cambiando el tamano del texto a:109
+[2017/2/5 1:48:39]: Status [TextSize][info]: Cambiado
+[2017/2/5 1:48:40]: Trim [Area]: Haciendo trim al area del documento activo
+[2017/2/5 1:48:40]: Trim [Area][Info]: Trim ejecutado.
+[2017/2/5 1:48:40]: Save [currentDocument]: Salvando.
+[2017/2/5 1:48:40]: Save [Status][info]: Salvado.
+[2017/2/5 1:48:40]: Update [smartObject]: Actualizando.
+[2017/2/5 1:48:40]: Update [status][Info]: Actualizado.
+[2017/2/5 1:48:40]: Close [currentDocument]: Cerrando.
+[2017/2/5 1:48:41]: Close [status][Info]: Cerrado.
+[2017/2/5 1:48:41]: Rename [layer]: Cambiando nombre de capa a: Text_Title_smart
+[2017/2/5 1:48:41]: Status [layer][info]: Cambiado
+[2017/2/5 1:48:41]: Align [Layer]: Moviendo capa a: Top
+[2017/2/5 1:48:41]: Align [Layer][Info]: Se movio capa a: ADSTops
+[2017/2/5 1:48:41]: Align [Layer]: Moviendo capa a: Right
+[2017/2/5 1:48:41]: Align [Layer][Info]: Se movio capa a: ADSRights
+[2017/2/5 1:48:41]: Select [Layer][Info]: Buscando: Text_Desc_smart
+[2017/2/5 1:48:41]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
+[2017/2/5 1:48:41]: Visibility [layers]: Mostrando layers seleccionadas
+[2017/2/5 1:48:41]: Open [SmartObject]: Abriendo.
+[2017/2/5 1:48:41]: Open [SmartObject][Info]: abierto.
+[2017/2/5 1:48:41]: Collect [Layers]: Obteniendo capas hijas de: TextArea.psb
+[2017/2/5 1:48:41]: Collect [Layers]: Obteniendo capas hijas de: Text
+[2017/2/5 1:48:41]: Status[Layers]: Capas: Text_Desc_text
+[2017/2/5 1:48:41]: Status[Layers]: Capas: Text_Desc_text
+[2017/2/5 1:48:41]: Select [Layer][Info]: Buscando: Text_Desc_text
+[2017/2/5 1:48:41]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
+[2017/2/5 1:48:42]: Select [Layer][Info]: Buscando: Text_Desc_text
+[2017/2/5 1:48:42]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
+[2017/2/5 1:48:44]: Trim [Area]: Haciendo trim al area del documento activo
+[2017/2/5 1:48:44]: Trim [Area][Info]: Trim ejecutado.
+[2017/2/5 1:48:44]: Save [currentDocument]: Salvando.
+[2017/2/5 1:48:44]: Save [Status][info]: Salvado.
+[2017/2/5 1:48:44]: Update [smartObject]: Actualizando.
+[2017/2/5 1:48:44]: Update [status][Info]: Actualizado.
+[2017/2/5 1:48:44]: Close [currentDocument]: Cerrando.
+[2017/2/5 1:48:44]: Close [status][Info]: Cerrado.
+[2017/2/5 1:48:44]: Rename [layer]: Cambiando nombre de capa a: Text_Desc_smart
+[2017/2/5 1:48:44]: Status [layer][info]: Cambiado
+[2017/2/5 1:48:44]: Select [Layer][Info]: Buscando: System_Sys_normal
+[2017/2/5 1:48:45]: Status [Layer][Info]: Capa: System_Sys_normal encontrada.
+[2017/2/5 1:48:45]: Create [Layer]: Creando capa con de seleccion: Text_Title_smart
+[2017/2/5 1:48:45]: Select [Area]: Seleccionando Area de capa: Text_Title_smart
+[2017/2/5 1:48:45]: Status [Area][Info]: Se selecciono el area de la capa: Text_Title_smart
+[2017/2/5 1:48:45]: Metrics [Layer][Info]: width:482 px, height:269 px
+[2017/2/5 1:48:45]: Select [Layer][Info]: Buscando: 0_0_0
+[2017/2/5 1:48:45]: Status [Layer][Info]: Capa: 0_0_0 encontrada.
+[2017/2/5 1:48:45]: Visibility [layers]: Ocultando layers seleccionadas
+[2017/2/5 1:48:45]: Select [Layer][Info]: Buscando: Text_Desc_smart
+[2017/2/5 1:48:45]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
+[2017/2/5 1:48:45]: Align [Layer]: Moviendo capa a: Top
+[2017/2/5 1:48:45]: Align [Layer][Info]: Se movio capa a: ADSTops
+[2017/2/5 1:48:45]: Align [Layer]: Moviendo capa a: Right
+[2017/2/5 1:48:45]: Align [Layer][Info]: Se movio capa a: ADSRights
+[2017/2/5 1:48:45]: Select [Area]: Quitando seleccion.
+[2017/2/5 1:48:45]: Status [Area][Info]: Seleccion removida.
+[2017/2/5 1:48:45]: Select [Layer][Info]: Buscando: TextPlacer_TextColor_solid
+[2017/2/5 1:48:45]: Status [Layer][Info]: Capa: TextPlacer_TextColor_solid encontrada.
+[2017/2/5 1:48:45]: Change [ColorSolid]: Cambiando color
+[2017/2/5 1:48:45]: Status [ColorSolid][info]: Color cambiado a: 0,0,0
+[2017/2/5 1:48:45]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
+[2017/2/5 1:48:45]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
+[2017/2/5 1:48:45]: Visibility [layers]: Ocultando layers seleccionadas
+[2017/2/5 1:48:45]: Trim [Area]: Haciendo trim al area del documento activo
+[2017/2/5 1:48:45]: Trim [Area][Info]: Trim ejecutado.
+[2017/2/5 1:48:45]: Visibility [layers]: Mostrando layers seleccionadas
+[2017/2/5 1:48:45]: Resize [canvas]: Transformando canvas. (Size: 537:369)
+[2017/2/5 1:48:45]: Resize [status][Info]: Transformado.
+[2017/2/5 1:48:45]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
+[2017/2/5 1:48:45]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
+[2017/2/5 1:48:45]: Change [ColorSolid]: Cambiando color
+[2017/2/5 1:48:45]: Status [ColorSolid][info]: Color cambiado a: 255,102.021789550781,0
+[2017/2/5 1:48:46]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
+[2017/2/5 1:48:46]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
+[2017/2/5 1:48:47]: Save [currentDocument]: Salvando.
+[2017/2/5 1:48:48]: Save [Status][info]: Salvado.
+[2017/2/5 1:48:48]: Update [smartObject]: Actualizando.
+[2017/2/5 1:48:48]: Update [status][Info]: Actualizado.
+[2017/2/5 1:48:48]: Close [currentDocument]: Cerrando.
+[2017/2/5 1:48:48]: Close [status][Info]: Cerrado.
+[2017/2/5 1:48:48]: Rename [layer]: Cambiando nombre de capa a: TextArea_MainText_smart
+[2017/2/5 1:48:48]: Status [layer][info]: Cambiado
+[2017/2/5 1:48:48]: Select [Area]: Seleccionando Area de capa: WorkingArea_Image_smart
+[2017/2/5 1:48:48]: Status [Area][Info]: Se selecciono el area de la capa: WorkingArea_Image_smart
+[2017/2/5 1:48:48]: Select [Layer][Info]: Buscando: TextArea_MainText_smart
+[2017/2/5 1:48:48]: Status [Layer][Info]: Capa: TextArea_MainText_smart encontrada.
+[2017/2/5 1:48:48]: Align [Layer]: Moviendo capa a: Bottom
+[2017/2/5 1:48:48]: Align [Layer][Info]: Se movio capa a: ADSBottoms
+[2017/2/5 1:48:48]: Align [Layer]: Moviendo capa a: Right
+[2017/2/5 1:48:48]: Align [Layer][Info]: Se movio capa a: ADSRights
+[2017/2/5 1:48:48]: Select [Area]: Quitando seleccion.
+[2017/2/5 1:48:48]: Status [Area][Info]: Seleccion removida.
+[2017/2/5 1:48:48]: Select [Layer][Info]: Buscando: TextArea_BottomText_smart
+[2017/2/5 1:48:48]: Status [Layer][Info]: Capa: TextArea_BottomText_smart encontrada.
+[2017/2/5 1:48:48]: Visibility [layers]: Mostrando layers seleccionadas
+[2017/2/5 1:48:48]: Open [SmartObject]: Abriendo.
+[2017/2/5 1:48:48]: Open [SmartObject][Info]: abierto.
+[2017/2/5 1:48:48]: Collect [Layers]: Obteniendo capas hijas de: BottomText2.psb
+[2017/2/5 1:48:48]: Status[Layers]: Capas: BottomText2.psb_mask_text,BottomText2.psb_TextArea_text
+[2017/2/5 1:48:48]: Select [Layer][Info]: Buscando: BottomText2.psb_mask_text
+[2017/2/5 1:48:48]: Status [Layer][Info]: Capa: BottomText2.psb_mask_text encontrada.
+[2017/2/5 1:48:48]: Visibility [layers]: Mostrando layers seleccionadas
+[2017/2/5 1:48:48]: Select [Layer][Info]: Buscando: BottomText2.psb_TextArea_text
+[2017/2/5 1:48:48]: Status [Layer][Info]: Capa: BottomText2.psb_TextArea_text encontrada.
+[2017/2/5 1:48:50]: Change [Layer Text/Fill]: Cambiando color
+[2017/2/5 1:48:50]: Status [ColorSolid][info]: Color cambiado a: 0,0,0
+[2017/2/5 1:48:50]: Select [Layer][Info]: Buscando: BottomText2.psb_mask_text
+[2017/2/5 1:48:50]: Status [Layer][Info]: Capa: BottomText2.psb_mask_text encontrada.
+[2017/2/5 1:48:50]: Change [ColorSolid]: Cambiando color
+[2017/2/5 1:48:50]: Status [ColorSolid][info]: Color cambiado a: 255,102.021789550781,0
+[2017/2/5 1:48:51]: Select [Layer][Info]: Buscando: BottomText2.psb_mask_text
+[2017/2/5 1:48:51]: Status [Layer][Info]: Capa: BottomText2.psb_mask_text encontrada.
+[2017/2/5 1:48:53]: Opacity [layer]: Valor de opacidad: 90
+[2017/2/5 1:48:53]: Opacity [Status][Info]: Valor de opacidad modificado.
+[2017/2/5 1:48:54]: Save [currentDocument]: Salvando.
+[2017/2/5 1:48:54]: Save [Status][info]: Salvado.
+[2017/2/5 1:48:54]: Update [smartObject]: Actualizando.
+[2017/2/5 1:48:54]: Update [status][Info]: Actualizado.
+[2017/2/5 1:48:54]: Close [currentDocument]: Cerrando.
+[2017/2/5 1:48:55]: Close [status][Info]: Cerrado.
+[2017/2/5 1:48:55]: Rename [layer]: Cambiando nombre de capa a: TextArea_BottomText_smart
+[2017/2/5 1:48:55]: Status [layer][info]: Cambiado
+[2017/2/5 1:48:55]: Select [Layer][Info]: Buscando: TAG_TAG_smart
+[2017/2/5 1:48:55]: Status [Layer][Info]: Capa: TAG_TAG_smart encontrada.
+[2017/2/5 1:48:55]: Open [SmartObject]: Abriendo.
+[2017/2/5 1:48:55]: Open [SmartObject][Info]: abierto.
+[2017/2/5 1:48:55]: Collect [Layers]: Obteniendo capas hijas de: TAG1.psb
+[2017/2/5 1:48:55]: Collect [Layers]: Obteniendo capas hijas de: Tag
+[2017/2/5 1:48:55]: Status[Layers]: Capas: Tag_Icon_solid,Tag_BG_solid,Tag_Tag_text
+[2017/2/5 1:48:55]: Status[Layers]: Capas: Tag_Icon_solid,Tag_BG_solid,Tag_Tag_text
+[2017/2/5 1:48:55]: Select [Layer][Info]: Buscando: Tag_Tag_text
+[2017/2/5 1:48:55]: Status [Layer][Info]: Capa: Tag_Tag_text encontrada.
+[2017/2/5 1:48:55]: Change [Layer Text/Fill]: Cambiando color
+[2017/2/5 1:48:55]: Status [ColorSolid][info]: Color cambiado a: 0,0,0
+[2017/2/5 1:48:55]: Select [Layer][Info]: Buscando: Tag_Icon_solid
+[2017/2/5 1:48:55]: Status [Layer][Info]: Capa: Tag_Icon_solid encontrada.
+[2017/2/5 1:48:55]: Change [ColorSolid]: Cambiando color
+[2017/2/5 1:48:55]: Status [ColorSolid][info]: Color cambiado a: 0,0,0
+[2017/2/5 1:48:55]: Select [Layer][Info]: Buscando: Tag_BG_solid
+[2017/2/5 1:48:55]: Status [Layer][Info]: Capa: Tag_BG_solid encontrada.
+[2017/2/5 1:48:55]: Change [ColorSolid]: Cambiando color
+[2017/2/5 1:48:55]: Status [ColorSolid][info]: Color cambiado a: 255,255,255
+[2017/2/5 1:48:55]: Save [currentDocument]: Salvando.
+[2017/2/5 1:48:55]: Save [Status][info]: Salvado.
+[2017/2/5 1:48:55]: Update [smartObject]: Actualizando.
+[2017/2/5 1:48:55]: Update [status][Info]: Actualizado.
+[2017/2/5 1:48:55]: Close [currentDocument]: Cerrando.
+[2017/2/5 1:48:55]: Close [status][Info]: Cerrado.
+[2017/2/5 1:48:55]: Rename [layer]: Cambiando nombre de capa a: TAG_TAG_smart
+[2017/2/5 1:48:55]: Status [layer][info]: Cambiado
+[2017/2/5 1:48:56]: Select [Layer][Info]: Buscando: WorkingArea_Image_smart
+[2017/2/5 1:48:56]: Status [Layer][Info]: Capa: WorkingArea_Image_smart encontrada.
+[2017/2/5 1:48:56]: Opacity [layer]: Agregando opacidad (Fill): 0
+[2017/2/5 1:48:56]: Opacity [Status][Info]: Valor de opacidad modificado.
+[2017/2/5 1:48:56]: Save [File]: Imagen guardada con nombre:[VideoMask]testVertical en folder: ~/Pictures/AGgenerator/%5BAG-Project%5DtestVertical
+[2017/2/5 1:48:56]: Opacity [layer]: Agregando opacidad (Fill): 100
+[2017/2/5 1:48:56]: Opacity [Status][Info]: Valor de opacidad modificado.
+[2017/2/5 1:48:56]: DocInfo [currentDocument]: Agregando Exif
+[2017/2/5 1:48:58]: Save [File]: Imagen guardada con nombre:testVertical en folder: ~/Pictures/AGgenerator/%5BAG-Project%5DtestVertical
+[2017/2/5 1:48:58]: Save [currentDocument]: Salvando.
+[2017/2/5 1:48:58]: Save [Status][info]: Salvado.
+[2017/2/5 1:48:58]: Close [Document]: Cerrando.
+[2017/2/5 1:48:58]: Close [status][Info]: Cerrado.
+[2017/2/5 1:49:1]: [Close]: Cerrando Generador
+[2017/2/5 1:59:30]: 
 
-[2017/2/4 18:51:10]: [Open]: Abriendo Generador
-[2017/2/4 18:51:10]: [Update]: Buscando actualizaciones
-[2017/2/4 18:51:10]: Update [Result]: Generador actualizado
-[2017/2/4 18:51:10]: Process [Main]: Ejecutando Main.jsx
-[2017/2/4 18:51:10]: Read [Preferences]: Tratando de leer las preferencias
-[2017/2/4 18:51:10]: Read [Folder]: Buscando en: ~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
-[2017/2/4 18:51:10]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:51:10]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:51:10]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:51:10]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:51:10]: Read [json]: Archivo encontrado~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
-[2017/2/4 18:51:10]: Window [Start Screen]: Abriendo ventana
-[2017/2/4 18:51:30]: [Close]: Cerrando Generador
-[2017/2/4 18:52:45]: 
+[2017/2/5 1:59:30]: [Open]: Abriendo Generador
+[2017/2/5 1:59:30]: [Update]: Buscando actualizaciones
+[2017/2/5 1:59:30]: Update [Result]: Generador actualizado
+[2017/2/5 1:59:30]: Process [Main]: Ejecutando Main.jsx
+[2017/2/5 1:59:30]: Read [Preferences]: Tratando de leer las preferencias
+[2017/2/5 1:59:30]: Read [Folder]: Buscando en: /c/wamp64/www/AGenerator/AG-enerator/AGFiles%20Only
+[2017/2/5 1:59:30]: Read [json]: Buscando archivos: .json
+[2017/2/5 1:59:30]: Read [json]: Buscando archivos: .json
+[2017/2/5 1:59:30]: Read [json]: Buscando archivos: .json
+[2017/2/5 1:59:30]: Read [json]: Buscando archivos: .json
+[2017/2/5 1:59:30]: Read [json]: Archivo encontrado/c/wamp64/www/AGenerator/AG-enerator/AGFiles%20Only
+[2017/2/5 1:59:30]: Window [Start Screen]: Abriendo ventana
+[2017/2/5 1:59:37]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]tesver3 en Folder:~/Pictures/AGgenerator
+[2017/2/5 1:59:37]: Create [Project Folder]: Folder Creado (~/Pictures/AGgenerator/%5BAG-Project%5Dtesver3)
+[2017/2/5 1:59:37]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AGgenerator/%5BAG-Project%5Dtesver3/images
+[2017/2/5 1:59:37]: Verify [Project Folder][Temp Images]: El folder no existe, se creara.
+[2017/2/5 1:59:37]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/5 1:59:37]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+Datos:{
+	"type": "image",
+	"ProjectName": "tesver3",
+	"text": {
+		"tag": {
+			"enable": true,
+			"index": -1,
+			"text": ""
+		},
+		"description": {
+			"enable": true,
+			"text": ""
+		},
+		"top": {
+			"enable": true,
+			"text": ""
+		},
+		"bottom": {
+			"enable": true,
+			"text": ""
+		}
+	},
+	"reactions": {
+		"enable": false,
+		"list": [
+			"like",
+			"heart",
+			"wow",
+			"haha",
+			"sad",
+			"angry"
+		]
+	},
+	"colors": {
+		"tag-icon": [
+			0,
+			0,
+			0,
+			1
+		],
+		"tag-bg": [
+			1,
+			1,
+			1,
+			1
+		],
+		"tag-text": [
+			0,
+			0,
+			0,
+			1
+		],
+		"text": [
+			0,
+			0,
+			0,
+			1
+		],
+		"mask": [
+			1,
+			1,
+			1,
+			1
+		],
+		"background": [
+			0,
+			0,
+			0,
+			1
+		]
+	},
+	"fileNumber": 1,
+	"files": [
+		
+	],
+	"thumbs": [
+		
+	]
+}
+[2017/2/5 1:59:37]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/5 1:59:53]: Save [File]: Imagen guardada con nombre:tesver3-1_59_49__e448a27b7bde43c5b906358e8b62e122.png en folder: ~/Pictures/AGgenerator/%5BAG-Project%5Dtesver3/images/
+[2017/2/5 1:59:53]: Save [File]: Imagen guardada con nombre:tesver3-1_59_49__e448a27b7bde43c5b906358e8b62e122-thumb.png en folder: ~/Pictures/AGgenerator/%5BAG-Project%5Dtesver3/images/
+[2017/2/5 1:59:53]: Close [Document]: Cerrando.
+[2017/2/5 1:59:53]: Close [status][Info]: Cerrado.
+[2017/2/5 1:59:53]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]tesver3 en Folder:~/Pictures/AGgenerator
+[2017/2/5 1:59:53]: Verify [Project Folder]: Folder Existente (~/Pictures/AGgenerator/%5BAG-Project%5Dtesver3)
+[2017/2/5 1:59:53]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AGgenerator/%5BAG-Project%5Dtesver3/images
+[2017/2/5 1:59:53]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/5 1:59:53]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/5 1:59:53]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/5 1:59:53]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+Datos:{
+	"type": "image",
+	"ProjectName": "tesver3",
+	"text": {
+		"tag": {
+			"enable": true,
+			"index": -1,
+			"text": ""
+		},
+		"description": {
+			"enable": true,
+			"text": ""
+		},
+		"top": {
+			"enable": true,
+			"text": ""
+		},
+		"bottom": {
+			"enable": true,
+			"text": ""
+		}
+	},
+	"reactions": {
+		"enable": false,
+		"list": [
+			"like",
+			"heart",
+			"wow",
+			"haha",
+			"sad",
+			"angry"
+		]
+	},
+	"colors": {
+		"tag-icon": [
+			0,
+			0,
+			0,
+			1
+		],
+		"tag-bg": [
+			1,
+			1,
+			1,
+			1
+		],
+		"tag-text": [
+			0,
+			0,
+			0,
+			1
+		],
+		"text": [
+			0,
+			0,
+			0,
+			1
+		],
+		"mask": [
+			1,
+			1,
+			1,
+			1
+		],
+		"background": [
+			0,
+			0,
+			0,
+			1
+		]
+	},
+	"fileNumber": 1,
+	"files": [
+		"tesver3-1_59_49__e448a27b7bde43c5b906358e8b62e122.png"
+	],
+	"thumbs": [
+		"tesver3-1_59_49__e448a27b7bde43c5b906358e8b62e122-thumb.png"
+	],
+	"imageSize": [
+		1024,
+		1536
+	],
+	"imageType": "Vertical"
+}
+[2017/2/5 1:59:53]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/5 2:0:0]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]tesver3 en Folder:~/Pictures/AGgenerator
+[2017/2/5 2:0:0]: Verify [Project Folder]: Folder Existente (~/Pictures/AGgenerator/%5BAG-Project%5Dtesver3)
+[2017/2/5 2:0:0]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AGgenerator/%5BAG-Project%5Dtesver3/images
+[2017/2/5 2:0:0]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/5 2:0:0]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/5 2:0:0]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/5 2:0:0]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+Datos:{
+	"type": "image",
+	"ProjectName": "tesver3",
+	"text": {
+		"tag": {
+			"enable": false,
+			"index": -1,
+			"text": ""
+		},
+		"description": {
+			"enable": false,
+			"text": ""
+		},
+		"top": {
+			"enable": false,
+			"text": ""
+		},
+		"bottom": {
+			"enable": false,
+			"text": ""
+		}
+	},
+	"reactions": {
+		"enable": false,
+		"list": [
+			"like",
+			"heart",
+			"wow",
+			"haha",
+			"sad",
+			"angry"
+		]
+	},
+	"colors": {
+		"tag-icon": [
+			0,
+			0,
+			0,
+			1
+		],
+		"tag-bg": [
+			1,
+			1,
+			1,
+			1
+		],
+		"tag-text": [
+			0,
+			0,
+			0,
+			1
+		],
+		"text": [
+			0,
+			0,
+			0,
+			1
+		],
+		"mask": [
+			1,
+			1,
+			1,
+			1
+		],
+		"background": [
+			0,
+			0,
+			0,
+			1
+		]
+	},
+	"fileNumber": 1,
+	"files": [
+		"tesver3-1_59_49__e448a27b7bde43c5b906358e8b62e122.png"
+	],
+	"thumbs": [
+		"tesver3-1_59_49__e448a27b7bde43c5b906358e8b62e122-thumb.png"
+	],
+	"imageSize": [
+		1024,
+		1536
+	],
+	"imageType": "Vertical"
+}
+[2017/2/5 2:0:0]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/5 2:0:1]: Execute [Generator]: Ejecutando proyecto: ~/Pictures/AGgenerator/%5BAG-Project%5Dtesver3/
+[2017/2/5 2:0:1]: Verify [File]: Buscando si ya se ha creado una imagen con nombre:tesver3
+[2017/2/5 2:0:1]: Opening [File][Info]: Abriendo el psd.
+[2017/2/5 2:0:1]: Create [File]: Creando PSD del proyecto basado en el template:normalTemplateVertical-noTag
+[2017/2/5 2:0:1]: Collect [Layers]: Obteniendo capas hijas de: tesver3 (normalTemplateVertical-noTag).psd
+[2017/2/5 2:0:1]: Collect [Layers]: Obteniendo capas hijas de: System
+[2017/2/5 2:0:1]: Status[Layers]: Capas: System_background_solid
+[2017/2/5 2:0:1]: Collect [Layers]: Obteniendo capas hijas de: WorkingArea
+[2017/2/5 2:0:1]: Status[Layers]: Capas: System_background_solid,WorkingArea_Image_smart
+[2017/2/5 2:0:1]: Collect [Layers]: Obteniendo capas hijas de: TextArea
+[2017/2/5 2:0:1]: Status[Layers]: Capas: System_background_solid,WorkingArea_Image_smart,TextArea_BottomText_smart,TextArea_MainText_smart
+[2017/2/5 2:0:1]: Collect [Layers]: Obteniendo capas hijas de: TAG
+[2017/2/5 2:0:1]: Status[Layers]: Capas: System_background_solid,WorkingArea_Image_smart,TextArea_BottomText_smart,TextArea_MainText_smart,TAG_TAG_smart
+[2017/2/5 2:0:1]: Status[Layers]: Capas: System_background_solid,WorkingArea_Image_smart,TextArea_BottomText_smart,TextArea_MainText_smart,TAG_TAG_smart
+[2017/2/5 2:0:1]: Select [Layer][Info]: Buscando: System_background_solid
+[2017/2/5 2:0:1]: Status [Layer][Info]: Capa: System_background_solid encontrada.
+[2017/2/5 2:0:1]: Change [ColorSolid]: Cambiando color
+[2017/2/5 2:0:1]: Status [ColorSolid][info]: Color cambiado a: 0,0,0
+[2017/2/5 2:0:1]: Status [Place]: Insertando Imagen
+[2017/2/5 2:0:1]: Select [Layer][Info]: Buscando: WorkingArea_Image_smart
+[2017/2/5 2:0:1]: Status [Layer][Info]: Capa: WorkingArea_Image_smart encontrada.
+[2017/2/5 2:0:1]: Open [SmartObject]: Abriendo.
+[2017/2/5 2:0:2]: Open [SmartObject][Info]: abierto.
+[2017/2/5 2:0:2]: Collect [Layers]: Obteniendo capas hijas de: AreaImage1.psb
+[2017/2/5 2:0:2]: Collect [Layers]: Obteniendo capas hijas de: AreaImage
+[2017/2/5 2:0:2]: Status[Layers]: Capas: AreaImage_Area_solid,AreaImage_Blur_smart,AreaImage_Image_smart
+[2017/2/5 2:0:2]: Status[Layers]: Capas: AreaImage_Area_solid,AreaImage_Blur_smart,AreaImage_Image_smart
+[2017/2/5 2:0:2]: Select [Layer][Info]: Buscando: AreaImage_Image_smart
+[2017/2/5 2:0:2]: Status [Layer][Info]: Capa: AreaImage_Image_smart encontrada.
+[2017/2/5 2:0:2]: Open [SmartObject]: Abriendo.
+[2017/2/5 2:0:2]: Open [SmartObject][Info]: abierto.
+[2017/2/5 2:0:2]: Collect [Layers]: Obteniendo capas hijas de: ImagePlacer1.psb
+[2017/2/5 2:0:2]: Collect [Layers]: Obteniendo capas hijas de: Placer
+[2017/2/5 2:0:2]: Status[Layers]: Capas: Placer_selector_normal,Placer_image_normal
+[2017/2/5 2:0:2]: Status[Layers]: Capas: Placer_selector_normal,Placer_image_normal
+[2017/2/5 2:0:2]: Select [Layer][Info]: Buscando: Placer_image_normal
+[2017/2/5 2:0:2]: Status [Layer][Info]: Capa: Placer_image_normal encontrada.
+[2017/2/5 2:0:2]: Place [Image]: Insertando imagen: ~/Pictures/AGgenerator/%5BAG-Project%5Dtesver3/images/tesver3-1_59_49__e448a27b7bde43c5b906358e8b62e122.png
+[2017/2/5 2:0:2]: Status [Image][info]: Imagen Insertanda
+[2017/2/5 2:0:2]: Rename [layer]: Cambiando nombre de capa a: oimage
+[2017/2/5 2:0:2]: Status [layer][info]: Cambiado
+[2017/2/5 2:0:4]: Create [Layer]: layer de ajuste Hue creado
+[2017/2/5 2:0:4]: Select [Layer][Info]: Buscando: oimage
+[2017/2/5 2:0:4]: Status [Layer][Info]: Capa: oimage encontrada.
+[2017/2/5 2:0:4]: Select [Area]: Seleccionando Area de capa: Placer_selector_normal
+[2017/2/5 2:0:4]: Status [Area][Info]: Se selecciono el area de la capa: Placer_selector_normal
+[2017/2/5 2:0:4]: Align [Layer]: Moviendo capa a: CenterH
+[2017/2/5 2:0:4]: Align [Layer][Info]: Se movio capa a: ADSCentersH
+[2017/2/5 2:0:4]: Select [Area]: Quitando seleccion.
+[2017/2/5 2:0:4]: Status [Area][Info]: Seleccion removida.
+[2017/2/5 2:0:4]: Select [Layer][Info]: Buscando: Placer_selector_normal
+[2017/2/5 2:0:4]: Status [Layer][Info]: Capa: Placer_selector_normal encontrada.
+[2017/2/5 2:0:4]: Visibility [layers]: Ocultando layers seleccionadas
+[2017/2/5 2:0:4]: Save [currentDocument]: Salvando.
+[2017/2/5 2:0:4]: Save [Status][info]: Salvado.
+[2017/2/5 2:0:4]: Update [smartObject]: Actualizando.
+[2017/2/5 2:0:4]: Update [status][Info]: Actualizado.
+[2017/2/5 2:0:4]: Close [currentDocument]: Cerrando.
+[2017/2/5 2:0:4]: Close [status][Info]: Cerrado.
+[2017/2/5 2:0:4]: Rename [layer]: Cambiando nombre de capa a: AreaImage_Image_smart
+[2017/2/5 2:0:4]: Status [layer][info]: Cambiado
+[2017/2/5 2:0:4]: Select [Layer][Info]: Buscando: AreaImage_Blur_smart
+[2017/2/5 2:0:4]: Status [Layer][Info]: Capa: AreaImage_Blur_smart encontrada.
+[2017/2/5 2:0:4]: Blur [layer]: Agregando blur: 25
+[2017/2/5 2:0:4]: Status [layer][info]: blur agregado.
+[2017/2/5 2:0:4]: Save [currentDocument]: Salvando.
+[2017/2/5 2:0:5]: Save [Status][info]: Salvado.
+[2017/2/5 2:0:5]: Update [smartObject]: Actualizando.
+[2017/2/5 2:0:5]: Update [status][Info]: Actualizado.
+[2017/2/5 2:0:5]: Close [currentDocument]: Cerrando.
+[2017/2/5 2:0:5]: Close [status][Info]: Cerrado.
+[2017/2/5 2:0:5]: Rename [layer]: Cambiando nombre de capa a: WorkingArea_Image_smart
+[2017/2/5 2:0:5]: Status [layer][info]: Cambiado
+[2017/2/5 2:0:5]: Select [Layer][Info]: Buscando: TextArea_MainText_smart
+[2017/2/5 2:0:5]: Status [Layer][Info]: Capa: TextArea_MainText_smart encontrada.
+[2017/2/5 2:0:5]: Visibility [layers]: Ocultando layers seleccionadas
+[2017/2/5 2:0:5]: Select [Layer][Info]: Buscando: TextArea_BottomText_smart
+[2017/2/5 2:0:5]: Status [Layer][Info]: Capa: TextArea_BottomText_smart encontrada.
+[2017/2/5 2:0:5]: Visibility [layers]: Ocultando layers seleccionadas
+[2017/2/5 2:0:5]: Select [Layer][Info]: Buscando: TAG_TAG_smart
+[2017/2/5 2:0:5]: Status [Layer][Info]: Capa: TAG_TAG_smart encontrada.
+[2017/2/5 2:0:5]: Visibility [layers]: Ocultando layers seleccionadas
+[2017/2/5 2:0:5]: Select [Layer][Info]: Buscando: WorkingArea_Image_smart
+[2017/2/5 2:0:5]: Status [Layer][Info]: Capa: WorkingArea_Image_smart encontrada.
+[2017/2/5 2:0:5]: Opacity [layer]: Agregando opacidad (Fill): 0
+[2017/2/5 2:0:5]: Opacity [Status][Info]: Valor de opacidad modificado.
+[2017/2/5 2:0:5]: Save [File]: Imagen guardada con nombre:[VideoMask]tesver3 en folder: ~/Pictures/AGgenerator/%5BAG-Project%5Dtesver3
+[2017/2/5 2:0:5]: Opacity [layer]: Agregando opacidad (Fill): 100
+[2017/2/5 2:0:5]: Opacity [Status][Info]: Valor de opacidad modificado.
+[2017/2/5 2:0:5]: DocInfo [currentDocument]: Agregando Exif
+[2017/2/5 2:0:8]: Save [File]: Imagen guardada con nombre:tesver3 en folder: ~/Pictures/AGgenerator/%5BAG-Project%5Dtesver3
+[2017/2/5 2:0:8]: Save [currentDocument]: Salvando.
+[2017/2/5 2:0:8]: Save [Status][info]: Salvado.
+[2017/2/5 2:0:8]: Close [Document]: Cerrando.
+[2017/2/5 2:0:8]: Close [status][Info]: Cerrado.
+[2017/2/5 2:0:10]: [Close]: Cerrando Generador
+[2017/2/5 2:18:0]: 
 
-[2017/2/4 18:52:45]: [Open]: Abriendo Generador
-[2017/2/4 18:52:45]: [Update]: Buscando actualizaciones
-[2017/2/4 18:52:45]: Update [Result]: Generador actualizado
-[2017/2/4 18:52:45]: Process [Main]: Ejecutando Main.jsx
-[2017/2/4 18:52:45]: Read [Preferences]: Tratando de leer las preferencias
-[2017/2/4 18:52:45]: Read [Folder]: Buscando en: ~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
-[2017/2/4 18:52:45]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:52:45]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:52:45]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:52:45]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:52:45]: Read [json]: Archivo encontrado~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
-[2017/2/4 18:52:45]: Window [Start Screen]: Abriendo ventana
-[2017/2/4 18:52:49]: Read [Folder]: Buscando en: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
-[2017/2/4 18:52:49]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:52:49]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:52:49]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:52:49]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:52:49]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:52:49]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:52:49]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:52:49]: Read [json]: Archivo encontrado~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
-[2017/2/4 18:52:50]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
-[2017/2/4 18:52:50]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
-[2017/2/4 18:52:50]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
-[2017/2/4 18:52:50]: Verify [Project Folder][Temp Images]: El folder existe
-[2017/2/4 18:52:50]: Create [Project Folder][File]: Generando archivo de proyecto.
-[2017/2/4 18:52:50]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
-[2017/2/4 18:52:50]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+[2017/2/5 2:18:0]: [Open]: Abriendo Generador
+[2017/2/5 2:18:0]: [Update]: Buscando actualizaciones
+[2017/2/5 2:18:0]: Update [Result]: Generador actualizado
+[2017/2/5 2:18:0]: Process [Main]: Ejecutando Main.jsx
+[2017/2/5 2:18:0]: Read [Preferences]: Tratando de leer las preferencias
+[2017/2/5 2:18:0]: Read [Folder]: Buscando en: /c/wamp64/www/AGenerator/AG-enerator/AGFiles%20Only
+[2017/2/5 2:18:0]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:18:0]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:18:0]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:18:0]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:18:0]: Read [json]: Archivo encontrado/c/wamp64/www/AGenerator/AG-enerator/AGFiles%20Only
+[2017/2/5 2:18:0]: Window [Start Screen]: Abriendo ventana
+[2017/2/5 2:18:6]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]testmeme en Folder:~/Pictures/AGgenerator
+[2017/2/5 2:18:6]: Create [Project Folder]: Folder Creado (~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme)
+[2017/2/5 2:18:6]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme/images
+[2017/2/5 2:18:6]: Verify [Project Folder][Temp Images]: El folder no existe, se creara.
+[2017/2/5 2:18:6]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/5 2:18:6]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
 Datos:{
-	"type": "image",
-	"ProjectName": "psnow",
+	"type": "meme",
+	"ProjectName": "testmeme",
 	"text": {
 		"tag": {
-			"enable": true,
-			"index": 2,
+			"enable": false,
+			"index": -1,
 			"text": ""
 		},
 		"description": {
-			"enable": true,
-			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
+			"enable": false,
+			"text": ""
 		},
 		"top": {
 			"enable": true,
-			"text": "Sony Playstation Now"
+			"text": ""
 		},
 		"bottom": {
-			"enable": false,
+			"enable": true,
 			"text": ""
 		}
 	},
@@ -900,82 +1253,81 @@ Datos:{
 	},
 	"colors": {
 		"tag-icon": [
-			1,
-			1,
-			1,
+			0,
+			0,
+			0,
 			1
 		],
 		"tag-bg": [
-			0.80783081054688,
-			0.80783081054688,
-			0.80783081054688,
+			1,
+			1,
+			1,
 			1
 		],
 		"tag-text": [
-			0.2823486328125,
-			0.2823486328125,
-			0.2823486328125,
+			0,
+			0,
+			0,
 			1
 		],
 		"text": [
-			1,
-			1,
-			1,
+			0,
+			0,
+			0,
 			1
 		],
 		"mask": [
-			0,
-			0.43191528320313,
-			0.70587158203125,
+			1,
+			1,
+			1,
 			1
 		],
 		"background": [
 			0,
-			0.43191528320313,
-			0.70587158203125,
+			0,
+			0,
 			1
 		]
 	},
 	"fileNumber": 1,
 	"files": [
-		"psnow-17_30_10__PS-Now-Lead.png"
+		
 	],
 	"thumbs": [
-		"psnow-17_30_10__PS-Now-Lead-thumb.png"
-	],
-	"imageSize": [
-		1108,
-		682
-	],
-	"imageType": "Normal"
+		
+	]
 }
-[2017/2/4 18:52:50]: Status [File][Info]: Se creo con exito el archivo de proyecto
-[2017/2/4 18:52:51]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
-[2017/2/4 18:52:51]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
-[2017/2/4 18:52:51]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
-[2017/2/4 18:52:51]: Verify [Project Folder][Temp Images]: El folder existe
-[2017/2/4 18:52:51]: Create [Project Folder][File]: Generando archivo de proyecto.
-[2017/2/4 18:52:51]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
-[2017/2/4 18:52:51]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+[2017/2/5 2:18:6]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/5 2:18:20]: Save [File]: Imagen guardada con nombre:testmeme-2_18_18__pfwme1nn2x9bgez3tcwa.png en folder: ~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme/images/
+[2017/2/5 2:18:20]: Save [File]: Imagen guardada con nombre:testmeme-2_18_18__pfwme1nn2x9bgez3tcwa-thumb.png en folder: ~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme/images/
+[2017/2/5 2:18:20]: Close [Document]: Cerrando.
+[2017/2/5 2:18:20]: Close [status][Info]: Cerrado.
+[2017/2/5 2:18:20]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]testmeme en Folder:~/Pictures/AGgenerator
+[2017/2/5 2:18:20]: Verify [Project Folder]: Folder Existente (~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme)
+[2017/2/5 2:18:20]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme/images
+[2017/2/5 2:18:20]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/5 2:18:20]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/5 2:18:20]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/5 2:18:20]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
 Datos:{
-	"type": "image",
-	"ProjectName": "psnow",
+	"type": "meme",
+	"ProjectName": "testmeme",
 	"text": {
 		"tag": {
-			"enable": true,
-			"index": 2,
+			"enable": false,
+			"index": -1,
 			"text": ""
 		},
 		"description": {
-			"enable": true,
-			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
+			"enable": false,
+			"text": ""
 		},
 		"top": {
 			"enable": true,
-			"text": "Sony Playstation Now"
+			"text": ""
 		},
 		"bottom": {
-			"enable": false,
+			"enable": true,
 			"text": ""
 		}
 	},
@@ -992,178 +1344,241 @@ Datos:{
 	},
 	"colors": {
 		"tag-icon": [
-			1,
-			1,
-			1,
+			0,
+			0,
+			0,
 			1
 		],
 		"tag-bg": [
-			0.80783081054688,
-			0.80783081054688,
-			0.80783081054688,
+			1,
+			1,
+			1,
 			1
 		],
 		"tag-text": [
-			0.2823486328125,
-			0.2823486328125,
-			0.2823486328125,
+			0,
+			0,
+			0,
 			1
 		],
 		"text": [
-			1,
-			1,
-			1,
+			0,
+			0,
+			0,
 			1
 		],
 		"mask": [
-			0,
-			0.43191528320313,
-			0.70587158203125,
+			1,
+			1,
+			1,
 			1
 		],
 		"background": [
 			0,
-			0.43191528320313,
-			0.70587158203125,
+			0,
+			0,
 			1
 		]
 	},
 	"fileNumber": 1,
 	"files": [
-		"psnow-17_30_10__PS-Now-Lead.png"
+		"testmeme-2_18_18__pfwme1nn2x9bgez3tcwa.png"
 	],
 	"thumbs": [
-		"psnow-17_30_10__PS-Now-Lead-thumb.png"
-	],
-	"imageSize": [
-		1108,
-		682
-	],
-	"imageType": "Normal"
+		"testmeme-2_18_18__pfwme1nn2x9bgez3tcwa-thumb.png"
+	]
 }
-[2017/2/4 18:52:51]: Status [File][Info]: Se creo con exito el archivo de proyecto
-[2017/2/4 18:52:51]: Execute [Generator]: Ejecutando proyecto: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/
-[2017/2/4 18:52:51]: Verify [File]: Buscando si ya se ha creado una imagen con nombre:psnow
-[2017/2/4 18:52:51]: Status [File]: Imagen encontrada, renombrando a:psnow-20170116T151255
-[2017/2/4 18:52:51]: Save [File]: Imagen guardada con nombre:psnow-20170116T151255 en folder: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
-[2017/2/4 18:52:51]: Create [File]: Creando PSD del proyecto basado en el template
-[2017/2/4 18:52:51]: Verify [Template][Info]: La plantilla seleccionada tiene las siguientes capas: 
-System_backgrounxdColor_solid,WorkingArea_AreaImage_smart,TextArea_BottomText_smart,TextArea_MainText_smart,TAG_TAG_smart
-[2017/2/4 18:52:51]: Select [Layer][Info]: Buscando: System_backgrounxdColor_solid
-[2017/2/4 18:52:52]: Status [Layer][Info]: Capa: System_backgrounxdColor_solid encontrada.
-[2017/2/4 18:52:52]: Status [Place]: Insertando Imagen
-[2017/2/4 18:52:52]: Select [Layer][Info]: Buscando: WorkingArea_AreaImage_smart
-[2017/2/4 18:52:52]: Status [Layer][Info]: Capa: WorkingArea_AreaImage_smart encontrada.
-[2017/2/4 18:52:52]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-AreaImage_Area_solid,AreaImage_Blur_smart,AreaImage_Image_smart
-[2017/2/4 18:52:52]: Select [Layer][Info]: Buscando: AreaImage_Image_smart
-[2017/2/4 18:52:52]: Status [Layer][Info]: Capa: AreaImage_Image_smart encontrada.
-[2017/2/4 18:52:52]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-ImagePlacer_selector_normal,ImagePlacer_image_normal
-[2017/2/4 18:52:52]: Select [Layer][Info]: Buscando: ImagePlacer_image_normal
-[2017/2/4 18:52:52]: Status [Layer][Info]: Capa: ImagePlacer_image_normal encontrada.
-[2017/2/4 18:52:53]: Select [Layer][Info]: Buscando: oimage
-[2017/2/4 18:52:53]: Status [Layer][Info]: Capa: oimage encontrada.
-[2017/2/4 18:52:53]: Select [Area][Info]: Seleccionando Area de capa: ImagePlacer_selector_normal
-[2017/2/4 18:52:53]: Status [Area][Info]: Se selecciono el area de la capa: ImagePlacer_selector_normal
-[2017/2/4 18:52:53]: Select [Layer][Info]: Buscando: ImagePlacer_selector_normal
-[2017/2/4 18:52:53]: Status [Layer][Info]: Capa: ImagePlacer_selector_normal encontrada.
-[2017/2/4 18:52:53]: Select [Layer][Info]: Buscando: AreaImage_Blur_smart
-[2017/2/4 18:52:53]: Status [Layer][Info]: Capa: AreaImage_Blur_smart encontrada.
-[2017/2/4 18:52:54]: Select [Layer][Info]: Buscando: TextArea_MainText_smart
-[2017/2/4 18:52:54]: Status [Layer][Info]: Capa: TextArea_MainText_smart encontrada.
-[2017/2/4 18:52:54]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-TextPlacer_placeHolder_solid,Text_Desc_smart,Text_Title_smart,TextPlacer_TextColor_solid,System_Sys_normal
-[2017/2/4 18:52:54]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
-[2017/2/4 18:52:54]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
-[2017/2/4 18:52:54]: Select [Layer][Info]: Buscando: Text_Title_smart
-[2017/2/4 18:52:54]: Status [Layer][Info]: Capa: Text_Title_smart encontrada.
-[2017/2/4 18:52:54]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-Text_Title_text
-[2017/2/4 18:52:54]: Select [Layer][Info]: Buscando: Text_Title_text
-[2017/2/4 18:52:54]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
-[2017/2/4 18:52:55]: Select [Layer][Info]: Buscando: Text_Title_text
-[2017/2/4 18:52:55]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
-[2017/2/4 18:53:4]: Select [Layer][Info]: Buscando: Text_Desc_smart
-[2017/2/4 18:53:4]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
-[2017/2/4 18:53:4]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-Text_Desc_text
-[2017/2/4 18:53:4]: Select [Layer][Info]: Buscando: Text_Desc_text
-[2017/2/4 18:53:4]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
-[2017/2/4 18:53:5]: Select [Layer][Info]: Buscando: Text_Desc_text
-[2017/2/4 18:53:5]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
-[2017/2/4 18:53:12]: Select [Layer][Info]: Buscando: System_Sys_normal
-[2017/2/4 18:53:12]: Status [Layer][Info]: Capa: System_Sys_normal encontrada.
-[2017/2/4 18:53:12]: Select [Area][Info]: Seleccionando Area de capa: Text_Title_smart
-[2017/2/4 18:53:12]: Status [Area][Info]: Se selecciono el area de la capa: Text_Title_smart
-[2017/2/4 18:53:12]: Metrics [Layer][Info]: width:1400 px, height:150 px
-[2017/2/4 18:53:12]: Select [Layer][Info]: Buscando: 0_0_0
-[2017/2/4 18:53:12]: Status [Layer][Info]: Capa: 0_0_0 encontrada.
-[2017/2/4 18:53:12]: Select [Layer][Info]: Buscando: Text_Desc_smart
-[2017/2/4 18:53:12]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
-[2017/2/4 18:53:12]: Select [Layer][Info]: Buscando: TextPlacer_TextColor_solid
-[2017/2/4 18:53:12]: Status [Layer][Info]: Capa: TextPlacer_TextColor_solid encontrada.
-[2017/2/4 18:53:12]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
-[2017/2/4 18:53:12]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
-[2017/2/4 18:53:13]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
-[2017/2/4 18:53:13]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
-[2017/2/4 18:53:14]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
-[2017/2/4 18:53:14]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
-[2017/2/4 18:53:21]: Select [Area][Info]: Seleccionando Area de capa: WorkingArea_AreaImage_smart
-[2017/2/4 18:53:21]: Status [Area][Error]: No Se selecciono el area de la capa: WorkingArea_AreaImage_smart. Es este el nombre correcto de la capa?
-[2017/2/4 18:53:21]: Select [Layer][Info]: Buscando: TextArea_MainText_smart
-[2017/2/4 18:53:21]: Status [Layer][Info]: Capa: TextArea_MainText_smart encontrada.
-[2017/2/4 18:53:47]: [Close]: Cerrando Generador
-[2017/2/4 18:54:40]: 
+[2017/2/5 2:18:20]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/5 2:18:51]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]testmeme en Folder:~/Pictures/AGgenerator
+[2017/2/5 2:18:51]: Verify [Project Folder]: Folder Existente (~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme)
+[2017/2/5 2:18:51]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme/images
+[2017/2/5 2:18:51]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/5 2:18:51]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/5 2:18:51]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/5 2:18:51]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+Datos:{
+	"type": "meme",
+	"ProjectName": "testmeme",
+	"text": {
+		"tag": {
+			"enable": false,
+			"index": -1,
+			"text": ""
+		},
+		"description": {
+			"enable": false,
+			"text": ""
+		},
+		"top": {
+			"enable": true,
+			"text": "test 1"
+		},
+		"bottom": {
+			"enable": true,
+			"text": "test 2"
+		}
+	},
+	"reactions": {
+		"enable": false,
+		"list": [
+			"like",
+			"heart",
+			"wow",
+			"haha",
+			"sad",
+			"angry"
+		]
+	},
+	"colors": {
+		"tag-icon": [
+			0,
+			0,
+			0,
+			1
+		],
+		"tag-bg": [
+			1,
+			1,
+			1,
+			1
+		],
+		"tag-text": [
+			0,
+			0,
+			0,
+			1
+		],
+		"text": [
+			0,
+			0,
+			0,
+			1
+		],
+		"mask": [
+			1,
+			0.8720703125,
+			0.42745971679688,
+			1
+		],
+		"background": [
+			0.39608764648438,
+			0.39608764648438,
+			0.39608764648438,
+			1
+		]
+	},
+	"fileNumber": 1,
+	"files": [
+		"testmeme-2_18_18__pfwme1nn2x9bgez3tcwa.png"
+	],
+	"thumbs": [
+		"testmeme-2_18_18__pfwme1nn2x9bgez3tcwa-thumb.png"
+	]
+}
+[2017/2/5 2:18:51]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/5 2:18:51]: Execute [Generator]: Ejecutando proyecto: ~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme/
+[2017/2/5 2:18:51]: Opening [File][Info]: Abriendo el psd.
+[2017/2/5 2:18:51]: Create [File]: Creando PSD del proyecto basado en el template:memeTemplate
+[2017/2/5 2:18:51]: Collect [Layers]: Obteniendo capas hijas de: testmeme (memeTemplate).psd
+[2017/2/5 2:18:51]: Collect [Layers]: Obteniendo capas hijas de: System
+[2017/2/5 2:18:51]: Status[Layers]: Capas: System_backgroundColor_layer
+[2017/2/5 2:18:51]: Collect [Layers]: Obteniendo capas hijas de: WorkingArea
+[2017/2/5 2:18:51]: Status[Layers]: Capas: System_backgroundColor_layer,WorkingArea_WorkingAreaImg_layer
+[2017/2/5 2:18:51]: Collect [Layers]: Obteniendo capas hijas de: TextArea
+[2017/2/5 2:18:51]: Status[Layers]: Capas: System_backgroundColor_layer,WorkingArea_WorkingAreaImg_layer,TextArea_Bottom_Text,TextArea_Top_Text
+[2017/2/5 2:18:51]: Status[Layers]: Capas: System_backgroundColor_layer,WorkingArea_WorkingAreaImg_layer,TextArea_Bottom_Text,TextArea_Top_Text
+[2017/2/5 2:18:52]: Status [Place]: Insertando Imagen
+[2017/2/5 2:18:52]: Select [Layer][Info]: Buscando: WorkingArea_WorkingAreaImg_layer
+[2017/2/5 2:18:52]: Status [Layer][Info]: Capa: WorkingArea_WorkingAreaImg_layer encontrada.
+[2017/2/5 2:18:52]: Open [SmartObject]: Abriendo.
+[2017/2/5 2:18:52]: Open [SmartObject][Info]: abierto.
+[2017/2/5 2:18:52]: Collect [Layers]: Obteniendo capas hijas de: img_11.psb
+[2017/2/5 2:18:52]: Collect [Layers]: Obteniendo capas hijas de: Placer
+[2017/2/5 2:18:52]: Status[Layers]: Capas: Placer_imagePlaceHolder_layer
+[2017/2/5 2:18:52]: Status[Layers]: Capas: Placer_imagePlaceHolder_layer
+[2017/2/5 2:18:52]: Select [Layer][Info]: Buscando: Placer_imagePlaceHolder_layer
+[2017/2/5 2:18:52]: Status [Layer][Info]: Capa: Placer_imagePlaceHolder_layer encontrada.
+[2017/2/5 2:18:52]: Place [Image]: Insertando imagen: ~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme//images/testmeme-2_18_18__pfwme1nn2x9bgez3tcwa.png
+[2017/2/5 2:18:52]: Status [Image][info]: Imagen Insertanda
+[2017/2/5 2:18:52]: Rename [layer]: Cambiando nombre de capa a: undefined
+[2017/2/5 2:18:52]: Status [layer][Error]: No se renombro.
+Error: Illegal argument - argument 2
+- Required value is missing
+[2017/2/5 2:18:53]: Select [Area]: Seleccionando Area de capa: Placer_imagePlaceHolder_layer
+[2017/2/5 2:18:53]: Status [Area][Info]: Se selecciono el area de la capa: Placer_imagePlaceHolder_layer
+[2017/2/5 2:18:53]: Select [Layer][Info]: Buscando: oimage
+[2017/2/5 2:18:53]: Status [Layer][Error]: Capa: oimage no encontrada. ¿Es este el nombre correcto?
+Error: General Photoshop error occurred. This functionality may not be available in this version of Photoshop.
+- The command "Select" is not currently available.
+[2017/2/5 2:18:53]: Align [Layer]: Moviendo capa a: CenterH
+[2017/2/5 2:18:53]: Align [Layer][Info]: Se movio capa a: ADSCentersH
+[2017/2/5 2:18:53]: Save [currentDocument]: Salvando.
+[2017/2/5 2:18:54]: Save [Status][info]: Salvado.
+[2017/2/5 2:18:54]: Update [smartObject]: Actualizando.
+[2017/2/5 2:18:54]: Update [status][Info]: Actualizado.
+[2017/2/5 2:18:54]: Close [currentDocument]: Cerrando.
+[2017/2/5 2:18:54]: Close [status][Info]: Cerrado.
+[2017/2/5 2:18:54]: Rename [layer]: Cambiando nombre de capa a: WorkingArea_WorkingAreaImg_layer
+[2017/2/5 2:18:54]: Status [layer][info]: Cambiado
+[2017/2/5 2:18:54]: Select [Layer][Info]: Buscando: Top_Text
+[2017/2/5 2:18:54]: Status [Layer][Error]: Capa: Top_Text no encontrada. ¿Es este el nombre correcto?
+Error: General Photoshop error occurred. This functionality may not be available in this version of Photoshop.
+- The command "Select" is not currently available.
+[2017/2/5 2:18:54]: Visibility [layers]: Mostrando layers seleccionadas
+[2017/2/5 2:18:54]: Open [SmartObject]: Abriendo.
+[2017/2/5 2:18:55]: Open [SmartObject][Info]: abierto.
+[2017/2/5 2:18:55]: Collect [Layers]: Obteniendo capas hijas de: img_11.psb
+[2017/2/5 2:18:55]: Collect [Layers]: Obteniendo capas hijas de: Placer
+[2017/2/5 2:18:55]: Status[Layers]: Capas: Placer_Placer_imagePlaceHolder,Placer_testmeme-2_18
+[2017/2/5 2:18:55]: Status[Layers]: Capas: Placer_Placer_imagePlaceHolder,Placer_testmeme-2_18
+[2017/2/5 2:18:55]: Select [Layer][Info]: Buscando: Placer_testmeme-2_18
+[2017/2/5 2:18:55]: Status [Layer][Info]: Capa: Placer_testmeme-2_18 encontrada.
+[2017/2/5 2:19:17]: [Close]: Cerrando Generador
+[2017/2/5 2:27:19]: 
 
-[2017/2/4 18:54:40]: [Open]: Abriendo Generador
-[2017/2/4 18:54:40]: [Update]: Buscando actualizaciones
-[2017/2/4 18:54:40]: Update [Result]: Generador actualizado
-[2017/2/4 18:54:40]: Process [Main]: Ejecutando Main.jsx
-[2017/2/4 18:54:40]: Read [Preferences]: Tratando de leer las preferencias
-[2017/2/4 18:54:40]: Read [Folder]: Buscando en: ~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
-[2017/2/4 18:54:40]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:54:40]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:54:40]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:54:40]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:54:40]: Read [json]: Archivo encontrado~/Documents/Adobe%20Scripts/AG-enerator/AGFiles%20Only
-[2017/2/4 18:54:40]: Window [Start Screen]: Abriendo ventana
-[2017/2/4 18:54:46]: Read [Folder]: Buscando en: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
-[2017/2/4 18:54:46]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:54:46]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:54:46]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:54:46]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:54:46]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:54:46]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:54:46]: Read [json]: Buscando archivos: .json
-[2017/2/4 18:54:46]: Read [json]: Archivo encontrado~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
-[2017/2/4 18:54:46]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
-[2017/2/4 18:54:46]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
-[2017/2/4 18:54:46]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
-[2017/2/4 18:54:46]: Verify [Project Folder][Temp Images]: El folder existe
-[2017/2/4 18:54:46]: Create [Project Folder][File]: Generando archivo de proyecto.
-[2017/2/4 18:54:46]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
-[2017/2/4 18:54:46]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+[2017/2/5 2:27:19]: [Open]: Abriendo Generador
+[2017/2/5 2:27:19]: [Update]: Buscando actualizaciones
+[2017/2/5 2:27:19]: Update [Result]: Generador actualizado
+[2017/2/5 2:27:19]: Process [Main]: Ejecutando Main.jsx
+[2017/2/5 2:27:19]: Read [Preferences]: Tratando de leer las preferencias
+[2017/2/5 2:27:19]: Read [Folder]: Buscando en: /c/wamp64/www/AGenerator/AG-enerator/AGFiles%20Only
+[2017/2/5 2:27:19]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:27:19]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:27:19]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:27:19]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:27:19]: Read [json]: Archivo encontrado/c/wamp64/www/AGenerator/AG-enerator/AGFiles%20Only
+[2017/2/5 2:27:19]: Window [Start Screen]: Abriendo ventana
+[2017/2/5 2:27:27]: Read [Folder]: Buscando en: ~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme
+[2017/2/5 2:27:27]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:27:27]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:27:27]: Read [json]: Archivo encontrado~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme
+[2017/2/5 2:27:28]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]testmeme en Folder:~/Pictures/AGgenerator
+[2017/2/5 2:27:28]: Verify [Project Folder]: Folder Existente (~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme)
+[2017/2/5 2:27:28]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme/images
+[2017/2/5 2:27:28]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/5 2:27:28]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/5 2:27:28]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/5 2:27:28]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
 Datos:{
-	"type": "image",
-	"ProjectName": "psnow",
+	"type": "meme",
+	"ProjectName": "testmeme",
 	"text": {
 		"tag": {
-			"enable": true,
-			"index": 2,
+			"enable": false,
+			"index": -1,
 			"text": ""
 		},
 		"description": {
-			"enable": true,
-			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
+			"enable": false,
+			"text": ""
 		},
 		"top": {
 			"enable": true,
-			"text": "Sony Playstation Now"
+			"text": "test 1"
 		},
 		"bottom": {
-			"enable": false,
-			"text": ""
+			"enable": true,
+			"text": "test 2"
 		}
 	},
 	"reactions": {
@@ -1179,83 +1594,78 @@ Datos:{
 	},
 	"colors": {
 		"tag-icon": [
-			1,
-			1,
-			1,
+			0,
+			0,
+			0,
 			1
 		],
 		"tag-bg": [
-			0.80783081054688,
-			0.80783081054688,
-			0.80783081054688,
+			1,
+			1,
+			1,
 			1
 		],
 		"tag-text": [
-			0.2823486328125,
-			0.2823486328125,
-			0.2823486328125,
+			0,
+			0,
+			0,
 			1
 		],
 		"text": [
-			1,
-			1,
-			1,
+			0,
+			0,
+			0,
 			1
 		],
 		"mask": [
-			0,
-			0.43191528320313,
-			0.70587158203125,
+			1,
+			0.8720703125,
+			0.42745971679688,
 			1
 		],
 		"background": [
-			0,
-			0.43191528320313,
-			0.70587158203125,
+			0.39608764648438,
+			0.39608764648438,
+			0.39608764648438,
 			1
 		]
 	},
 	"fileNumber": 1,
 	"files": [
-		"psnow-17_30_10__PS-Now-Lead.png"
+		"testmeme-2_18_18__pfwme1nn2x9bgez3tcwa.png"
 	],
 	"thumbs": [
-		"psnow-17_30_10__PS-Now-Lead-thumb.png"
-	],
-	"imageSize": [
-		1108,
-		682
-	],
-	"imageType": "Normal"
+		"testmeme-2_18_18__pfwme1nn2x9bgez3tcwa-thumb.png"
+	]
 }
-[2017/2/4 18:54:46]: Status [File][Info]: Se creo con exito el archivo de proyecto
-[2017/2/4 18:54:48]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]psnow en Folder:~/Pictures/AG/AGGenerator
-[2017/2/4 18:54:48]: Verify [Project Folder]: Folder Existente (~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow)
-[2017/2/4 18:54:48]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/images
-[2017/2/4 18:54:48]: Verify [Project Folder][Temp Images]: El folder existe
-[2017/2/4 18:54:48]: Create [Project Folder][File]: Generando archivo de proyecto.
-[2017/2/4 18:54:48]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
-[2017/2/4 18:54:48]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+[2017/2/5 2:27:28]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/5 2:27:29]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]testmeme en Folder:~/Pictures/AGgenerator
+[2017/2/5 2:27:29]: Verify [Project Folder]: Folder Existente (~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme)
+[2017/2/5 2:27:29]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme/images
+[2017/2/5 2:27:29]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/5 2:27:29]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/5 2:27:29]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/5 2:27:29]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
 Datos:{
-	"type": "image",
-	"ProjectName": "psnow",
+	"type": "meme",
+	"ProjectName": "testmeme",
 	"text": {
 		"tag": {
-			"enable": true,
-			"index": 2,
+			"enable": false,
+			"index": -1,
 			"text": ""
 		},
 		"description": {
-			"enable": true,
-			"text": "Sony dejará de dar soporte para PS3, PSVita, Blurays y algunos televisores"
+			"enable": false,
+			"text": ""
 		},
 		"top": {
 			"enable": true,
-			"text": "Sony Playstation Now"
+			"text": "test 1"
 		},
 		"bottom": {
-			"enable": false,
-			"text": ""
+			"enable": true,
+			"text": "test 2"
 		}
 	},
 	"reactions": {
@@ -1271,125 +1681,661 @@ Datos:{
 	},
 	"colors": {
 		"tag-icon": [
-			1,
-			1,
-			1,
+			0,
+			0,
+			0,
 			1
 		],
 		"tag-bg": [
-			0.80783081054688,
-			0.80783081054688,
-			0.80783081054688,
+			1,
+			1,
+			1,
 			1
 		],
 		"tag-text": [
-			0.2823486328125,
-			0.2823486328125,
-			0.2823486328125,
+			0,
+			0,
+			0,
 			1
 		],
 		"text": [
-			1,
-			1,
-			1,
+			0,
+			0,
+			0,
 			1
 		],
 		"mask": [
-			0,
-			0.43191528320313,
-			0.70587158203125,
+			1,
+			0.8720703125,
+			0.42745971679688,
 			1
 		],
 		"background": [
-			0,
-			0.43191528320313,
-			0.70587158203125,
+			0.39608764648438,
+			0.39608764648438,
+			0.39608764648438,
 			1
 		]
 	},
 	"fileNumber": 1,
 	"files": [
-		"psnow-17_30_10__PS-Now-Lead.png"
+		"testmeme-2_18_18__pfwme1nn2x9bgez3tcwa.png"
 	],
 	"thumbs": [
-		"psnow-17_30_10__PS-Now-Lead-thumb.png"
-	],
-	"imageSize": [
-		1108,
-		682
-	],
-	"imageType": "Normal"
+		"testmeme-2_18_18__pfwme1nn2x9bgez3tcwa-thumb.png"
+	]
 }
-[2017/2/4 18:54:48]: Status [File][Info]: Se creo con exito el archivo de proyecto
-[2017/2/4 18:54:48]: Execute [Generator]: Ejecutando proyecto: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow/
-[2017/2/4 18:54:48]: Verify [File]: Buscando si ya se ha creado una imagen con nombre:psnow
-[2017/2/4 18:54:48]: Status [File]: Imagen encontrada, renombrando a:psnow-20170116T151255
-[2017/2/4 18:54:48]: Save [File]: Imagen guardada con nombre:psnow-20170116T151255 en folder: ~/Pictures/AG/AGGenerator/%5BAG-Project%5Dpsnow
-[2017/2/4 18:54:49]: Create [File]: Creando PSD del proyecto basado en el template
-[2017/2/4 18:54:49]: Verify [Template][Info]: La plantilla seleccionada tiene las siguientes capas: 
-System_backgrounxdColor_solid,WorkingArea_AreaImage_smart,TextArea_BottomText_smart,TextArea_MainText_smart,TAG_TAG_smart
-[2017/2/4 18:54:49]: Select [Layer][Info]: Buscando: System_backgrounxdColor_solid
-[2017/2/4 18:54:49]: Status [Layer][Info]: Capa: System_backgrounxdColor_solid encontrada.
-[2017/2/4 18:54:49]: Status [Place]: Insertando Imagen
-[2017/2/4 18:54:49]: Select [Layer][Info]: Buscando: WorkingArea_AreaImage_smart
-[2017/2/4 18:54:49]: Status [Layer][Info]: Capa: WorkingArea_AreaImage_smart encontrada.
-[2017/2/4 18:54:49]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-AreaImage_Area_solid,AreaImage_Blur_smart,AreaImage_Image_smart
-[2017/2/4 18:54:49]: Select [Layer][Info]: Buscando: AreaImage_Image_smart
-[2017/2/4 18:54:49]: Status [Layer][Info]: Capa: AreaImage_Image_smart encontrada.
-[2017/2/4 18:54:49]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-ImagePlacer_selector_normal,ImagePlacer_image_normal
-[2017/2/4 18:54:49]: Select [Layer][Info]: Buscando: ImagePlacer_image_normal
-[2017/2/4 18:54:49]: Status [Layer][Info]: Capa: ImagePlacer_image_normal encontrada.
-[2017/2/4 18:54:51]: Select [Layer][Info]: Buscando: oimage
-[2017/2/4 18:54:51]: Status [Layer][Info]: Capa: oimage encontrada.
-[2017/2/4 18:54:51]: Select [Area][Info]: Seleccionando Area de capa: ImagePlacer_selector_normal
-[2017/2/4 18:54:51]: Status [Area][Info]: Se selecciono el area de la capa: ImagePlacer_selector_normal
-[2017/2/4 18:54:51]: Select [Layer][Info]: Buscando: ImagePlacer_selector_normal
-[2017/2/4 18:54:51]: Status [Layer][Info]: Capa: ImagePlacer_selector_normal encontrada.
-[2017/2/4 18:54:51]: Select [Layer][Info]: Buscando: AreaImage_Blur_smart
-[2017/2/4 18:54:51]: Status [Layer][Info]: Capa: AreaImage_Blur_smart encontrada.
-[2017/2/4 18:54:52]: Select [Layer][Info]: Buscando: TextArea_MainText_smart
-[2017/2/4 18:54:52]: Status [Layer][Info]: Capa: TextArea_MainText_smart encontrada.
-[2017/2/4 18:54:53]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-TextPlacer_placeHolder_solid,Text_Desc_smart,Text_Title_smart,TextPlacer_TextColor_solid,System_Sys_normal
-[2017/2/4 18:54:53]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
-[2017/2/4 18:54:53]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
-[2017/2/4 18:54:53]: Select [Layer][Info]: Buscando: Text_Title_smart
-[2017/2/4 18:54:53]: Status [Layer][Info]: Capa: Text_Title_smart encontrada.
-[2017/2/4 18:54:53]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-Text_Title_text
-[2017/2/4 18:54:53]: Select [Layer][Info]: Buscando: Text_Title_text
-[2017/2/4 18:54:53]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
-[2017/2/4 18:54:54]: Select [Layer][Info]: Buscando: Text_Title_text
-[2017/2/4 18:54:54]: Status [Layer][Info]: Capa: Text_Title_text encontrada.
-[2017/2/4 18:54:55]: Select [Layer][Info]: Buscando: Text_Desc_smart
-[2017/2/4 18:54:55]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
-[2017/2/4 18:54:56]: Verify [SmartObject][Info]: El LayerSmart seleccionado tiene las siguientes capas: 
-Text_Desc_text
-[2017/2/4 18:54:56]: Select [Layer][Info]: Buscando: Text_Desc_text
-[2017/2/4 18:54:56]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
-[2017/2/4 18:54:57]: Select [Layer][Info]: Buscando: Text_Desc_text
-[2017/2/4 18:54:57]: Status [Layer][Info]: Capa: Text_Desc_text encontrada.
-[2017/2/4 18:54:59]: Select [Layer][Info]: Buscando: System_Sys_normal
-[2017/2/4 18:54:59]: Status [Layer][Info]: Capa: System_Sys_normal encontrada.
-[2017/2/4 18:54:59]: Select [Area][Info]: Seleccionando Area de capa: Text_Title_smart
-[2017/2/4 18:54:59]: Status [Area][Info]: Se selecciono el area de la capa: Text_Title_smart
-[2017/2/4 18:54:59]: Metrics [Layer][Info]: width:1408 px, height:419 px
-[2017/2/4 18:54:59]: Select [Layer][Info]: Buscando: 0_0_0
-[2017/2/4 18:54:59]: Status [Layer][Info]: Capa: 0_0_0 encontrada.
-[2017/2/4 18:54:59]: Select [Layer][Info]: Buscando: Text_Desc_smart
-[2017/2/4 18:54:59]: Status [Layer][Info]: Capa: Text_Desc_smart encontrada.
-[2017/2/4 18:54:59]: Select [Layer][Info]: Buscando: TextPlacer_TextColor_solid
-[2017/2/4 18:54:59]: Status [Layer][Info]: Capa: TextPlacer_TextColor_solid encontrada.
-[2017/2/4 18:54:59]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
-[2017/2/4 18:54:59]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
-[2017/2/4 18:54:59]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
-[2017/2/4 18:54:59]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
-[2017/2/4 18:55:0]: Select [Layer][Info]: Buscando: TextPlacer_placeHolder_solid
-[2017/2/4 18:55:0]: Status [Layer][Info]: Capa: TextPlacer_placeHolder_solid encontrada.
-[2017/2/4 18:55:3]: Select [Area][Info]: Seleccionando Area de capa: WorkingArea_AreaImage_smart
-[2017/2/4 18:55:3]: Status [Area][Error]: No Se selecciono el area de la capa: WorkingArea_AreaImage_smart. Es este el nombre correcto de la capa?
-[2017/2/4 18:55:3]: Select [Layer][Info]: Buscando: TextArea_MainText_smart
-[2017/2/4 18:55:3]: Status [Layer][Info]: Capa: TextArea_MainText_smart encontrada.
-[2017/2/4 18:55:24]: [Close]: Cerrando Generador
+[2017/2/5 2:27:29]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/5 2:27:29]: Execute [Generator]: Ejecutando proyecto: ~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme/
+[2017/2/5 2:27:29]: Opening [File][Info]: Abriendo el psd.
+[2017/2/5 2:27:30]: Create [File]: Creando PSD del proyecto basado en el template:memeTemplate
+[2017/2/5 2:27:30]: Collect [Layers]: Obteniendo capas hijas de: testmeme (memeTemplate).psd
+[2017/2/5 2:27:30]: Collect [Layers]: Obteniendo capas hijas de: System
+[2017/2/5 2:27:30]: Status[Layers]: Capas: System_backgroundColor_layer
+[2017/2/5 2:27:30]: Collect [Layers]: Obteniendo capas hijas de: WorkingArea
+[2017/2/5 2:27:30]: Status[Layers]: Capas: System_backgroundColor_layer,WorkingArea_WorkingAreaImg_layer
+[2017/2/5 2:27:30]: Collect [Layers]: Obteniendo capas hijas de: TextArea
+[2017/2/5 2:27:31]: Status[Layers]: Capas: System_backgroundColor_layer,WorkingArea_WorkingAreaImg_layer,TextArea_Bottom_Text,TextArea_Top_Text
+[2017/2/5 2:27:31]: Status[Layers]: Capas: System_backgroundColor_layer,WorkingArea_WorkingAreaImg_layer,TextArea_Bottom_Text,TextArea_Top_Text
+[2017/2/5 2:27:31]: Status [Place]: Insertando Imagen
+[2017/2/5 2:27:31]: Select [Layer][Info]: Buscando: WorkingArea_WorkingAreaImg_layer
+[2017/2/5 2:27:31]: Status [Layer][Info]: Capa: WorkingArea_WorkingAreaImg_layer encontrada.
+[2017/2/5 2:27:31]: Open [SmartObject]: Abriendo.
+[2017/2/5 2:27:31]: Open [SmartObject][Info]: abierto.
+[2017/2/5 2:27:31]: Collect [Layers]: Obteniendo capas hijas de: img_11.psb
+[2017/2/5 2:27:31]: Collect [Layers]: Obteniendo capas hijas de: Placer
+[2017/2/5 2:27:31]: Status[Layers]: Capas: Placer_imagePlaceHolder_layer
+[2017/2/5 2:27:31]: Status[Layers]: Capas: Placer_imagePlaceHolder_layer
+[2017/2/5 2:27:31]: Select [Layer][Info]: Buscando: Placer_imagePlaceHolder_layer
+[2017/2/5 2:27:31]: Status [Layer][Info]: Capa: Placer_imagePlaceHolder_layer encontrada.
+[2017/2/5 2:27:31]: Place [Image]: Insertando imagen: ~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme//images/testmeme-2_18_18__pfwme1nn2x9bgez3tcwa.png
+[2017/2/5 2:27:31]: Status [Image][info]: Imagen Insertanda
+[2017/2/5 2:27:31]: Rename [layer]: Cambiando nombre de capa a: undefined
+[2017/2/5 2:27:31]: Status [layer][Error]: No se renombro.
+Error: Illegal argument - argument 2
+- Required value is missing
+[2017/2/5 2:27:32]: Select [Layer][Info]: Buscando: oimage
+[2017/2/5 2:27:32]: Status [Layer][Error]: Capa: oimage no encontrada. ¿Es este el nombre correcto?
+Error: General Photoshop error occurred. This functionality may not be available in this version of Photoshop.
+- The command "Select" is not currently available.
+[2017/2/5 2:27:32]: Align [Layer]: Moviendo capa a: CenterH
+[2017/2/5 2:27:32]: Align [Layer][Info]: Se movio capa a: ADSCentersH
+[2017/2/5 2:27:32]: Save [currentDocument]: Salvando.
+[2017/2/5 2:27:33]: Save [Status][info]: Salvado.
+[2017/2/5 2:27:33]: Update [smartObject]: Actualizando.
+[2017/2/5 2:27:33]: Update [status][Info]: Actualizado.
+[2017/2/5 2:27:33]: Close [currentDocument]: Cerrando.
+[2017/2/5 2:27:33]: Close [status][Info]: Cerrado.
+[2017/2/5 2:27:33]: Rename [layer]: Cambiando nombre de capa a: WorkingArea_WorkingAreaImg_layer
+[2017/2/5 2:27:33]: Status [layer][info]: Cambiado
+[2017/2/5 2:28:1]: [Close]: Cerrando Generador
+[2017/2/5 2:35:10]: 
+
+[2017/2/5 2:35:10]: [Open]: Abriendo Generador
+[2017/2/5 2:35:10]: [Update]: Buscando actualizaciones
+[2017/2/5 2:35:10]: Update [Result]: Generador actualizado
+[2017/2/5 2:35:10]: Process [Main]: Ejecutando Main.jsx
+[2017/2/5 2:35:10]: Read [Preferences]: Tratando de leer las preferencias
+[2017/2/5 2:35:10]: Read [Folder]: Buscando en: /c/wamp64/www/AGenerator/AG-enerator/AGFiles%20Only
+[2017/2/5 2:35:10]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:35:10]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:35:10]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:35:10]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:35:10]: Read [json]: Archivo encontrado/c/wamp64/www/AGenerator/AG-enerator/AGFiles%20Only
+[2017/2/5 2:35:10]: Window [Start Screen]: Abriendo ventana
+[2017/2/5 2:35:16]: Read [Folder]: Buscando en: ~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme
+[2017/2/5 2:35:16]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:35:16]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:35:16]: Read [json]: Archivo encontrado~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme
+[2017/2/5 2:35:17]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]testmeme en Folder:~/Pictures/AGgenerator
+[2017/2/5 2:35:17]: Verify [Project Folder]: Folder Existente (~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme)
+[2017/2/5 2:35:17]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme/images
+[2017/2/5 2:35:17]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/5 2:35:17]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/5 2:35:17]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/5 2:35:17]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+Datos:{
+	"type": "meme",
+	"ProjectName": "testmeme",
+	"text": {
+		"tag": {
+			"enable": false,
+			"index": -1,
+			"text": ""
+		},
+		"description": {
+			"enable": false,
+			"text": ""
+		},
+		"top": {
+			"enable": true,
+			"text": "test 1"
+		},
+		"bottom": {
+			"enable": true,
+			"text": "test 2"
+		}
+	},
+	"reactions": {
+		"enable": false,
+		"list": [
+			"like",
+			"heart",
+			"wow",
+			"haha",
+			"sad",
+			"angry"
+		]
+	},
+	"colors": {
+		"tag-icon": [
+			0,
+			0,
+			0,
+			1
+		],
+		"tag-bg": [
+			1,
+			1,
+			1,
+			1
+		],
+		"tag-text": [
+			0,
+			0,
+			0,
+			1
+		],
+		"text": [
+			0,
+			0,
+			0,
+			1
+		],
+		"mask": [
+			1,
+			0.8720703125,
+			0.42745971679688,
+			1
+		],
+		"background": [
+			0.39608764648438,
+			0.39608764648438,
+			0.39608764648438,
+			1
+		]
+	},
+	"fileNumber": 1,
+	"files": [
+		"testmeme-2_18_18__pfwme1nn2x9bgez3tcwa.png"
+	],
+	"thumbs": [
+		"testmeme-2_18_18__pfwme1nn2x9bgez3tcwa-thumb.png"
+	]
+}
+[2017/2/5 2:35:17]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/5 2:35:19]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]testmeme en Folder:~/Pictures/AGgenerator
+[2017/2/5 2:35:19]: Verify [Project Folder]: Folder Existente (~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme)
+[2017/2/5 2:35:19]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme/images
+[2017/2/5 2:35:19]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/5 2:35:19]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/5 2:35:19]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/5 2:35:19]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+Datos:{
+	"type": "meme",
+	"ProjectName": "testmeme",
+	"text": {
+		"tag": {
+			"enable": false,
+			"index": -1,
+			"text": ""
+		},
+		"description": {
+			"enable": false,
+			"text": ""
+		},
+		"top": {
+			"enable": true,
+			"text": "test 1"
+		},
+		"bottom": {
+			"enable": true,
+			"text": "test 2"
+		}
+	},
+	"reactions": {
+		"enable": false,
+		"list": [
+			"like",
+			"heart",
+			"wow",
+			"haha",
+			"sad",
+			"angry"
+		]
+	},
+	"colors": {
+		"tag-icon": [
+			0,
+			0,
+			0,
+			1
+		],
+		"tag-bg": [
+			1,
+			1,
+			1,
+			1
+		],
+		"tag-text": [
+			0,
+			0,
+			0,
+			1
+		],
+		"text": [
+			0,
+			0,
+			0,
+			1
+		],
+		"mask": [
+			1,
+			0.8720703125,
+			0.42745971679688,
+			1
+		],
+		"background": [
+			0.39608764648438,
+			0.39608764648438,
+			0.39608764648438,
+			1
+		]
+	},
+	"fileNumber": 1,
+	"files": [
+		"testmeme-2_18_18__pfwme1nn2x9bgez3tcwa.png"
+	],
+	"thumbs": [
+		"testmeme-2_18_18__pfwme1nn2x9bgez3tcwa-thumb.png"
+	]
+}
+[2017/2/5 2:35:19]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/5 2:35:19]: Execute [Generator]: Ejecutando proyecto: ~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme/
+[2017/2/5 2:35:19]: Opening [File][Info]: Abriendo el psd.
+[2017/2/5 2:35:20]: Create [File]: Creando PSD del proyecto basado en el template:memeTemplate
+[2017/2/5 2:35:20]: Collect [Sets]: Obteniendo Sets hijos de: testmeme (memeTemplate).psd
+[2017/2/5 2:35:20]: Status [Sets][info]:  System_LayerSet,WorkingArea_LayerSet,TextArea_LayerSet
+[2017/2/5 2:35:20]: Select [Layer][Info]: Buscando: WorkingArea_LayerSet
+[2017/2/5 2:35:20]: Status [Layer][Info]: Capa: WorkingArea_LayerSet encontrada.
+[2017/2/5 2:35:20]: Collect [Layers]: Obteniendo capas hijas de: WorkingArea_LayerSet
+[2017/2/5 2:35:20]: Status[Layers]: Capas: WorkingArea_WorkingAreaImg_layer
+[2017/2/5 2:35:20]: Status [Place]: Insertando Imagen
+[2017/2/5 2:35:20]: Select [Layer][Info]: Buscando: WorkingArea_WorkingAreaImg_layer
+[2017/2/5 2:35:20]: Status [Layer][Info]: Capa: WorkingArea_WorkingAreaImg_layer encontrada.
+[2017/2/5 2:35:20]: Open [SmartObject]: Abriendo.
+[2017/2/5 2:35:20]: Open [SmartObject][Info]: abierto.
+[2017/2/5 2:35:20]: Collect [Layers]: Obteniendo capas hijas de: img_11.psb
+[2017/2/5 2:35:20]: Collect [Layers]: Obteniendo capas hijas de: Placer
+[2017/2/5 2:35:20]: Status[Layers]: Capas: Placer_imagePlaceHolder_layer
+[2017/2/5 2:35:20]: Status[Layers]: Capas: Placer_imagePlaceHolder_layer
+[2017/2/5 2:35:20]: Select [Layer][Info]: Buscando: Placer_imagePlaceHolder_layer
+[2017/2/5 2:35:20]: Status [Layer][Info]: Capa: Placer_imagePlaceHolder_layer encontrada.
+[2017/2/5 2:35:20]: Place [Image]: Insertando imagen: ~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme//images/testmeme-2_18_18__pfwme1nn2x9bgez3tcwa.png
+[2017/2/5 2:35:20]: Status [Image][info]: Imagen Insertanda
+[2017/2/5 2:35:20]: Rename [layer]: Cambiando nombre de capa a: undefined
+[2017/2/5 2:35:20]: Status [layer][Error]: No se renombro.
+Error: Illegal argument - argument 2
+- Required value is missing
+[2017/2/5 2:35:21]: Select [Layer][Info]: Buscando: oimage
+[2017/2/5 2:35:21]: Status [Layer][Error]: Capa: oimage no encontrada. ¿Es este el nombre correcto?
+Error: General Photoshop error occurred. This functionality may not be available in this version of Photoshop.
+- The command "Select" is not currently available.
+[2017/2/5 2:35:22]: Align [Layer]: Moviendo capa a: CenterH
+[2017/2/5 2:35:22]: Align [Layer][Info]: Se movio capa a: ADSCentersH
+[2017/2/5 2:35:22]: Save [currentDocument]: Salvando.
+[2017/2/5 2:35:22]: Save [Status][info]: Salvado.
+[2017/2/5 2:35:22]: Update [smartObject]: Actualizando.
+[2017/2/5 2:35:22]: Update [status][Info]: Actualizado.
+[2017/2/5 2:35:22]: Close [currentDocument]: Cerrando.
+[2017/2/5 2:35:22]: Close [status][Info]: Cerrado.
+[2017/2/5 2:35:22]: Rename [layer]: Cambiando nombre de capa a: WorkingArea_WorkingAreaImg_layer
+[2017/2/5 2:35:22]: Status [layer][info]: Cambiado
+[2017/2/5 2:35:22]: Select [Layer][Info]: Buscando: TextArea_LayerSet
+[2017/2/5 2:35:22]: Status [Layer][Info]: Capa: TextArea_LayerSet encontrada.
+[2017/2/5 2:35:22]: Collect [Layers]: Obteniendo capas hijas de: TextArea_LayerSet
+[2017/2/5 2:35:22]: Status[Layers]: Capas: TextArea_Bottom_Text,TextArea_Top_Text
+[2017/2/5 2:35:22]: Search [Layer by Split]:  Buscando capa: Text, en: TextArea,Bottom,Text
+[2017/2/5 2:35:22]: Search [Layer by Split]:  Buscando capa: Text, en: TextArea,Top,Text
+[2017/2/5 2:35:22]: Select [Layer][Info]: Buscando: System_LayerSet
+[2017/2/5 2:35:22]: Status [Layer][Info]: Capa: System_LayerSet encontrada.
+[2017/2/5 2:35:22]: Collect [Layers]: Obteniendo capas hijas de: System_LayerSet
+[2017/2/5 2:35:22]: Status[Layers]: Capas: System_backgroundColor_layer
+[2017/2/5 2:35:22]: Select [Layer][Info]: Buscando: System_backgroundColor_layer
+[2017/2/5 2:35:22]: Status [Layer][Info]: Capa: System_backgroundColor_layer encontrada.
+[2017/2/5 2:35:22]: Change [ColorSolid]: Cambiando color
+[2017/2/5 2:35:23]: Status [ColorSolid][info]: Color cambiado a: 101.002349853517,101.002349853517,101.002349853517
+[2017/2/5 2:35:23]: DocInfo [currentDocument]: Agregando Exif
+[2017/2/5 2:35:26]: Save [File]: Imagen guardada con nombre:testmeme en folder: ~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme
+[2017/2/5 2:35:26]: Save [currentDocument]: Salvando.
+[2017/2/5 2:35:27]: Save [Status][info]: Salvado.
+[2017/2/5 2:35:27]: Close [Document]: Cerrando.
+[2017/2/5 2:35:27]: Close [status][Info]: Cerrado.
+[2017/2/5 2:35:31]: [Close]: Cerrando Generador
+[2017/2/5 2:36:39]: 
+
+[2017/2/5 2:36:39]: [Open]: Abriendo Generador
+[2017/2/5 2:36:39]: [Update]: Buscando actualizaciones
+[2017/2/5 2:36:39]: Update [Result]: Generador actualizado
+[2017/2/5 2:36:39]: Process [Main]: Ejecutando Main.jsx
+[2017/2/5 2:36:39]: Read [Preferences]: Tratando de leer las preferencias
+[2017/2/5 2:36:39]: Read [Folder]: Buscando en: /c/wamp64/www/AGenerator/AG-enerator/AGFiles%20Only
+[2017/2/5 2:36:39]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:36:39]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:36:39]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:36:39]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:36:39]: Read [json]: Archivo encontrado/c/wamp64/www/AGenerator/AG-enerator/AGFiles%20Only
+[2017/2/5 2:36:39]: Window [Start Screen]: Abriendo ventana
+[2017/2/5 2:36:46]: Read [Folder]: Buscando en: ~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme
+[2017/2/5 2:36:46]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:36:46]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:36:46]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:36:46]: Read [json]: Buscando archivos: .json
+[2017/2/5 2:36:46]: Read [json]: Archivo encontrado~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme
+[2017/2/5 2:36:46]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]testmeme en Folder:~/Pictures/AGgenerator
+[2017/2/5 2:36:46]: Verify [Project Folder]: Folder Existente (~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme)
+[2017/2/5 2:36:46]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme/images
+[2017/2/5 2:36:46]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/5 2:36:46]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/5 2:36:46]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/5 2:36:46]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+Datos:{
+	"type": "meme",
+	"ProjectName": "testmeme",
+	"text": {
+		"tag": {
+			"enable": false,
+			"index": -1,
+			"text": ""
+		},
+		"description": {
+			"enable": false,
+			"text": ""
+		},
+		"top": {
+			"enable": true,
+			"text": "test 1"
+		},
+		"bottom": {
+			"enable": true,
+			"text": "test 2"
+		}
+	},
+	"reactions": {
+		"enable": false,
+		"list": [
+			"like",
+			"heart",
+			"wow",
+			"haha",
+			"sad",
+			"angry"
+		]
+	},
+	"colors": {
+		"tag-icon": [
+			0,
+			0,
+			0,
+			1
+		],
+		"tag-bg": [
+			1,
+			1,
+			1,
+			1
+		],
+		"tag-text": [
+			0,
+			0,
+			0,
+			1
+		],
+		"text": [
+			0,
+			0,
+			0,
+			1
+		],
+		"mask": [
+			1,
+			0.8720703125,
+			0.42745971679688,
+			1
+		],
+		"background": [
+			0.39608764648438,
+			0.39608764648438,
+			0.39608764648438,
+			1
+		]
+	},
+	"fileNumber": 1,
+	"files": [
+		"testmeme-2_18_18__pfwme1nn2x9bgez3tcwa.png"
+	],
+	"thumbs": [
+		"testmeme-2_18_18__pfwme1nn2x9bgez3tcwa-thumb.png"
+	]
+}
+[2017/2/5 2:36:46]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/5 2:36:48]: Create [Project Folder]: Creando folder del proyecto con nombre: [AG-Project]testmeme en Folder:~/Pictures/AGgenerator
+[2017/2/5 2:36:48]: Verify [Project Folder]: Folder Existente (~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme)
+[2017/2/5 2:36:48]: Verify [Project Folder][Temp Images]: Creando folder del para imagenes temporales con nombre: images  en  Folder:~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme/images
+[2017/2/5 2:36:48]: Verify [Project Folder][Temp Images]: El folder existe
+[2017/2/5 2:36:48]: Create [Project Folder][File]: Generando archivo de proyecto.
+[2017/2/5 2:36:48]: Create [Project Folder][File]: Se encontro el archivo ya existente. Eliminando.
+[2017/2/5 2:36:48]: Create [Project Folder][File]: Escribiendo archivo de proyecto.
+Datos:{
+	"type": "meme",
+	"ProjectName": "testmeme",
+	"text": {
+		"tag": {
+			"enable": false,
+			"index": -1,
+			"text": ""
+		},
+		"description": {
+			"enable": false,
+			"text": ""
+		},
+		"top": {
+			"enable": true,
+			"text": "test 1"
+		},
+		"bottom": {
+			"enable": true,
+			"text": "test 2"
+		}
+	},
+	"reactions": {
+		"enable": false,
+		"list": [
+			"like",
+			"heart",
+			"wow",
+			"haha",
+			"sad",
+			"angry"
+		]
+	},
+	"colors": {
+		"tag-icon": [
+			0,
+			0,
+			0,
+			1
+		],
+		"tag-bg": [
+			1,
+			1,
+			1,
+			1
+		],
+		"tag-text": [
+			0,
+			0,
+			0,
+			1
+		],
+		"text": [
+			0,
+			0,
+			0,
+			1
+		],
+		"mask": [
+			1,
+			0.8720703125,
+			0.42745971679688,
+			1
+		],
+		"background": [
+			0.39608764648438,
+			0.39608764648438,
+			0.39608764648438,
+			1
+		]
+	},
+	"fileNumber": 1,
+	"files": [
+		"testmeme-2_18_18__pfwme1nn2x9bgez3tcwa.png"
+	],
+	"thumbs": [
+		"testmeme-2_18_18__pfwme1nn2x9bgez3tcwa-thumb.png"
+	]
+}
+[2017/2/5 2:36:48]: Status [File][Info]: Se creo con exito el archivo de proyecto
+[2017/2/5 2:36:52]: Save [File]: Imagen guardada con nombre:testmeme-20170117T23523 en folder: ~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme
+[2017/2/5 2:36:52]: Close [currentDocument]: Cerrando.
+[2017/2/5 2:36:52]: Close [status][Info]: Cerrado.
+[2017/2/5 2:36:52]: Execute [Generator]: Ejecutando proyecto: ~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme/
+[2017/2/5 2:36:57]: Save [File]: Imagen guardada con nombre:testmeme-20170117T23523 en folder: ~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme
+[2017/2/5 2:36:57]: Close [currentDocument]: Cerrando.
+[2017/2/5 2:36:57]: Close [status][Info]: Cerrado.
+[2017/2/5 2:36:57]: Opening [File][Info]: Abriendo el psd.
+[2017/2/5 2:36:57]: Create [File]: Creando PSD del proyecto basado en el template:memeTemplate
+[2017/2/5 2:36:57]: Collect [Sets]: Obteniendo Sets hijos de: testmeme (memeTemplate).psd
+[2017/2/5 2:36:57]: Status [Sets][info]:  System_LayerSet,WorkingArea_LayerSet,TextArea_LayerSet
+[2017/2/5 2:36:57]: Select [Layer][Info]: Buscando: WorkingArea_LayerSet
+[2017/2/5 2:36:57]: Status [Layer][Info]: Capa: WorkingArea_LayerSet encontrada.
+[2017/2/5 2:36:57]: Collect [Layers]: Obteniendo capas hijas de: WorkingArea_LayerSet
+[2017/2/5 2:36:57]: Status[Layers]: Capas: WorkingArea_WorkingAreaImg_layer
+[2017/2/5 2:36:57]: Status [Place]: Insertando Imagen
+[2017/2/5 2:36:57]: Select [Layer][Info]: Buscando: WorkingArea_WorkingAreaImg_layer
+[2017/2/5 2:36:57]: Status [Layer][Info]: Capa: WorkingArea_WorkingAreaImg_layer encontrada.
+[2017/2/5 2:36:57]: Open [SmartObject]: Abriendo.
+[2017/2/5 2:36:58]: Open [SmartObject][Info]: abierto.
+[2017/2/5 2:36:58]: Collect [Layers]: Obteniendo capas hijas de: img_11.psb
+[2017/2/5 2:36:58]: Collect [Layers]: Obteniendo capas hijas de: Placer
+[2017/2/5 2:36:58]: Status[Layers]: Capas: Placer_imagePlaceHolder_layer
+[2017/2/5 2:36:58]: Status[Layers]: Capas: Placer_imagePlaceHolder_layer
+[2017/2/5 2:36:58]: Select [Layer][Info]: Buscando: Placer_imagePlaceHolder_layer
+[2017/2/5 2:36:58]: Status [Layer][Info]: Capa: Placer_imagePlaceHolder_layer encontrada.
+[2017/2/5 2:36:58]: Place [Image]: Insertando imagen: ~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme//images/testmeme-2_18_18__pfwme1nn2x9bgez3tcwa.png
+[2017/2/5 2:36:58]: Status [Image][info]: Imagen Insertanda
+[2017/2/5 2:36:58]: Rename [layer]: Cambiando nombre de capa a: undefined
+[2017/2/5 2:36:58]: Status [layer][Error]: No se renombro.
+Error: Illegal argument - argument 2
+- Required value is missing
+[2017/2/5 2:36:59]: Select [Layer][Info]: Buscando: oimage
+[2017/2/5 2:36:59]: Status [Layer][Error]: Capa: oimage no encontrada. ¿Es este el nombre correcto?
+Error: General Photoshop error occurred. This functionality may not be available in this version of Photoshop.
+- The command "Select" is not currently available.
+[2017/2/5 2:36:59]: Align [Layer]: Moviendo capa a: CenterH
+[2017/2/5 2:36:59]: Align [Layer][Info]: Se movio capa a: ADSCentersH
+[2017/2/5 2:36:59]: Save [currentDocument]: Salvando.
+[2017/2/5 2:37:0]: Save [Status][info]: Salvado.
+[2017/2/5 2:37:0]: Update [smartObject]: Actualizando.
+[2017/2/5 2:37:0]: Update [status][Info]: Actualizado.
+[2017/2/5 2:37:0]: Close [currentDocument]: Cerrando.
+[2017/2/5 2:37:0]: Close [status][Info]: Cerrado.
+[2017/2/5 2:37:0]: Rename [layer]: Cambiando nombre de capa a: WorkingArea_WorkingAreaImg_layer
+[2017/2/5 2:37:0]: Status [layer][info]: Cambiado
+[2017/2/5 2:37:0]: Select [Layer][Info]: Buscando: TextArea_LayerSet
+[2017/2/5 2:37:0]: Status [Layer][Info]: Capa: TextArea_LayerSet encontrada.
+[2017/2/5 2:37:0]: Collect [Layers]: Obteniendo capas hijas de: TextArea_LayerSet
+[2017/2/5 2:37:0]: Status[Layers]: Capas: TextArea_Bottom_Text,TextArea_Top_Text
+[2017/2/5 2:37:0]: Search [Layer by Split]:  Buscando capa: Bottom, en: TextArea,Bottom,Text
+[2017/2/5 2:37:0]: Search [Status]:  Capa: Bottom encontrada.
+[2017/2/5 2:37:0]: Select [Layer][Info]: Buscando: TextArea_Bottom_Text
+[2017/2/5 2:37:0]: Status [Layer][Info]: Capa: TextArea_Bottom_Text encontrada.
+[2017/2/5 2:37:0]: Visibility [layers]: Mostrando layers seleccionadas
+[2017/2/5 2:37:0]: Open [SmartObject]: Abriendo.
+[2017/2/5 2:37:1]: Open [SmartObject][Info]: abierto.
+[2017/2/5 2:37:1]: Collect [Layers]: Obteniendo capas hijas de: Bottom_Text.psb
+[2017/2/5 2:37:1]: Collect [Layers]: Obteniendo capas hijas de: Text
+[2017/2/5 2:37:1]: Status[Layers]: Capas: Text_background_layer,Text_Text_layer
+[2017/2/5 2:37:1]: Status[Layers]: Capas: Text_background_layer,Text_Text_layer
+[2017/2/5 2:37:1]: Select [Layer][Info]: Buscando: Text_Text_layer
+[2017/2/5 2:37:1]: Status [Layer][Info]: Capa: Text_Text_layer encontrada.
+[2017/2/5 2:37:1]: Change [Layer Text/Fill]: Cambiando color
+[2017/2/5 2:37:1]: Status [ColorSolid][info]: Color cambiado a: 0,0,0
+[2017/2/5 2:37:1]: Select [Layer][Info]: Buscando: Text_background_layer
+[2017/2/5 2:37:1]: Status [Layer][Info]: Capa: Text_background_layer encontrada.
+[2017/2/5 2:37:1]: Change [ColorSolid]: Cambiando color
+[2017/2/5 2:37:1]: Status [ColorSolid][info]: Color cambiado a: 255,222.3779296875,109.002227783204
+[2017/2/5 2:37:2]: Select [Layer][Info]: Buscando: Text_background_layer
+[2017/2/5 2:37:2]: Status [Layer][Info]: Capa: Text_background_layer encontrada.
+[2017/2/5 2:37:7]: Opacity [layer]: Valor de opacidad: 0
+[2017/2/5 2:37:7]: Opacity [Status][Info]: Valor de opacidad modificado.
+[2017/2/5 2:37:9]: Save [currentDocument]: Salvando.
+[2017/2/5 2:37:9]: Save [Status][info]: Salvado.
+[2017/2/5 2:37:9]: Update [smartObject]: Actualizando.
+[2017/2/5 2:37:9]: Update [status][Info]: Actualizado.
+[2017/2/5 2:37:9]: Close [currentDocument]: Cerrando.
+[2017/2/5 2:37:9]: Close [status][Info]: Cerrado.
+[2017/2/5 2:37:9]: Search [Layer by Split]:  Buscando capa: Top, en: TextArea,Top,Text
+[2017/2/5 2:37:9]: Search [Status]:  Capa: Top encontrada.
+[2017/2/5 2:37:9]: Select [Layer][Info]: Buscando: TextArea_Top_Text
+[2017/2/5 2:37:9]: Status [Layer][Info]: Capa: TextArea_Top_Text encontrada.
+[2017/2/5 2:37:9]: Visibility [layers]: Mostrando layers seleccionadas
+[2017/2/5 2:37:9]: Open [SmartObject]: Abriendo.
+[2017/2/5 2:37:9]: Open [SmartObject][Info]: abierto.
+[2017/2/5 2:37:9]: Collect [Layers]: Obteniendo capas hijas de: Bottom_Text1.psb
+[2017/2/5 2:37:9]: Collect [Layers]: Obteniendo capas hijas de: Text
+[2017/2/5 2:37:9]: Status[Layers]: Capas: Text_background_layer,Text_Text_layer
+[2017/2/5 2:37:9]: Status[Layers]: Capas: Text_background_layer,Text_Text_layer
+[2017/2/5 2:37:9]: Select [Layer][Info]: Buscando: Text_Text_layer
+[2017/2/5 2:37:9]: Status [Layer][Info]: Capa: Text_Text_layer encontrada.
+[2017/2/5 2:37:9]: Change [Layer Text/Fill]: Cambiando color
+[2017/2/5 2:37:9]: Status [ColorSolid][info]: Color cambiado a: 0,0,0
+[2017/2/5 2:37:9]: Select [Layer][Info]: Buscando: Text_background_layer
+[2017/2/5 2:37:9]: Status [Layer][Info]: Capa: Text_background_layer encontrada.
+[2017/2/5 2:37:9]: Change [ColorSolid]: Cambiando color
+[2017/2/5 2:37:9]: Status [ColorSolid][info]: Color cambiado a: 255,222.3779296875,109.002227783204
+[2017/2/5 2:37:11]: Select [Layer][Info]: Buscando: Text_background_layer
+[2017/2/5 2:37:11]: Status [Layer][Info]: Capa: Text_background_layer encontrada.
+[2017/2/5 2:37:12]: Opacity [layer]: Valor de opacidad: 0
+[2017/2/5 2:37:12]: Opacity [Status][Info]: Valor de opacidad modificado.
+[2017/2/5 2:37:14]: Save [currentDocument]: Salvando.
+[2017/2/5 2:37:14]: Save [Status][info]: Salvado.
+[2017/2/5 2:37:14]: Update [smartObject]: Actualizando.
+[2017/2/5 2:37:14]: Update [status][Info]: Actualizado.
+[2017/2/5 2:37:14]: Close [currentDocument]: Cerrando.
+[2017/2/5 2:37:14]: Close [status][Info]: Cerrado.
+[2017/2/5 2:37:14]: Select [Layer][Info]: Buscando: System_LayerSet
+[2017/2/5 2:37:14]: Status [Layer][Info]: Capa: System_LayerSet encontrada.
+[2017/2/5 2:37:14]: Collect [Layers]: Obteniendo capas hijas de: System_LayerSet
+[2017/2/5 2:37:14]: Status[Layers]: Capas: System_backgroundColor_layer
+[2017/2/5 2:37:14]: Select [Layer][Info]: Buscando: System_backgroundColor_layer
+[2017/2/5 2:37:14]: Status [Layer][Info]: Capa: System_backgroundColor_layer encontrada.
+[2017/2/5 2:37:14]: Change [ColorSolid]: Cambiando color
+[2017/2/5 2:37:14]: Status [ColorSolid][info]: Color cambiado a: 101.002349853517,101.002349853517,101.002349853517
+[2017/2/5 2:37:14]: DocInfo [currentDocument]: Agregando Exif
+[2017/2/5 2:37:19]: Save [File]: Imagen guardada con nombre:testmeme en folder: ~/Pictures/AGgenerator/%5BAG-Project%5Dtestmeme
+[2017/2/5 2:37:19]: Save [currentDocument]: Salvando.
+[2017/2/5 2:37:19]: Save [Status][info]: Salvado.
+[2017/2/5 2:37:19]: Close [Document]: Cerrando.
+[2017/2/5 2:37:19]: Close [status][Info]: Cerrado.
+[2017/2/5 2:37:21]: [Close]: Cerrando Generador
