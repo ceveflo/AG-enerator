@@ -9,16 +9,12 @@
     var text_tag = projectObject.text.tag;
     var kind = projectObject.imageType;
     
-    var template = getTemplate();       
-   
-    var _projectFolder = projectFolder+ "/";
-    
-    verifyExistingImage();    
+    var template = getTemplate();        
     
     var _projectFolder = projectFolder+ "/";
-    AGlog.createEvent('Execute [Generator]: Ejecutando proyecto: '+ _projectFolder);
-    
-    verifyExistingImage();
+    AGlog.createEvent('Execute [Generator]: Ejecutando proyecto: '+ _projectFolder);    
+	
+	verifyExistingImage();
     
     openPSDTemplate(true,false,template);
     var docRef = app.activeDocument;
